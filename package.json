@@ -1,0 +1,62 @@
+{
+  "name": "elm-fontawesome",
+  "version": "1.0.0",
+  "description": "Generate elm modules for FontAwesome icons.",
+  "main": "src/elm-fontawesome.js",
+  "author": "Gareth Latty <gareth@lattyware.co.uk>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.8",
+    "common-tags": "^1.8.0",
+    "elm-format": "^0.8.1",
+    "fs-extra": "^7.0.0",
+    "loader-utils": "^1.1.0",
+    "make-promises-safe": "^3.0.0",
+    "prettier-plugin-elm": "^0.4.1",
+    "schema-utils": "^1.0.0",
+    "source-map-support": "^0.5.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-unicode-property-regex": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.14.3"
+  },
+  "optionalDependencies": {
+    "@fortawesome/pro-light-svg-icons": "^5.5.0",
+    "@fortawesome/pro-regular-svg-icons": "^5.5.0",
+    "@fortawesome/pro-solid-svg-icons": "^5.5.0",
+    "@fortawesome/free-regular-svg-icons": "^5.5.0",
+    "@fortawesome/free-solid-svg-icons": "^5.5.0",
+    "@fortawesome/free-brands-svg-icons": "^5.5.0"
+  },
+  "scripts": {
+    "compile": "babel src --out-dir build --source-maps",
+    "prepublish": "npm run compile",
+    "test": "npm run build && mocha --require @babel/register",
+    "build": "npm run compile && node --harmony build/js/free.js && cp README.md dist && cp LICENSE dist && cp .gitignore dist",
+    "build-pro": "npm run compile && node --harmony build/js/pro.js"
+  },
+  "browserslist": {
+    "node": "latest"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "entry"
+        }
+      ]
+    ],
+    "plugins": [
+      "dynamic-import-node",
+      "@babel/plugin-proposal-unicode-property-regex"
+    ]
+  }
+}
