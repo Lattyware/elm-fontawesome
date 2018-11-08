@@ -26,6 +26,7 @@ view icon attrs =
          , HtmlA.attribute "data-icon" icon.name
          , SvgA.class icon.class
          , HtmlA.attribute "role" "img"
+         , HtmlA.attribute "aria-hidden" "true"
          , HtmlA.attribute "xmlns" "http://www.w3.org/2000/svg"
          , SvgA.viewBox icon.viewBox
          ]
