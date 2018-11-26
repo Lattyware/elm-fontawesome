@@ -1,5 +1,5 @@
 module FontAwesome.Attributes exposing
-    ( xs, sm, lg, fa2x, fa3x, fa5x, fa7x, fa10x
+    ( xs, sm, lg, fa2x, fa3x, fa4x, fa5x, fa6x, fa7x, fa8x, fa9x, fa10x
     , fw
     , ul, li
     , rotate90, rotate180, rotate270, flipHorizontal, flipVertical
@@ -15,7 +15,7 @@ module FontAwesome.Attributes exposing
 
 [See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons)
 
-@docs xs, sm, lg, fa2x, fa3x, fa5x, fa7x, fa10x
+@docs xs, sm, lg, fa2x, fa3x, fa4x, fa5x, fa6x, fa7x, fa8x, fa9x, fa10x
 
 
 # Fixed Width Icons
@@ -61,6 +61,8 @@ module FontAwesome.Attributes exposing
 
 -}
 
+import Html exposing (Html)
+import Html.Attributes as HtmlA
 import Svg
 import Svg.Attributes as SvgA
 
@@ -100,6 +102,13 @@ fa3x =
     SvgA.class "fa-3x"
 
 
+{-| Apply the `fa-4x` class to the element.
+-}
+fa4x : Svg.Attribute msg
+fa4x =
+    SvgA.class "fa-4x"
+
+
 {-| Apply the `fa-5x` class to the element.
 -}
 fa5x : Svg.Attribute msg
@@ -107,11 +116,32 @@ fa5x =
     SvgA.class "fa-5x"
 
 
+{-| Apply the `fa-6x` class to the element.
+-}
+fa6x : Svg.Attribute msg
+fa6x =
+    SvgA.class "fa-6x"
+
+
 {-| Apply the `fa-7x` class to the element.
 -}
 fa7x : Svg.Attribute msg
 fa7x =
     SvgA.class "fa-7x"
+
+
+{-| Apply the `fa-8x` class to the element.
+-}
+fa8x : Svg.Attribute msg
+fa8x =
+    SvgA.class "fa-8x"
+
+
+{-| Apply the `fa-9x` class to the element.
+-}
+fa9x : Svg.Attribute msg
+fa9x =
+    SvgA.class "fa-9x"
 
 
 {-| Apply the `fa-10x` class to the element.
