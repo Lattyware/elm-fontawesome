@@ -18,6 +18,7 @@ const iconModuleName = "Icon";
 const attributesName = "Attributes";
 const stylesName = "Styles";
 const layeringName = "Layering";
+const transformsName = "Transforms";
 
 const attrLinkPrefix = "https://fontawesome.com/how-to-use/on-the-web/styling/";
 const attrs = [
@@ -175,7 +176,13 @@ async function buildPacks(packs) {
   const names = loadedPacks
     .filter(pack => pack != null)
     .map(pack => pack.name)
-    .concat(attributesName, stylesName, layeringName, iconModuleName);
+    .concat(
+      attributesName,
+      stylesName,
+      layeringName,
+      iconModuleName,
+      transformsName
+    );
   await elmJson(names);
   await Promise.all(
     names.map(name =>
@@ -205,7 +212,7 @@ async function elmJson(names) {
     name: "lattyware/elm-fontawesome",
     summary: "FontAwesome 5 SVG icons.",
     license: "GPL-3.0",
-    version: "2.0.0",
+    version: "2.1.0",
     "exposed-modules": modules,
     "elm-version": "0.19.0 <= v < 0.20.0",
     dependencies: {
