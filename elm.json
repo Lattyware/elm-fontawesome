@@ -3,7 +3,7 @@
     "name": "lattyware/elm-fontawesome",
     "summary": "FontAwesome 5 SVG icons.",
     "license": "GPL-3.0",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "exposed-modules": [
         "FontAwesome.Solid",
         "FontAwesome.Regular",
@@ -11,7 +11,8 @@
         "FontAwesome.Attributes",
         "FontAwesome.Styles",
         "FontAwesome.Layering",
-        "FontAwesome.Icon"
+        "FontAwesome.Icon",
+        "FontAwesome.Transforms"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {
