@@ -65,7 +65,7 @@ noPhotography =
 
 [See this example (and more) live on Ellie][ellie]
 
-[ellie]: https://ellie-app.com/3Z79cFKHpgCa1
+[ellie]: https://ellie-app.com/3ZtKDMcTT9za1
 [docs]: https://package.elm-lang.org/packages/lattyware/elm-fontawesome/latest/
 
 ### Function names.

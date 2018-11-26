@@ -212,7 +212,7 @@ async function elmJson(names) {
     name: "lattyware/elm-fontawesome",
     summary: "FontAwesome 5 SVG icons.",
     license: "GPL-3.0",
-    version: "2.1.0",
+    version: "2.1.1",
     "exposed-modules": modules,
     "elm-version": "0.19.0 <= v < 0.20.0",
     dependencies: {
