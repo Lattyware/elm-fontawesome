@@ -2,7 +2,8 @@
 
 This is a package that generates Elm code for [FontAwesome 5][fa]. This does not rely on any external 
 javascript (e.g: using the JavaScript library to replace nodes, which can cause issues with Elm), and unlike the font, 
-only includes the icons you use in your Elm code if you minify your output.
+only includes the icons you use in your Elm code if you minify your output, as well as providing access to the powerful 
+transformation, layering, text, counter, and masking features.
 
 [fa]: https://fontawesome.com/
 
@@ -24,42 +25,48 @@ more. If you are not, then [it is simple to do][minification].
 
 ## Using the elm library.
 
-To start working with the free version, you can install the package directly with `elm install lattyware/elm-fontawesome`.
+To start working with the free version, you can install the package directly with 
+`elm install lattyware/elm-fontawesome`.
 
 If you want to use pro icons, you will need to [build the elm package yourself](#building-the-elm-library), as you will 
 need access to the pro NPM packages.
 
-Icons are provided as functions in the form `icon : List (Svg.Attribute msg) -> Html msg`, and will result in an `svg` 
-node. Do note that `Svg.Attribute` and `Html.Attribute` are really both just `VirtualDom.Attribute`, so you can use 
-either.
+Icons can be rendered most simply with `FontAwesome.Icon.view`, and will result in an `svg` node. 
 
-General use probably looks something like:
+You can do more complex rendering with `FontAwesome.Icon.viewStyled` (allowing you to pass attributes to the node), 
+`FontAwesome.Icon.viewTransformed` (allowing you to customise the icon with graphical transforms), and mask one icon 
+over another with `FontAwesome.Icon.viewMasked`.
+
+Do note that `Svg.Attribute` and `Html.Attribute` are really both just `VirtualDom.Attribute`, so you can use either, 
+but mixing `Svg.Attribute.class` and `Html.Attribute.class`.
+
+[The documentation][docs] give a complete overview.
+
+General simple use probably looks something like:
 
 ```elm
-import Html exposing (Html)
-import Html.Attributes as HtmlA
-import FontAwesome.Solid as Icon
-import FontAwesome.Attributes as Icon
+go : Html msg
+go =
+    Html.div [] [ Icon.view Icon.arrowAltCircleRight, Html.text " Go!" ]
 
-view : Html msg
-view = 
-    Html.div [] [ Icon.arrowAltCircleRight [], Html.text "Go!" ]
-    
+
 loadingMessage : Html msg
 loadingMessage =
-    Html.div [] [ Icon.spinner [ Icon.spin ], Html.text "Loading..." ]
-    
+    Html.div [] [ Icon.viewStyled [ Icon.spin ] Icon.spinner, Html.text " Loading..." ]
+
+
 noPhotography : Html msg
 noPhotography =
-    Html.span [ Icon.stack, Icon.fa2x ] 
-        [ Icon.camera [ Icon.stack1x ]
-        , Icon.ban [ Icon.stack2x, HtmlA.style "color" "Tomato" ]
+    Html.div [ Icon.stack, Icon.fa2x ]
+        [ Icon.viewStyled [ Icon.stack1x ] Icon.camera
+        , Icon.viewStyled [ Icon.stack2x, HtmlA.style "color" "Tomato" ] Icon.ban
         ]
 ```
 
-[See this example on Ellie][ellie]
+[See this example (and more) live on Ellie][ellie]
 
-[ellie]: https://ellie-app.com/3Pg55rczqwZa1
+[ellie]: https://ellie-app.com/3Z79cFKHpgCa1
+[docs]: https://package.elm-lang.org/packages/lattyware/elm-fontawesome/latest/
 
 ### Function names.
 
@@ -82,6 +89,31 @@ Font Awesome supports [styling your icons][styling] in various ways. These style
 various classes in the `FontAwesome.Attributes` module.
 
 [styling]: https://fontawesome.com/how-to-use/on-the-web/styling
+
+## Differences in behaviour from the official library.
+
+While effort has been made to produce the same output where possible, some differences from the official library do 
+exist:
+
+  * We don't produce or consume any `data` attributes as we won't use them from Elm code anyway.
+  * When masks are created, the official library generates random IDs to avoid collisions from multiple icons on the 
+  same page. In Elm, this would be a real pain to do (you would have to provide randomness and distribute it among 
+  icons you use). We instead use fixed IDs based on the icon names. This will produce incorrect output (multiple nodes 
+  with the same ID) in some cases. That said, all browsers I've tested seem to handle this case fine, and it is only
+  an issue if you reuse the same icon in a mask with different transforms in the same page (otherwise as the name of 
+  the icon is used to differentiate, the only collision will be between duplicated elements in defs, which are 
+  would be exactly the same unless a different transform is used.)
+
+## Troubleshooting.
+
+### Icons show up as giant images.
+
+This normally means you have not [included the required CSS](#required-css).
+
+### My class isn't applied, or it is but the icon breaks.
+
+Mixing `Svg.Attribute.class` and `Html.Attribute.class` can cause the classes to get overwritten. This library uses 
+`Svg.Attribute.class`, so if you always use this when providing attributes to the library you should not have problems. 
 
 ## Building the elm library.
 

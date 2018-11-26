@@ -14,15 +14,30 @@ const exec = promisify(exec_internal);
 const srcElm = "src/elm/";
 const dist = "dist/";
 const distSrc = `${dist}src/`;
+const iconModuleName = "Icon";
 const attributesName = "Attributes";
 const stylesName = "Styles";
+const layeringName = "Layering";
 
 const attrLinkPrefix = "https://fontawesome.com/how-to-use/on-the-web/styling/";
 const attrs = [
   {
     title: "Sizing Icons",
     link: "sizing-icons",
-    functions: ["xs", "sm", "lg", "2x", "3x", "5x", "7x", "10x"]
+    functions: [
+      "xs",
+      "sm",
+      "lg",
+      "2x",
+      "3x",
+      "4x",
+      "5x",
+      "6x",
+      "7x",
+      "8x",
+      "9x",
+      "10x"
+    ]
   },
   {
     title: "Fixed Width Icons",
@@ -77,11 +92,15 @@ const moduleFile = name => `${modulePath(name).join("/")}.elm`;
 const writeModule = (name, contents) =>
   fs.outputFile(`${distSrc}${moduleFile(name)}`, contents);
 
-const docSection = section => stripIndents`
-    # ${section.title}
-    [See the FontAwesome docs for details.](${attrLinkPrefix}${section.link})
-    @docs ${section.functions.map(asIdentifier).join(",")}
-    `;
+const docSection = section => {
+  const funcs = section.extra || [];
+  funcs.push(...section.functions.map(asIdentifier));
+  return stripIndents`
+      # ${section.title}
+      [See the FontAwesome docs for details.](${attrLinkPrefix}${section.link})
+      @docs ${funcs.join(",")}
+      `;
+};
 
 const module = (name, icons) => stripIndents`
     module ${moduleElm(name)} exposing (..)
@@ -89,9 +108,7 @@ const module = (name, icons) => stripIndents`
     {-| Icons from the "${name}" pack. 
     @docs ${icons.map(i => asIdentifier(i.iconName)).join(",")}
     -}
-       
-    import Html exposing (Html)
-    import Svg
+
     import ${moduleElm("Icon")} exposing (..)
    
     ${icons.map(iconDefinition).join("\n\n")}
@@ -105,6 +122,8 @@ function attributes() {
     ${attrs.map(docSection).join("\n\n")}
     -}
     
+    import Html exposing (Html)
+    import Html.Attributes as HtmlA
     import Svg
     import Svg.Attributes as SvgA
     
@@ -156,7 +175,7 @@ async function buildPacks(packs) {
   const names = loadedPacks
     .filter(pack => pack != null)
     .map(pack => pack.name)
-    .concat(attributesName, stylesName);
+    .concat(attributesName, stylesName, layeringName, iconModuleName);
   await elmJson(names);
   await Promise.all(
     names.map(name =>
@@ -186,11 +205,11 @@ async function elmJson(names) {
     name: "lattyware/elm-fontawesome",
     summary: "FontAwesome 5 SVG icons.",
     license: "GPL-3.0",
-    version: "1.0.0",
+    version: "2.0.0",
     "exposed-modules": modules,
     "elm-version": "0.19.0 <= v < 0.20.0",
     dependencies: {
-      "elm/core": "1.0.0 <= v < 2.0.0",
+      "elm/core": "1.0.2 <= v < 2.0.0",
       "elm/html": "1.0.0 <= v < 2.0.0",
       "elm/svg": "1.0.1 <= v < 2.0.0"
     },
@@ -215,20 +234,17 @@ function styleSuffix(prefix) {
 }
 
 function iconDefinition(iconDef) {
-  const definition = icon(iconDef).abstract[0];
-  const prefix = definition["attributes"]["data-prefix"];
-  const iconName = definition["attributes"]["data-icon"];
+  const prefix = iconDef.prefix;
+  const iconName = iconDef.iconName;
   const identifier = asIdentifier(iconName);
-  const cls = definition["attributes"]["class"];
-  const viewBox = definition["attributes"]["viewBox"];
-  const d = definition["children"][0]["attributes"]["d"];
+  const [width, height, ligatures, unicode, d] = iconDef.icon;
 
   const link = `${iconName}${styleSuffix(prefix)}`;
 
   return stripIndents`
     {-| The [\`${iconName}\`](https://fontawesome.com/icons/${link}) icon. -}
-    ${identifier} : List (Svg.Attribute msg) -> Html msg
-    ${identifier} = view (Icon "${prefix}" "${iconName}" "${cls}" "${viewBox}" "${d}")
+    ${identifier} : Icon
+    ${identifier} = Icon "${prefix}" "${iconName}" ${width} ${height} "${d}"
   `;
 }
 
