@@ -1,0 +1,16 @@
+language: node_js
+
+node_js:
+  - "11"
+  - "10"
+  - "8"
+  - "6"
+
+cache: npm
+
+branches:
+  except:
+    - elm
+
+before_install:
+  - printf "@fortawesome:registry=https://npm.fontawesome.com/\n//npm.fontawesome.com/:_authToken=${NPM_TOKEN}" >> .npmrc

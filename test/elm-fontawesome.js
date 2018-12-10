@@ -6,8 +6,9 @@ import { promisify } from "util";
 
 const exec = promisify(exec_internal);
 
-describe("The built Elm code", async () => {
-  it("compiles", async () => {
+describe("The built Elm code", function() {
+  it("compiles", async function() {
+    this.timeout(10000);
     await exec("elm make", { cwd: "dist" });
   });
 });

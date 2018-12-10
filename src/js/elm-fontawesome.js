@@ -6,7 +6,7 @@ import "source-map-support/register";
 import { exec as exec_internal } from "child_process";
 import { stripIndents } from "common-tags";
 import * as fs from "fs-extra";
-import { icon, dom } from "@fortawesome/fontawesome-svg-core";
+import { dom } from "@fortawesome/fontawesome-svg-core";
 import { promisify } from "util";
 
 const exec = promisify(exec_internal);
