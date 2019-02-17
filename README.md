@@ -38,7 +38,8 @@ You can do more complex rendering with `FontAwesome.Icon.viewStyled` (allowing y
 over another with `FontAwesome.Icon.viewMasked`.
 
 Do note that `Svg.Attribute` and `Html.Attribute` are really both just `VirtualDom.Attribute`, so you can use either, 
-but mixing `Svg.Attribute.class` and `Html.Attribute.class`.
+but mixing `Svg.Attribute.class` and `Html.Attribute.class` can lead to 
+[issues](#my-class-isnt-applied-or-it-is-but-the-icon-breaks).
 
 [The documentation][docs] give a complete overview.
 
@@ -101,7 +102,7 @@ exist:
   icons you use). We instead use fixed IDs based on the icon names. This will produce incorrect output (multiple nodes 
   with the same ID) in some cases. That said, all browsers I've tested seem to handle this case fine, and it is only
   an issue if you reuse the same icon in a mask with different transforms in the same page (otherwise as the name of 
-  the icon is used to differentiate, the only collision will be between duplicated elements in defs, which are 
+  the icon is used to differentiate, the only collision will be between duplicated elements in defs, which  
   would be exactly the same unless a different transform is used.)
 
 ## Troubleshooting.
@@ -121,8 +122,8 @@ To build the elm package, you will need to first make sure you have the icon pac
 The possible packages are included as optional dependencies on the node module. For pro icons you will need to have the 
 [Fort Awesome Pro NPM registry][pro-npm] configured.
 The build will ignore any missing packages and just not produce the relevant modules. While you could use this to 
-subset the library, In general, this is unnecessary, as [tree-shaking][minification] achieves the same (and often 
-better) results more easily.
+subset the library, In general, this is unnecessary, as [tree-shaking][minification] achieves the same (and almost 
+always far better) results more easily.
 
 Then run `npm build` or for the free version `npm build-pro` for the pro version. The resulting elm library will be 
 output in `dist`. Unfortunately there is no nice way to work with local packages in Elm as of the time of writing, so
