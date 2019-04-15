@@ -1,6 +1,7 @@
 "use strict";
 
-import "@babel/polyfill";
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 import "make-promises-safe";
 import "source-map-support/register";
 import { exec as exec_internal } from "child_process";
@@ -123,8 +124,6 @@ function attributes() {
     ${attrs.map(docSection).join("\n\n")}
     -}
     
-    import Html exposing (Html)
-    import Html.Attributes as HtmlA
     import Svg
     import Svg.Attributes as SvgA
     
@@ -211,8 +210,8 @@ async function elmJson(names) {
     type: "package",
     name: "lattyware/elm-fontawesome",
     summary: "FontAwesome 5 SVG icons.",
-    license: "GPL-3.0",
-    version: "2.2.0",
+    license: "MIT",
+    version: "2.3.0",
     "exposed-modules": modules,
     "elm-version": "0.19.0 <= v < 0.20.0",
     dependencies: {

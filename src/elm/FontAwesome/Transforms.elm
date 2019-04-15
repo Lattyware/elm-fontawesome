@@ -31,11 +31,6 @@ module FontAwesome.Transforms exposing
 
 -}
 
-import Html exposing (Html)
-import Html.Attributes as HtmlA
-import Svg exposing (Svg)
-import Svg.Attributes as SvgA
-
 
 {-| Transform the icon by growing it by the given amount. Units are 1/16em.
 -}

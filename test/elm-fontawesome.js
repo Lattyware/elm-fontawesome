@@ -1,6 +1,7 @@
 "use strict";
 
-import "@babel/polyfill";
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 import { exec as exec_internal } from "child_process";
 import { promisify } from "util";
 

@@ -99,11 +99,9 @@ exist:
   * We don't produce or consume any `data` attributes as we won't use them from Elm code anyway.
   * When masks are created, the official library generates random IDs to avoid collisions from multiple icons on the 
   same page. In Elm, this would be a real pain to do (you would have to provide randomness and distribute it among 
-  icons you use). We instead use fixed IDs based on the icon names. This will produce incorrect output (multiple nodes 
-  with the same ID) in some cases. That said, all browsers I've tested seem to handle this case fine, and it is only
-  an issue if you reuse the same icon in a mask with different transforms in the same page (otherwise as the name of 
-  the icon is used to differentiate, the only collision will be between duplicated elements in defs, which  
-  would be exactly the same unless a different transform is used.)
+  icons you use). We instead use fixed IDs based on the icon names by default, which will result in overlapping IDs 
+  if the same icon is used repeatedly with masking or titles. To avoid this, you can use the `viewWithId` view method
+  which will allow you to set an ID manually or using a randomness source as desired.
 
 ## Troubleshooting.
 
