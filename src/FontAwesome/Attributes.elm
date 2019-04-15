@@ -61,8 +61,6 @@ module FontAwesome.Attributes exposing
 
 -}
 
-import Html exposing (Html)
-import Html.Attributes as HtmlA
 import Svg
 import Svg.Attributes as SvgA
 
