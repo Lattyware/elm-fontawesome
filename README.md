@@ -9,8 +9,9 @@ text, counter, and masking features.
 
 ## How it works.
 
-This package works by generating Elm source code using [the FontAwesome SVG JavaScript Core][fa-core].
-If you are interested in how this is done or would like to make a version of the library for pro icons, please see 
+This package is generated using [the FontAwesome SVG JavaScript Core][fa-core].
+If you are interested in how this is done, would like to make a version of the library for pro icons, or want to 
+update to a new version of FontAwesome (do also feel free to submit an issue if the library is out of date) please see 
 [the generator repo][elm-fontawesome-generator].
 
 This does mean that this is a big package, the compiled Elm code weighs in at over 1MB. This would naturally not be 
