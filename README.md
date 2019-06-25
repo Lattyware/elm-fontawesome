@@ -1,4 +1,4 @@
-# FontAwesome 5 for Elm. [![Build Status](https://travis-ci.com/Lattyware/elm-fontawesome.svg?branch=master)](https://travis-ci.com/Lattyware/elm-fontawesome)
+# FontAwesome 5 for Elm. [![Build Status](https://travis-ci.com/Lattyware/elm-fontawesome-generator.svg?branch=master)](https://travis-ci.com/Lattyware/elm-fontawesome-generator)
 
 This is an Elm library for [FontAwesome 5][fa]. This does not rely on any external javascript (e.g: using the 
 JavaScript library to replace nodes, which can cause issues with Elm), and unlike the font, only includes the icons you 
