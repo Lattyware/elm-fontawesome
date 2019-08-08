@@ -53,7 +53,7 @@ type alias Icon =
     , name : String
     , width : Int
     , height : Int
-    , path : String
+    , paths : List String
     }
 
 
@@ -285,24 +285,40 @@ viewWithTransform transforms icon =
         Just ts ->
             Svg.g [ ts.outer ]
                 [ Svg.g [ ts.inner ]
-                    [ corePath [ ts.path ] icon
+                    [ corePaths [ ts.path ] icon
                     ]
                 ]
 
         Nothing ->
-            corePath [] icon
+            corePaths [] icon
 
 
-corePath : List (Svg.Attribute msg) -> Icon -> Svg msg
-corePath attrs icon =
-    Svg.path (SvgA.fill "currentColor" :: SvgA.d icon.path :: attrs) []
+corePaths : List (Svg.Attribute msg) -> Icon -> Svg msg
+corePaths attrs icon =
+    case icon.paths of
+        [] ->
+            corePath attrs ""
+
+        only :: [] ->
+            corePath attrs only
+
+        secondary :: primary :: _ ->
+            Svg.g [ SvgA.class "fa-group" ]
+                [ corePath (SvgA.class "fa-secondary" :: attrs) secondary
+                , corePath (SvgA.class "fa-primary" :: attrs) primary
+                ]
+
+
+corePath : List (Svg.Attribute msg) -> String -> Svg msg
+corePath attrs d =
+    Svg.path (SvgA.fill "currentColor" :: SvgA.d d :: attrs) []
 
 
 viewMaskedWithTransform : String -> SvgTransformStyles msg -> Icon -> Icon -> List (Svg msg)
 viewMaskedWithTransform id transforms inner outer =
     let
         maskInnerGroup =
-            Svg.g [ transforms.inner ] [ Svg.path [ transforms.path, SvgA.fill "black", SvgA.d inner.path ] [] ]
+            Svg.g [ transforms.inner ] [ corePaths [ SvgA.fill "black", transforms.path ] inner ]
 
         maskId =
             "mask-" ++ inner.name ++ "-" ++ id
@@ -316,7 +332,7 @@ viewMaskedWithTransform id transforms inner outer =
                 [ Svg.rect (SvgA.fill "white" :: allSpace) [], Svg.g [ transforms.outer ] [ maskInnerGroup ] ]
 
         defs =
-            Svg.defs [] [ Svg.clipPath [ SvgA.id clipId ] [ corePath [] outer ], maskTag ]
+            Svg.defs [] [ Svg.clipPath [ SvgA.id clipId ] [ corePaths [] outer ], maskTag ]
     in
     [ defs
     , Svg.rect

@@ -16,7 +16,7 @@ cd elm-fontawesome-example
 pkg="elm.json"
 tmp=$(mktemp)
 npx jq "del(.dependencies.direct.\"lattyware/elm-fontawesome\")" "${pkg}" > "${tmp}" && mv "${tmp}" "${pkg}"
-elm install lattyware/elm-fontawesome
+echo "Y" | elm install lattyware/elm-fontawesome
 git add -A
 git commit -m "Update to use elm-fontawesome ${TRAVIS_TAG}"
 git push --quiet

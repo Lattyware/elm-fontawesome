@@ -6,6 +6,7 @@ module FontAwesome.Attributes exposing
     , spin, pulse
     , pullLeft, pullRight, border
     , stack, stack1x, stack2x, inverse
+    , swapOpacity
     )
 
 {-| Styling attributes for icons.
@@ -58,6 +59,13 @@ module FontAwesome.Attributes exposing
 [See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/stacking-icons)
 
 @docs stack, stack1x, stack2x, inverse
+
+
+# Duotone Icons
+
+[See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/duotone-icons)
+
+@docs swapOpacity
 
 -}
 
@@ -266,3 +274,10 @@ stack2x =
 inverse : Svg.Attribute msg
 inverse =
     SvgA.class "fa-inverse"
+
+
+{-| Apply the fa-swap-opacity class to the element.
+-}
+swapOpacity : Svg.Attribute msg
+swapOpacity =
+    SvgA.class "fa-swap-opacity"
