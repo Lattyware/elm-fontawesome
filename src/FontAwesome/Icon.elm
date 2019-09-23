@@ -34,6 +34,8 @@ Extra steps can be placed between `present` and `view` to customise the way the 
 
 -}
 
+import FontAwesome.Icon.Internal as Internal
+import FontAwesome.Svg.Internal as Icon
 import FontAwesome.Transforms exposing (..)
 import FontAwesome.Transforms.Internal exposing (..)
 import Html exposing (Html)
@@ -44,8 +46,8 @@ import Svg.Attributes as SvgA
 
 {-| The definition of an icon.
 
-You should never need to define these or change them yourself. You will find these in the modules for the different
-Icon packs (e.g: `FontAwesome.Solid`).
+You will find these in the modules for the different Icon packs (e.g: `FontAwesome.Solid`).
+You should never need to define these or change them yourself (but you can to create custom icons).
 
 -}
 type alias Icon =
@@ -285,40 +287,19 @@ viewWithTransform transforms icon =
         Just ts ->
             Svg.g [ ts.outer ]
                 [ Svg.g [ ts.inner ]
-                    [ corePaths [ ts.path ] icon
+                    [ Icon.corePaths [ ts.path ] icon
                     ]
                 ]
 
         Nothing ->
-            corePaths [] icon
-
-
-corePaths : List (Svg.Attribute msg) -> Icon -> Svg msg
-corePaths attrs icon =
-    case icon.paths of
-        [] ->
-            corePath attrs ""
-
-        only :: [] ->
-            corePath attrs only
-
-        secondary :: primary :: _ ->
-            Svg.g [ SvgA.class "fa-group" ]
-                [ corePath (SvgA.class "fa-secondary" :: attrs) secondary
-                , corePath (SvgA.class "fa-primary" :: attrs) primary
-                ]
-
-
-corePath : List (Svg.Attribute msg) -> String -> Svg msg
-corePath attrs d =
-    Svg.path (SvgA.fill "currentColor" :: SvgA.d d :: attrs) []
+            Icon.corePaths [] icon
 
 
 viewMaskedWithTransform : String -> SvgTransformStyles msg -> Icon -> Icon -> List (Svg msg)
 viewMaskedWithTransform id transforms inner outer =
     let
         maskInnerGroup =
-            Svg.g [ transforms.inner ] [ corePaths [ SvgA.fill "black", transforms.path ] inner ]
+            Svg.g [ transforms.inner ] [ Icon.corePaths [ SvgA.fill "black", transforms.path ] inner ]
 
         maskId =
             "mask-" ++ inner.name ++ "-" ++ id
@@ -332,7 +313,7 @@ viewMaskedWithTransform id transforms inner outer =
                 [ Svg.rect (SvgA.fill "white" :: allSpace) [], Svg.g [ transforms.outer ] [ maskInnerGroup ] ]
 
         defs =
-            Svg.defs [] [ Svg.clipPath [ SvgA.id clipId ] [ corePaths [] outer ], maskTag ]
+            Svg.defs [] [ Svg.clipPath [ SvgA.id clipId ] [ Icon.corePaths [] outer ], maskTag ]
     in
     [ defs
     , Svg.rect
@@ -346,3 +327,10 @@ viewMaskedWithTransform id transforms inner outer =
         )
         []
     ]
+
+
+{-| This function exists purely to trigger an error if these two types fall out of sync, as they should be the same.
+-}
+updateInternalIcon : Icon -> Internal.Icon
+updateInternalIcon icon =
+    icon
