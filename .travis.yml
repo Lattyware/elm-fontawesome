@@ -9,7 +9,7 @@ install:
   - npm install -g elm
 
 script:
-  - elm publish
+  - sleep 10 && elm publish
 
 deploy:
   provider: script

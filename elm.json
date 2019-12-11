@@ -3,7 +3,7 @@
   "name": "lattyware/elm-fontawesome",
   "summary": "FontAwesome 5 SVG icons.",
   "license": "MIT",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "exposed-modules": [
     "FontAwesome.Icon",
     "FontAwesome.Svg",
