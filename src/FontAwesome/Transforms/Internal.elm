@@ -2,6 +2,7 @@ module FontAwesome.Transforms.Internal exposing
     ( CombinedTransform
     , SvgTransformStyles
     , baseSize
+    , combine
     , meaningfulTransform
     , meaninglessTransform
     , transformForSvg
@@ -34,6 +35,22 @@ type alias SvgTransformStyles msg =
     }
 
 
+meaninglessTransform : CombinedTransform
+meaninglessTransform =
+    { size = baseSize
+    , x = 0
+    , y = 0
+    , rotate = 0
+    , flipX = False
+    , flipY = False
+    }
+
+
+combine : List Transform -> CombinedTransform
+combine transforms =
+    List.foldl add meaninglessTransform transforms
+
+
 meaningfulTransform : List Transform -> Maybe CombinedTransform
 meaningfulTransform transforms =
     let
@@ -45,17 +62,6 @@ meaningfulTransform transforms =
 
     else
         Just combined
-
-
-meaninglessTransform : CombinedTransform
-meaninglessTransform =
-    { size = baseSize
-    , x = 0
-    , y = 0
-    , rotate = 0
-    , flipX = False
-    , flipY = False
-    }
 
 
 transformForSvg : Int -> Int -> CombinedTransform -> SvgTransformStyles msg
@@ -106,40 +112,20 @@ transformForSvg containerWidth iconWidth transform =
 {- Private -}
 
 
-combine : List Transform -> CombinedTransform
-combine transforms =
-    List.foldl add meaninglessTransform transforms
-
-
 add : Transform -> CombinedTransform -> CombinedTransform
 add transform combined =
     case transform of
-        Scale direction ->
-            let
-                amount =
-                    case direction of
-                        Grow by ->
-                            by
+        Scale by ->
+            { combined | size = combined.size + by }
 
-                        Shrink by ->
-                            -by
-            in
-            { combined | size = combined.size + amount }
-
-        Reposition direction ->
+        Reposition axis by ->
             let
                 ( x, y ) =
-                    case direction of
-                        Up by ->
-                            ( 0, -by )
-
-                        Down by ->
+                    case axis of
+                        Vertical ->
                             ( 0, by )
 
-                        Left by ->
-                            ( -by, 0 )
-
-                        Right by ->
+                        Horizontal ->
                             ( by, 0 )
             in
             { combined | x = combined.x + x, y = combined.y + y }
@@ -147,8 +133,10 @@ add transform combined =
         Rotate rotation ->
             { combined | rotate = combined.rotate + rotation }
 
-        Flip Vertical ->
-            { combined | flipX = True }
+        Flip axis ->
+            case axis of
+                Vertical ->
+                    { combined | flipY = not combined.flipY }
 
-        Flip Horizontal ->
-            { combined | flipY = True }
+                Horizontal ->
+                    { combined | flipX = not combined.flipX }

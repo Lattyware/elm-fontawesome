@@ -1,19 +1,22 @@
 {
   "type": "package",
   "name": "lattyware/elm-fontawesome",
-  "summary": "FontAwesome 5 SVG icons.",
+  "summary": "FontAwesome as pure Elm and SVG.",
   "license": "MIT",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "exposed-modules": [
-    "FontAwesome.Icon",
+    "FontAwesome",
     "FontAwesome.Svg",
-    "FontAwesome.Attributes",
-    "FontAwesome.Styles",
     "FontAwesome.Layering",
     "FontAwesome.Transforms",
+    "FontAwesome.Styles",
+    "FontAwesome.Attributes",
     "FontAwesome.Solid",
+    "FontAwesome.Solid.Definitions",
     "FontAwesome.Regular",
-    "FontAwesome.Brands"
+    "FontAwesome.Regular.Definitions",
+    "FontAwesome.Brands",
+    "FontAwesome.Brands.Definitions"
   ],
   "elm-version": "0.19.0 <= v < 0.20.0",
   "dependencies": {

@@ -2,6 +2,3 @@ node_modules/
 elm-stuff/
 
 dist/
-
-.vscode/
-.idea/

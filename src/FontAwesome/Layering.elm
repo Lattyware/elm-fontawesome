@@ -24,19 +24,13 @@ import Svg.Attributes as SvgA
 
 
 {-| Convenience function for producing layers of icons.
-
-If you want to add a class, make sure to use `Svg.Attributes.class` not `Html.Attributes.class`.
-
 -}
 layers : List (Html.Attribute msg) -> List (Html msg) -> Html msg
 layers attrs icons =
-    Html.span (SvgA.class "fa-layers fa-fw" :: attrs) icons
+    Html.span (HtmlA.class "fa-layers fa-fw" :: attrs) icons
 
 
 {-| Add inside your `layers` element to put text on top of an icon.
-
-If you want to add a class, make sure to use `Svg.Attributes.class` not `Html.Attributes.class`.
-
 -}
 text : List (Html.Attribute msg) -> String -> Html msg
 text attrs str =
@@ -44,9 +38,6 @@ text attrs str =
 
 
 {-| Add inside your `layers` element to put text on top of an icon, applying the given transforms to it.
-
-If you want to add a class, make sure to use `Svg.Attributes.class` not `Html.Attributes.class`.
-
 -}
 textTransformed : List (Html.Attribute msg) -> List Transform -> String -> Html msg
 textTransformed attrs transforms str =
@@ -55,19 +46,16 @@ textTransformed attrs transforms str =
             transforms |> meaningfulTransform |> Maybe.map transformForCss |> Maybe.withDefault []
     in
     Html.span
-        (List.concat [ [ SvgA.class "fa-layers-text", HtmlA.attribute "aria-hidden" "true" ], transform, attrs ])
+        (List.concat [ [ HtmlA.class "fa-layers-text", HtmlA.attribute "aria-hidden" "true" ], transform, attrs ])
         [ Html.text str ]
 
 
 {-| Adds a counter to the top right of your icons. Can be positioned with `layersBottomLeft`, `layersBottomRight`,
 `layersTopLeft` and the default `layersTopRight`. Overflow text is truncated with an ellipsis.
-
-If you want to add a class, make sure to use `Svg.Attributes.class` not `Html.Attributes.class`.
-
 -}
 counter : List (Html.Attribute msg) -> String -> Html msg
 counter attrs count =
-    Html.span (SvgA.class "fa-layers-counter" :: attrs) [ Html.text count ]
+    Html.span (HtmlA.class "fa-layers-counter" :: attrs) [ Html.text count ]
 
 
 {-| Apply the `fa-layers-bottom-left` class to the element.

@@ -1,9 +1,9 @@
 module FontAwesome.Attributes exposing
-    ( xs, sm, lg, fa2x, fa3x, fa4x, fa5x, fa6x, fa7x, fa8x, fa9x, fa10x
+    ( fa2xs, xs, sm, lg, x1, fa2x1, fa1x, fa2x, fa3x, fa4x, fa5x, fa6x, fa7x, fa8x, fa9x, fa10x
     , fw
     , ul, li
-    , rotate90, rotate180, rotate270, flipHorizontal, flipVertical
-    , spin, pulse
+    , rotate90, rotate180, rotate270, flipHorizontal, flipVertical, flipBoth, flipRotateBy
+    , beat, fade, beatFade, bounce, flip, shake, spin, spinPulse, spinReverse
     , pullLeft, pullRight, border
     , stack, stack1x, stack2x, inverse
     , swapOpacity
@@ -14,56 +14,56 @@ module FontAwesome.Attributes exposing
 
 # Sizing Icons
 
-[See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons)
+[See the FontAwesome docs for details.](https://fontawesome.com/docs/web/style/size)
 
-@docs xs, sm, lg, fa2x, fa3x, fa4x, fa5x, fa6x, fa7x, fa8x, fa9x, fa10x
+@docs fa2xs, xs, sm, lg, x1, fa2x1, fa1x, fa2x, fa3x, fa4x, fa5x, fa6x, fa7x, fa8x, fa9x, fa10x
 
 
 # Fixed Width Icons
 
-[See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/fixed-width-icons)
+[See the FontAwesome docs for details.](https://fontawesome.com/docs/web/style/fixed-width)
 
 @docs fw
 
 
 # Icons in a List
 
-[See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list)
+[See the FontAwesome docs for details.](https://fontawesome.com/docs/web/style/lists)
 
 @docs ul, li
 
 
 # Rotating Icons
 
-[See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/rotating-icons)
+[See the FontAwesome docs for details.](https://fontawesome.com/docs/web/style/rotate)
 
-@docs rotate90, rotate180, rotate270, flipHorizontal, flipVertical
+@docs rotate90, rotate180, rotate270, flipHorizontal, flipVertical, flipBoth, flipRotateBy
 
 
 # Animating Icons
 
-[See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons)
+[See the FontAwesome docs for details.](https://fontawesome.com/docs/web/style/animate)
 
-@docs spin, pulse
+@docs beat, fade, beatFade, bounce, flip, shake, spin, spinPulse, spinReverse
 
 
 # Bordered + Pulled Icons
 
-[See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/bordered-pulled-icons)
+[See the FontAwesome docs for details.](https://fontawesome.com/docs/web/style/pull)
 
 @docs pullLeft, pullRight, border
 
 
 # Stacked Icons
 
-[See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/stacking-icons)
+[See the FontAwesome docs for details.](https://fontawesome.com/docs/web/style/stacking-icons)
 
 @docs stack, stack1x, stack2x, inverse
 
 
 # Duotone Icons
 
-[See the FontAwesome docs for details.](https://fontawesome.com/how-to-use/on-the-web/styling/duotone-icons)
+[See the FontAwesome docs for details.](https://fontawesome.com/docs/web/style/duotone-icons)
 
 @docs swapOpacity
 
@@ -71,6 +71,13 @@ module FontAwesome.Attributes exposing
 
 import Svg
 import Svg.Attributes as SvgA
+
+
+{-| Apply the fa-2xs class to the element.
+-}
+fa2xs : Svg.Attribute msg
+fa2xs =
+    SvgA.class "fa-2xs"
 
 
 {-| Apply the fa-xs class to the element.
@@ -92,6 +99,27 @@ sm =
 lg : Svg.Attribute msg
 lg =
     SvgA.class "fa-lg"
+
+
+{-| Apply the fa-x1 class to the element.
+-}
+x1 : Svg.Attribute msg
+x1 =
+    SvgA.class "fa-x1"
+
+
+{-| Apply the fa-2x1 class to the element.
+-}
+fa2x1 : Svg.Attribute msg
+fa2x1 =
+    SvgA.class "fa-2x1"
+
+
+{-| Apply the fa-1x class to the element.
+-}
+fa1x : Svg.Attribute msg
+fa1x =
+    SvgA.class "fa-1x"
 
 
 {-| Apply the fa-2x class to the element.
@@ -213,6 +241,62 @@ flipVertical =
     SvgA.class "fa-flip-vertical"
 
 
+{-| Apply the fa-flip-both class to the element.
+-}
+flipBoth : Svg.Attribute msg
+flipBoth =
+    SvgA.class "fa-flip-both"
+
+
+{-| Apply the fa-flip-rotate-by class to the element.
+-}
+flipRotateBy : Svg.Attribute msg
+flipRotateBy =
+    SvgA.class "fa-flip-rotate-by"
+
+
+{-| Apply the fa-beat class to the element.
+-}
+beat : Svg.Attribute msg
+beat =
+    SvgA.class "fa-beat"
+
+
+{-| Apply the fa-fade class to the element.
+-}
+fade : Svg.Attribute msg
+fade =
+    SvgA.class "fa-fade"
+
+
+{-| Apply the fa-beat-fade class to the element.
+-}
+beatFade : Svg.Attribute msg
+beatFade =
+    SvgA.class "fa-beat-fade"
+
+
+{-| Apply the fa-bounce class to the element.
+-}
+bounce : Svg.Attribute msg
+bounce =
+    SvgA.class "fa-bounce"
+
+
+{-| Apply the fa-flip class to the element.
+-}
+flip : Svg.Attribute msg
+flip =
+    SvgA.class "fa-flip"
+
+
+{-| Apply the fa-shake class to the element.
+-}
+shake : Svg.Attribute msg
+shake =
+    SvgA.class "fa-shake"
+
+
 {-| Apply the fa-spin class to the element.
 -}
 spin : Svg.Attribute msg
@@ -220,11 +304,18 @@ spin =
     SvgA.class "fa-spin"
 
 
-{-| Apply the fa-pulse class to the element.
+{-| Apply the fa-spin-pulse class to the element.
 -}
-pulse : Svg.Attribute msg
-pulse =
-    SvgA.class "fa-pulse"
+spinPulse : Svg.Attribute msg
+spinPulse =
+    SvgA.class "fa-spin-pulse"
+
+
+{-| Apply the fa-spin-reverse class to the element.
+-}
+spinReverse : Svg.Attribute msg
+spinReverse =
+    SvgA.class "fa-spin-reverse"
 
 
 {-| Apply the fa-pull-left class to the element.
