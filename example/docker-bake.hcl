@@ -17,7 +17,6 @@ variable "FONTAWESOME_SOURCE" {
 }
 
 target "build" {
-  dockerfile = "./Dockerfile"
   output = ["type=local,dest=dist"]
   pull = true
   args = {

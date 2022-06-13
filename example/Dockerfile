@@ -9,6 +9,8 @@ ARG ELM_VERSION
 
 WORKDIR "/elm"
 
+RUN [ "apk", "add", "--no-cache", "jq", "moreutils" ]
+
 ADD https://github.com/elm/compiler/releases/download/${ELM_VERSION}/binary-for-linux-64-bit.gz /elm/elm.gz
 
 RUN gunzip elm.gz
@@ -23,6 +25,9 @@ RUN  [[ "$(elm --version)" == "${ELM_VERSION}" ]] && echo "Elm ${ELM_VERSION} in
 WORKDIR "/build"
 
 COPY [ ".", "." ]
+RUN jq '."source-directories" -= ["lib"]' elm.json | sponge elm.json
+RUN jq 'del(.dependencies.direct."lattyware/elm-fontawesome")' elm.json | sponge elm.json
+
 
 # This is replaced with a context when this is baked.
 FROM scratch as fontawesome
@@ -30,8 +35,6 @@ FROM scratch as fontawesome
 
 # Use a copy of fontawesome supplied by the context.
 FROM base as context
-
-RUN [ "apk", "add", "--no-cache", "jq", "moreutils" ]
 
 COPY --from=fontawesome [ "/src/.", "lib/." ]
 RUN jq '."source-directories" += ["lib"]' elm.json | sponge elm.json

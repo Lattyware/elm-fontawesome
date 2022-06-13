@@ -48,14 +48,24 @@ jobs:
       - name: Setup buildx.
         uses: docker/setup-buildx-action@v2
 
-      - run: cd example
+      - name: Set up elm.
+        uses: jorelali/setup-elm@v3
+        with:
+          elm-version: 0.19.1
+
+      - name: Install the package.
+        run: |
+          echo Y | elm install "lattyware/elm-fontawesome"
 
       - name: Build example.
-        uses: docker/bake-action@v2
+        uses: docker/bake-action@v3
+        with:
+          #working-directory: "example" # Not available yet, hack workaround.
+          files: "./example/docker-bake.hcl" # Workaround
+          set: "build.context=./example" # Workaround
         env:
           FONTAWESOME_SOURCE: "package"
-
-      - run: cd ..
+          FONTAWESOME_CONTEXT: "." # Workaround.
 
       - name: Set up git to push.
         run: |
