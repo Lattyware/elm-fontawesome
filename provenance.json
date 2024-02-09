@@ -1,0 +1,1181 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicateType": "https://slsa.dev/provenance/v0.2",
+  "subject": [
+    {
+      "name": ".dockerignore",
+      "digest": {
+        "sha256": "211bfafcc3874202408e9a48f40b4606326a57fd2fbf780bb7866c21d11daee1"
+      }
+    },
+    {
+      "name": ".github/dependabot.yml",
+      "digest": {
+        "sha256": "891781a2d8b340d9d51fab6113b920406b3cf9d6ee99099de8ddc48e321231ce"
+      }
+    },
+    {
+      "name": ".github/workflows/publish.yml",
+      "digest": {
+        "sha256": "ceab827f9e4955deae83a3ed05c1285eaa98891f7adebc4e2aa7ff34835f0931"
+      }
+    },
+    {
+      "name": ".gitignore",
+      "digest": {
+        "sha256": "497df785ff496df4c9cec6453cdb10693ca30f75232f04764ea982a9d14af5e3"
+      }
+    },
+    {
+      "name": "LICENSE",
+      "digest": {
+        "sha256": "95b9a0230331be3f9d80610ac8f27c27a1c41aa87c04d76984b7e69aad9ca71b"
+      }
+    },
+    {
+      "name": "README.md",
+      "digest": {
+        "sha256": "4d4e488d7e54cccf27496c3b8360314d7693fb6cd7f5ffb9de695f872a2f1ce0"
+      }
+    },
+    {
+      "name": "elm.json",
+      "digest": {
+        "sha256": "b017a7be0dc3a16f9b7db5f90018f78a9b6b3499408c8dbf8de9241fd9c34594"
+      }
+    },
+    {
+      "name": "example/.dockerignore",
+      "digest": {
+        "sha256": "211bfafcc3874202408e9a48f40b4606326a57fd2fbf780bb7866c21d11daee1"
+      }
+    },
+    {
+      "name": "example/.github/dependabot.yml",
+      "digest": {
+        "sha256": "5ab6d8f95665fdf85da2bd89f159cfa8224df6d0db5ab43ebbdd731fc885fa20"
+      }
+    },
+    {
+      "name": "example/.gitignore",
+      "digest": {
+        "sha256": "497df785ff496df4c9cec6453cdb10693ca30f75232f04764ea982a9d14af5e3"
+      }
+    },
+    {
+      "name": "example/Dockerfile",
+      "digest": {
+        "sha256": "567bb67f0fd0e81fbe49d7539cb490e2cfc1e8c3ef405423691295367e432e80"
+      }
+    },
+    {
+      "name": "example/LICENSE",
+      "digest": {
+        "sha256": "95b9a0230331be3f9d80610ac8f27c27a1c41aa87c04d76984b7e69aad9ca71b"
+      }
+    },
+    {
+      "name": "example/README.md",
+      "digest": {
+        "sha256": "cf59ea11f838a7820fbe766f70e9f7f7fbbbb07ee386e1a10fa1f5b5d2376786"
+      }
+    },
+    {
+      "name": "example/assets/index.html",
+      "digest": {
+        "sha256": "f78033be7b22fab14bbf5f5b1e8376333b8dbafdc79ed4f947c3d3823bd95851"
+      }
+    },
+    {
+      "name": "example/docker-bake.hcl",
+      "digest": {
+        "sha256": "52e0e85d00c769a0edd95942c7804a1d28f6fe5a8aa89b10b742eafe29fed7c9"
+      }
+    },
+    {
+      "name": "example/elm.json",
+      "digest": {
+        "sha256": "f9ae62b3f16d9920253c0eab6aabd2805ce1c1b1aab293a7c4f6496129f33434"
+      }
+    },
+    {
+      "name": "example/src/Example.elm",
+      "digest": {
+        "sha256": "ef1d3fc6e8f6593642b2469ffe4db7b044c45b31ebb559b216970ecf38219fee"
+      }
+    },
+    {
+      "name": "example/src/RandomIds.elm",
+      "digest": {
+        "sha256": "40aa5947c1702b4c237d7567134c7cb8d707e20c75e720480c767ca0b31ab7ec"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Attributes.elm",
+      "digest": {
+        "sha256": "bfa9855b0e63eeeae5c7992ed847c59ace878a9663954ab0999b9a2b9420242a"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Brands/Definitions.elm",
+      "digest": {
+        "sha256": "76da4b41e07d429759cda80a9761d2a4992ef4ad0c58ce686070165d41759410"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Brands.elm",
+      "digest": {
+        "sha256": "92d2591a6afb07cd0d813bb51f499f2b0436dcdc1a3ea98e58fe9148c0c06d17"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Internal.elm",
+      "digest": {
+        "sha256": "4eb34696883a123a4fa7bbba4ea1d8c10c712e4948f213f234d07a350341d265"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Layering.elm",
+      "digest": {
+        "sha256": "a916c2c7636fc3a4ec7bee1a3648d0750238184d2eb67bc53f6857180c8b6148"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Regular/Definitions.elm",
+      "digest": {
+        "sha256": "65e6c1716e1f6819a38e908e7ecf5e755ebd945b306cb1ff3f25ff81d33071b9"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Regular.elm",
+      "digest": {
+        "sha256": "eaf192d0c321007b53c2094100487e7b20c46ce28c1a1b9bd6a83d925a5e0d87"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Solid/Definitions.elm",
+      "digest": {
+        "sha256": "4c89acb1c2817209f5efc0d4e8bce6f058cb981f891e47994e8f5fad6484211a"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Solid.elm",
+      "digest": {
+        "sha256": "3274dbb178ae17f2a3272d0ecf77160efab55353803de49685c99f3f17635e4c"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Styles.elm",
+      "digest": {
+        "sha256": "0f87bacbfb134cacd63c3fb33ac9e961d6e124e998c347f2157ca713e0d6d9c7"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Svg.elm",
+      "digest": {
+        "sha256": "8efb5ff0b1c067d55b659c5f03912f423e395a18ac3525fa4d70f5cf6a4592c0"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Transforms/Internal.elm",
+      "digest": {
+        "sha256": "f845ce7965216ec6b4f1b159e62c85c698fa45c04e645a5107526db93af80478"
+      }
+    },
+    {
+      "name": "src/FontAwesome/Transforms.elm",
+      "digest": {
+        "sha256": "3e65d0a40707416315fd975b298fc742d978c862f1dbfd033e17ec370a20c813"
+      }
+    },
+    {
+      "name": "src/FontAwesome.elm",
+      "digest": {
+        "sha256": "8cacb5e71c5b503e90ed81584b6718a4a6cd1015c2a1230f7873999118c59945"
+      }
+    }
+  ],
+  "predicate": {
+    "builder": {
+      "id": "https://github.com/Lattyware/elm-fontawesome-generator/actions/runs/7845922544"
+    },
+    "buildType": "https://mobyproject.org/buildkit@v1",
+    "materials": [
+      {
+        "uri": "pkg:docker/node@21-alpine?platform=linux%2Famd64",
+        "digest": {
+          "sha256": "4cc2d9f365691fc6f8fe227321d32d9a2691216a71f51c21c7f02224515dea48"
+        }
+      }
+    ],
+    "invocation": {
+      "configSource": {
+        "entryPoint": "Dockerfile"
+      },
+      "parameters": {
+        "frontend": "dockerfile.v0",
+        "args": {
+          "build-arg:ELM_FONTAWESOME_VERSION": ""
+        },
+        "locals": [
+          {
+            "name": "context"
+          },
+          {
+            "name": "dockerfile"
+          }
+        ]
+      },
+      "environment": {
+        "platform": "linux/amd64"
+      }
+    },
+    "buildConfig": {
+      "llbDefinition": [
+        {
+          "id": "step0",
+          "op": {
+            "Op": {
+              "source": {
+                "identifier": "docker-image://docker.io/library/node:21-alpine@sha256:4cc2d9f365691fc6f8fe227321d32d9a2691216a71f51c21c7f02224515dea48",
+                "attrs": {
+                  "image.resolvemode": "pull"
+                }
+              }
+            },
+            "platform": {
+              "Architecture": "amd64",
+              "OS": "linux"
+            },
+            "constraints": {}
+          }
+        },
+        {
+          "id": "step1",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": 0,
+                    "secondaryInput": -1,
+                    "output": 0,
+                    "Action": {
+                      "mkdir": {
+                        "path": "/fa",
+                        "mode": 493,
+                        "makeParents": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step0:0"
+          ]
+        },
+        {
+          "id": "step2",
+          "op": {
+            "Op": {
+              "source": {
+                "identifier": "local://context",
+                "attrs": {
+                  "local.excludepatterns": "[\"node_modules\",\"elm-stuff\",\"dist\"]",
+                  "local.followpaths": "[\"base\",\"config.json\",\"elm-tooling.json\",\"package-lock.json\",\"package.json\",\"src\",\"tsconfig.json\"]",
+                  "local.sharedkeyhint": "context"
+                }
+              }
+            },
+            "constraints": {}
+          }
+        },
+        {
+          "id": "step3",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": 0,
+                    "secondaryInput": 1,
+                    "output": 0,
+                    "Action": {
+                      "copy": {
+                        "src": "/package.json",
+                        "dest": "/fa/",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step1:0",
+            "step2:0"
+          ]
+        },
+        {
+          "id": "step4",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": 0,
+                    "secondaryInput": 1,
+                    "output": -1,
+                    "Action": {
+                      "copy": {
+                        "src": "/package.json",
+                        "dest": "/fa/",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  },
+                  {
+                    "input": 2,
+                    "secondaryInput": 1,
+                    "output": -1,
+                    "Action": {
+                      "copy": {
+                        "src": "/package-lock.json",
+                        "dest": "/fa/",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  },
+                  {
+                    "input": 3,
+                    "secondaryInput": 1,
+                    "output": 0,
+                    "Action": {
+                      "copy": {
+                        "src": "/elm-tooling.json",
+                        "dest": "/fa/",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step1:0",
+            "step2:0"
+          ]
+        },
+        {
+          "id": "step5",
+          "op": {
+            "Op": {
+              "exec": {
+                "meta": {
+                  "args": [
+                    "npm",
+                    "ci"
+                  ],
+                  "env": [
+                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                    "NODE_VERSION=21.6.1",
+                    "YARN_VERSION=1.22.19"
+                  ],
+                  "cwd": "/fa",
+                  "removeMountStubsRecursive": true
+                },
+                "mounts": [
+                  {
+                    "input": 0,
+                    "dest": "/",
+                    "output": 0
+                  }
+                ]
+              }
+            },
+            "platform": {
+              "Architecture": "amd64",
+              "OS": "linux"
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step4:0"
+          ]
+        },
+        {
+          "id": "step6",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": 0,
+                    "secondaryInput": 1,
+                    "output": 0,
+                    "Action": {
+                      "copy": {
+                        "src": "/fa/node_modules",
+                        "dest": "/fa/node_modules",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step3:0",
+            "step5:0"
+          ]
+        },
+        {
+          "id": "step7",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": 0,
+                    "secondaryInput": 1,
+                    "output": 0,
+                    "Action": {
+                      "copy": {
+                        "src": "/config.json",
+                        "dest": "/fa/",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step6:0",
+            "step2:0"
+          ]
+        },
+        {
+          "id": "step8",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": 0,
+                    "secondaryInput": 1,
+                    "output": 0,
+                    "Action": {
+                      "copy": {
+                        "src": "/base",
+                        "dest": "/fa/base",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step7:0",
+            "step2:0"
+          ]
+        },
+        {
+          "id": "step9",
+          "op": {
+            "Op": {
+              "exec": {
+                "meta": {
+                  "args": [
+                    "npm",
+                    "ci",
+                    "--include=dev"
+                  ],
+                  "env": [
+                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                    "NODE_VERSION=21.6.1",
+                    "YARN_VERSION=1.22.19"
+                  ],
+                  "cwd": "/fa",
+                  "removeMountStubsRecursive": true
+                },
+                "mounts": [
+                  {
+                    "input": 0,
+                    "dest": "/",
+                    "output": 0
+                  }
+                ]
+              }
+            },
+            "platform": {
+              "Architecture": "amd64",
+              "OS": "linux"
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step4:0"
+          ]
+        },
+        {
+          "id": "step10",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": 0,
+                    "secondaryInput": 1,
+                    "output": 0,
+                    "Action": {
+                      "copy": {
+                        "src": "/tsconfig.json",
+                        "dest": "/fa/",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step9:0",
+            "step2:0"
+          ]
+        },
+        {
+          "id": "step11",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": 0,
+                    "secondaryInput": 1,
+                    "output": 0,
+                    "Action": {
+                      "copy": {
+                        "src": "/src",
+                        "dest": "/fa/src",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step10:0",
+            "step2:0"
+          ]
+        },
+        {
+          "id": "step12",
+          "op": {
+            "Op": {
+              "exec": {
+                "meta": {
+                  "args": [
+                    "npm",
+                    "run",
+                    "build"
+                  ],
+                  "env": [
+                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                    "NODE_VERSION=21.6.1",
+                    "YARN_VERSION=1.22.19"
+                  ],
+                  "cwd": "/fa",
+                  "removeMountStubsRecursive": true
+                },
+                "mounts": [
+                  {
+                    "input": 0,
+                    "dest": "/",
+                    "output": 0
+                  }
+                ]
+              }
+            },
+            "platform": {
+              "Architecture": "amd64",
+              "OS": "linux"
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step11:0"
+          ]
+        },
+        {
+          "id": "step13",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": 0,
+                    "secondaryInput": 1,
+                    "output": 0,
+                    "Action": {
+                      "copy": {
+                        "src": "/fa/dist/generator",
+                        "dest": "/fa/",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step8:0",
+            "step12:0"
+          ]
+        },
+        {
+          "id": "step14",
+          "op": {
+            "Op": {
+              "exec": {
+                "meta": {
+                  "args": [
+                    "node",
+                    "--enable-source-maps",
+                    "./cli.js"
+                  ],
+                  "env": [
+                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                    "NODE_VERSION=21.6.1",
+                    "YARN_VERSION=1.22.19",
+                    "ELM_FONTAWESOME_VERSION="
+                  ],
+                  "cwd": "/fa",
+                  "removeMountStubsRecursive": true
+                },
+                "mounts": [
+                  {
+                    "input": 0,
+                    "dest": "/",
+                    "output": 0
+                  }
+                ]
+              }
+            },
+            "platform": {
+              "Architecture": "amd64",
+              "OS": "linux"
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step13:0"
+          ]
+        },
+        {
+          "id": "step15",
+          "op": {
+            "Op": {
+              "file": {
+                "actions": [
+                  {
+                    "input": -1,
+                    "secondaryInput": 0,
+                    "output": 0,
+                    "Action": {
+                      "copy": {
+                        "src": "/fa/dist/lib",
+                        "dest": "/.",
+                        "mode": -1,
+                        "followSymlink": true,
+                        "dirCopyContents": true,
+                        "createDestPath": true,
+                        "allowWildcard": true,
+                        "allowEmptyWildcard": true,
+                        "timestamp": -1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step14:0"
+          ]
+        },
+        {
+          "id": "step16",
+          "op": {
+            "Op": null
+          },
+          "inputs": [
+            "step15:0"
+          ]
+        }
+      ],
+      "digestMapping": {
+        "sha256:26c8f08d80bcd931fdc9ee6764058f6a69f5587cc9365ff734e966e1c1c01b58": "step16",
+        "sha256:26d18cbbe1f826f574c4b1b05e0f5ee2cdaee73846c5ab4496e7d7527b54c7d7": "step10",
+        "sha256:3ffaa3851cf693be1409e49ec8d41d3863a29f9353e6605871f9b554543f16b9": "step8",
+        "sha256:570d8de7bca2e6d5168428fb5dfb7962d8179919ab7106831fd9b87b9fe74af7": "step5",
+        "sha256:5c59cbfe056de542bbe230d679879b7636555f0f1719129f513dc20ec8f775e3": "step11",
+        "sha256:6192434336291638d966e8e15a3b9b0d34f7080bc3ed20c171c1e513fe94496a": "step12",
+        "sha256:93015b85a2a3a3adc9ae1f06e0f01cb2db8a9c27d4148178b76626fbf8b09a81": "step2",
+        "sha256:933fa23d13f4ea812abcad7b278d0e718001a244375b7518692e4686ba9cb272": "step1",
+        "sha256:93b2e83264157177ae7412f12c780f11cb03bff583b8ea5af1d2f5fb7aad59cc": "step6",
+        "sha256:9d39f5917fa3897686bfb38912682019061d791ee2a32351aa87b47e08c5d745": "step7",
+        "sha256:a87d4a1162bb63bf9cdda5a6b9e6f4c9ada2dacb6c71bbbe31c6587db9adea74": "step14",
+        "sha256:ac5a4e40985c430789ee27ffdf5140ac9a0adf9379e1e5b1c09d5d53e44e60aa": "step13",
+        "sha256:ce5cb0cc6e309f88838b0b0ae8648242ed7b01d4ad1638d27e8723eb582aac55": "step0",
+        "sha256:d4a836be51ae7009233f217b34e572c7b87566dd6f37d56cad23ef2863f0ab25": "step4",
+        "sha256:dc9d0b88f3a99a8717d49bcb84fde96852c5178e5d4e3b45daf702f153c98073": "step9",
+        "sha256:f11205736868b99cf24e5b41a501d7311c23595cdb268ef45e8c2269026a6871": "step15",
+        "sha256:f5babca4ad869d0410b72ff3676b40acf9b5b69dd0d60324fa882c48bfa6930a": "step3"
+      }
+    },
+    "metadata": {
+      "buildInvocationID": "sgfhsr7hxi12sstws4v0jn5tm",
+      "buildStartedOn": "2024-02-09T15:13:15.830896995Z",
+      "buildFinishedOn": "2024-02-09T15:13:34.406042361Z",
+      "completeness": {
+        "parameters": true,
+        "environment": true,
+        "materials": false
+      },
+      "reproducible": false,
+      "https://mobyproject.org/buildkit@v1#metadata": {
+        "vcs": {
+          "revision": "968c503cf39ac7a4eff7b74e8f9eb11e7276103e",
+          "source": "https://github.com/Lattyware/elm-fontawesome-generator"
+        },
+        "source": {
+          "locations": {
+            "step0": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 5
+                      },
+                      "end": {
+                        "line": 5
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step1": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 7
+                      },
+                      "end": {
+                        "line": 7
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step10": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 16
+                      },
+                      "end": {
+                        "line": 16
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step11": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 17
+                      },
+                      "end": {
+                        "line": 17
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step12": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 18
+                      },
+                      "end": {
+                        "line": 18
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step13": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 36
+                      },
+                      "end": {
+                        "line": 36
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step14": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 47
+                      },
+                      "end": {
+                        "line": 47
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step15": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 53
+                      },
+                      "end": {
+                        "line": 53
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step2": {},
+            "step3": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 32
+                      },
+                      "end": {
+                        "line": 32
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step4": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 24
+                      },
+                      "end": {
+                        "line": 24
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 13
+                      },
+                      "end": {
+                        "line": 13
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step5": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 25
+                      },
+                      "end": {
+                        "line": 25
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step6": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 33
+                      },
+                      "end": {
+                        "line": 33
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step7": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 34
+                      },
+                      "end": {
+                        "line": 34
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step8": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 35
+                      },
+                      "end": {
+                        "line": 35
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step9": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 14
+                      },
+                      "end": {
+                        "line": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "infos": [
+            {
+              "filename": "Dockerfile",
+              "language": "Dockerfile",
+              "data": "QVJHIE5PREVfVkVSU0lPTj0yMQpBUkcgRUxNX0ZPTlRBV0VTT01FX1ZFUlNJT04KCgpGUk9NIG5vZGU6JHtOT0RFX1ZFUlNJT059LWFscGluZSBBUyBiYXNlCgpXT1JLRElSICIvZmEiCgoKIyBCdWlsZCB0aGUgZ2VuZXJhdG9yLgpGUk9NIGJhc2UgQVMgYnVpbGQKCkNPUFkgWyIuL3BhY2thZ2UuanNvbiIsICIuL3BhY2thZ2UtbG9jay5qc29uIiwgImVsbS10b29saW5nLmpzb24iLCAiLi8iXQpSVU4gWyJucG0iLCAiY2kiLCAiLS1pbmNsdWRlPWRldiJdCgpDT1BZIFsiLi90c2NvbmZpZy5qc29uIiwgIi4vIl0KQ09QWSBbIi4vc3JjIiwgIi4vc3JjIl0KUlVOIFsibnBtIiwgInJ1biIsICJidWlsZCJdCgoKIyBJbnN0YWxsIG9ubHkgcHJvZCBkZXBlbmRlbmNpZXMuCkZST00gYmFzZSBBUyBpbnN0YWxsCgpDT1BZIFsiLi9wYWNrYWdlLmpzb24iLCAiLi9wYWNrYWdlLWxvY2suanNvbiIsICJlbG0tdG9vbGluZy5qc29uIiwgIi4vIl0KUlVOIFsibnBtIiwgImNpIl0KCgojIEltYWdlIGZvciB0aGUgZ2VuZXJhdG9yLiAKIyBgLS10YXJnZXQgZ2VuZXJhdG9yYCB0byBzdG9wIGhlcmUgYW5kIGdldCBhbiBpbWFnZSB0byBnZW5lcmF0ZSB3aXRoIHJlcGVhdGVkbHkuCkZST00gYmFzZSBBUyBnZW5lcmF0b3IKCkNPUFkgWyIuL3BhY2thZ2UuanNvbiIsICIuLyJdCkNPUFkgLS1mcm9tPWluc3RhbGwgWyIvZmEvbm9kZV9tb2R1bGVzIiwgIi4vbm9kZV9tb2R1bGVzIl0KQ09QWSBbIi4vY29uZmlnLmpzb24iLCAiLi8iXQpDT1BZIFsiLi9iYXNlIiwgIi4vYmFzZSJdCkNPUFkgLS1mcm9tPWJ1aWxkIFsiL2ZhL2Rpc3QvZ2VuZXJhdG9yIiwgIi4vIl0KCkNNRCBbIm5vZGUiLCAiLS1lbmFibGUtc291cmNlLW1hcHMiLCAiLi9jbGkuanMiXQoKCiMgQWN0dWFsbHkgZXhlY3V0ZSB0aGUgZ2VuZXJhdG9yLgpGUk9NIGdlbmVyYXRvciBBUyBnZW5lcmF0ZQoKQVJHIEVMTV9GT05UQVdFU09NRV9WRVJTSU9OCkVOViBFTE1fRk9OVEFXRVNPTUVfVkVSU0lPTj0ke0VMTV9GT05UQVdFU09NRV9WRVJTSU9OfQoKUlVOIFsibm9kZSIsICItLWVuYWJsZS1zb3VyY2UtbWFwcyIsICIuL2NsaS5qcyJdCgoKIyBKdXN0IGtlZXAgdGhlIGdlbmVyYXRlZCBmaWxlcy4KRlJPTSBzY3JhdGNoIEFTIGdlbmVyYXRlZAoKQ09QWSAtLWZyb209Z2VuZXJhdGUgWyIvZmEvZGlzdC9saWIvLiIsICIvLiJdCg==",
+              "llbDefinition": [
+                {
+                  "id": "step0",
+                  "op": {
+                    "Op": {
+                      "source": {
+                        "identifier": "local://dockerfile",
+                        "attrs": {
+                          "local.differ": "none",
+                          "local.followpaths": "[\"Dockerfile\",\"Dockerfile.dockerignore\",\"dockerfile\"]",
+                          "local.sharedkeyhint": "dockerfile"
+                        }
+                      }
+                    },
+                    "constraints": {}
+                  }
+                },
+                {
+                  "id": "step1",
+                  "op": {
+                    "Op": null
+                  },
+                  "inputs": [
+                    "step0:0"
+                  ]
+                }
+              ],
+              "digestMapping": {
+                "sha256:26c61bf1348532709304e878470099155cd00fd368c7b3d650dc5f577d72d587": "step1",
+                "sha256:9fc1b5298ebe32ac21c52f10ebdf345093c7d6bdec0d49205945b60c261b0de8": "step0"
+              }
+            }
+          ]
+        },
+        "layers": {
+          "step0:0": [
+            [
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "digest": "sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8",
+                "size": 3408729
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "digest": "sha256:f16884bf7ba38fab89edcd0cb8ba1f5d481495ca482476e73f5297cdd299dc2d",
+                "size": 43523697
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "digest": "sha256:12fe8815c466514f8488b5ca8bda5e7aadec8e77e9fe1b494040cac76af4da82",
+                "size": 2367097
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "digest": "sha256:9b5c6033110b9fc74a8d438ab7fe7a1042a36dd5d402cc0975ded8f53e2a2f16",
+                "size": 449
+              }
+            ],
+            [
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "digest": "sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8",
+                "size": 3408729
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "digest": "sha256:f16884bf7ba38fab89edcd0cb8ba1f5d481495ca482476e73f5297cdd299dc2d",
+                "size": 43523697
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "digest": "sha256:12fe8815c466514f8488b5ca8bda5e7aadec8e77e9fe1b494040cac76af4da82",
+                "size": 2367097
+              },
+              {
+                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                "digest": "sha256:9b5c6033110b9fc74a8d438ab7fe7a1042a36dd5d402cc0975ded8f53e2a2f16",
+                "size": 449
+              }
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

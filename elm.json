@@ -3,7 +3,7 @@
   "name": "lattyware/elm-fontawesome",
   "summary": "FontAwesome as pure Elm and SVG.",
   "license": "MIT",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "exposed-modules": [
     "FontAwesome",
     "FontAwesome.Svg",

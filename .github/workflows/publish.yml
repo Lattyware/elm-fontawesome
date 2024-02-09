@@ -5,6 +5,9 @@ on:
     tags:
       - "*.*.*"
 
+env:
+  GIT_TAG_NAME: ${{ github.ref_type == 'tag' && github.ref_name || '' }}
+
 jobs:
   publish-elm:
     name: Publish elm package
@@ -14,16 +17,13 @@ jobs:
       contents: read
 
     steps:
-      - name: Get version from tag.
-        uses: little-core-labs/get-git-tag@v3.0.2
-
       - name: Checkout elm-fontawesome repository.
         uses: actions/checkout@v3
         with:
           ref: ${{ env.GIT_TAG_NAME }}
 
       - name: Set up elm.
-        uses: jorelali/setup-elm@v3
+        uses: jorelali/setup-elm@v5
         with:
           elm-version: 0.19.1
 
@@ -40,16 +40,13 @@ jobs:
 
     steps:
       - name: Checkout elm-fontawesome repository.
-        uses: actions/checkout@v3
-
-      - name: Get version from tag.
-        uses: little-core-labs/get-git-tag@v3.0.2
+        uses: actions/checkout@v4
 
       - name: Setup buildx.
         uses: docker/setup-buildx-action@v2
 
       - name: Set up elm.
-        uses: jorelali/setup-elm@v3
+        uses: jorelali/setup-elm@v5
         with:
           elm-version: 0.19.1
 
@@ -58,14 +55,11 @@ jobs:
           echo Y | elm install "lattyware/elm-fontawesome"
 
       - name: Build example.
-        uses: docker/bake-action@v3
+        uses: docker/bake-action@v4
         with:
-          #working-directory: "example" # Not available yet, hack workaround.
-          files: "./example/docker-bake.hcl" # Workaround
-          set: "build.context=./example" # Workaround
+          workdir: "example"
         env:
           FONTAWESOME_SOURCE: "package"
-          FONTAWESOME_CONTEXT: "." # Workaround.
 
       - name: Set up git to push.
         run: |
@@ -73,7 +67,7 @@ jobs:
           git config user.email github-actions@github.com
 
       - name: Checkout elm-fontawesome-example repository.
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: "lattyware/elm-fontawesome"
           ssh-key: ${{ secrets.EXAMPLE_DEPLOY_KEY }}
@@ -99,7 +93,7 @@ jobs:
           fi
 
       - name: Checkout elm-fontawesome-example pages repository.
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: "lattyware/elm-fontawesome"
           ssh-key: ${{ secrets.EXAMPLE_DEPLOY_KEY }}

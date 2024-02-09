@@ -1,4 +1,3 @@
-#syntax=docker/dockerfile-upstream:1.4.0-rc1
 ARG ELM_VERSION=0.19.1
 ARG ELM_FONTAWESOME_SOURCE=context
 ARG ELM_FONTAWESOME_PACKAGE=lattyware/elm-fontawesome
