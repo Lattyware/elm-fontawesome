@@ -1,3084 +1,3685 @@
+module FontAwesome.Brands exposing (monero, hooli, yelp, ccVisa, lastfm, shopware, creativeCommonsNc, aws, redhat, yoast, cloudflare, ups, pixiv, wpexplorer, dyalog, bity, stackpath, buysellads, firstOrder, modx, guilded, vnv, squareJs, microsoft, qq, orcid, java, invision, creativeCommonsPdAlt, centercode, glideG, drupal, jxl, hireAHelper, creativeCommonsBy, unity, whmcs, rocketchat, vk, untappd, mailchimp, css3Alt, squareReddit, vimeoV, contao, squareFontAwesome, deskpro, brave, sistrix, squareInstagram, battleNet, theRedYeti, squareHackerNews, edge, threads, napster, squareSnapchat, googlePlusG, artstation, markdown, sourcetree, googlePlus, diaspora, foursquare, stackOverflow, githubAlt, phoenixSquadron, pagelines, algolia, redRiver, creativeCommonsSa, safari, google, squareFontAwesomeStroke, atlassian, linkedinIn, digitalOcean, nimblr, chromecast, evernote, hackerNews, creativeCommonsSampling, adversal, creativeCommons, watchmanMonitoring, fonticons, weixin, shirtsinbulk, codepen, gitAlt, lyft, rev, windows, wizardsOfTheCoast, squareViadeo, meetup, centos, adn, cloudsmith, opensuse, piedPiperAlt, squareDribbble, codiepie, node, mix, steam, ccApplePay, scribd, debian, openid, instalod, expeditedssl, sellcast, squareTwitter, rProject, delicious, freebsd, vuejs, accusoft, ioxhost, fonticonsFi, appStore, ccMastercard, itunesNote, golang, kickstarter, grav, weibo, uncharted, firstdraft, squareYoutube, wikipediaW, wpressr, angellist, galacticRepublic, nfcDirectional, skype, joget, fedora, stripeS, meta, laravel, hotjar, bluetoothB, squareLetterboxd, stickerMule, creativeCommonsZero, hips, behance, reddit, discord, chrome, appStoreIos, ccDiscover, wpbeginner, confluence, shoelace, mdb, dochub, accessibleIcon, ebay, amazon, unsplash, yarn, squareSteam, fa500px, squareVimeo, asymmetrik, fontAwesome, gratipay, apple, hive, gitkraken, keybase, applePay, padlet, amazonPay, squareGithub, stumbleupon, fedex, phoenixFramework, shopify, neos, squareThreads, hackerrank, researchgate, swift, angular, speakap, angrycreative, yCombinator, empire, envira, googleScholar, squareGitlab, studiovinari, piedPiper, wordpress, productHunt, firefox, linode, goodreads, squareOdnoklassniki, jsfiddle, sith, themeisle, page4, hashnode, react, ccPaypal, squarespace, ccStripe, creativeCommonsShare, bitcoin, keycdn, opera, itchIo, umbraco, galacticSenate, ubuntu, draft2digital, stripe, houzz, gg, dhl, squarePinterest, xing, blackberry, creativeCommonsPd, playstation, quinscape, less, bloggerB, opencart, vine, signalMessenger, paypal, gitlab, typo3, redditAlien, yahoo, dailymotion, affiliatetheme, piedPiperPp, bootstrap, odnoklassniki, nfcSymbol, mintbit, ethereum, speakerDeck, creativeCommonsNcEu, patreon, avianex, ello, gofore, bimobject, braveReverse, facebookF, squareGooglePlus, webAwesome, mandalorian, firstOrderAlt, osi, googleWallet, dAndDBeyond, periscope, fulcrum, cloudscale, forumbee, mizuni, schlix, squareXing, bandcamp, wpforms, cloudversify, usps, megaport, magento, spotify, optinMonster, fly, aviato, itunes, cuttlefish, blogger, flickr, viber, soundcloud, digg, tencentWeibo, letterboxd, symfony, maxcdn, etsy, facebookMessenger, audible, thinkPeaks, bilibili, erlang, xTwitter, cottonBureau, dashcube, fa42Group, stackExchange, elementor, squarePiedPiper, creativeCommonsNd, palfed, superpowers, resolving, xbox, squareWebAwesomeStroke, searchengin, tiktok, squareFacebook, renren, linux, glide, linkedin, hubspot, deploydog, twitch, ravelry, mixer, squareLastfm, vimeo, mendeley, uniregistry, figma, creativeCommonsRemix, ccAmazonPay, dropbox, instagram, cmplid, upwork, facebook, gripfire, jediOrder, uikit, fortAwesomeAlt, phabricator, ussunnah, earlybirds, tradeFederation, autoprefixer, whatsapp, squareUpwork, slideshare, googlePlay, viadeo, line, googleDrive, servicestack, simplybuilt, bitbucket, imdb, deezer, raspberryPi, jira, docker, screenpal, bluetooth, gitter, dAndD, microblog, ccDinersClub, ggCircle, piedPiperHat, kickstarterK, yandex, readme, html5, sellsy, squareWebAwesome, sass, wirsindhandwerk, buromobelexperte, salesforce, octopusDeploy, medapps, ns8, pinterestP, apper, fortAwesome, waze, bluesky, ccJcb, snapchat, fantasyFlightGames, rust, wix, squareBehance, supple, webflow, rebel, css3, staylinked, kaggle, spaceAwesome, deviantart, cpanel, goodreadsG, squareGit, squareTumblr, trello, creativeCommonsNcJp, getPocket, perbyte, grunt, weebly, connectdevelop, leanpub, blackTie, themeco, python, android, bots, freeCodeCamp, hornbill, js, ideal, git, dev, sketch, yandexInternational, ccAmex, uber, github, php, alipay, youtube, skyatlas, firefoxBrowser, replyd, suse, jenkins, twitter, rockrms, pinterest, buffer, npm, yammer, btc, dribbble, stumbleuponCircle, internetExplorer, stubber, telegram, oldRepublic, odysee, squareWhatsapp, nodeJs, edgeLegacy, slack, medrt, usb, tumblr, vaadin, quora, squareXTwitter, reacteurope, medium, amilia, mixcloud, flipboard, viacoin, criticalRole, sitrox, discourse, joomla, mastodon, airbnb, wolfPackBattalion, buyNLarge, gulp, creativeCommonsSamplingPlus, strava, ember, canadianMapleLeaf, teamspeak, pushed, wordpressSimple, nutritionix, wodu, googlePay, intercom, zhihu, korvue, pix, steamSymbol, jsSquare, redditSquare, instagramSquare, hackerNewsSquare, snapchatSquare, fontAwesomeAlt, viadeoSquare, dribbbleSquare, twitterSquare, squareKickstarter, youtubeSquare, rendact, steamSquare, vimeoSquare, fontAwesomeFlag, fontAwesomeLogoFull, githubSquare, gitlabSquare, odnoklassnikiSquare, pinterestSquare, googlePlusSquare, xingSquare, innosoft, piedPiperSquare, facebookSquare, lastfmSquare, wsh, snapchatGhost, behanceSquare, gitSquare, tumblrSquare, telegramPlane, whatsappSquare, slackHash, mediumM)
 
-module FontAwesome.Brands exposing (monero, hooli, yelp, ccVisa, lastfm, shopware, creativeCommonsNc, aws, redhat, yoast, cloudflare, ups, pixiv, wpexplorer, dyalog, bity, stackpath, buysellads, firstOrder, modx, guilded, vnv, squareJs, microsoft, qq, orcid, java, invision, creativeCommonsPdAlt, centercode, glideG, drupal, hireAHelper, creativeCommonsBy, unity, whmcs, rocketchat, vk, untappd, mailchimp, css3Alt, squareReddit, vimeoV, contao, squareFontAwesome, deskpro, brave, sistrix, squareInstagram, battleNet, theRedYeti, squareHackerNews, edge, threads, napster, squareSnapchat, googlePlusG, artstation, markdown, sourcetree, googlePlus, diaspora, foursquare, stackOverflow, githubAlt, phoenixSquadron, pagelines, algolia, redRiver, creativeCommonsSa, safari, google, squareFontAwesomeStroke, atlassian, linkedinIn, digitalOcean, nimblr, chromecast, evernote, hackerNews, creativeCommonsSampling, adversal, creativeCommons, watchmanMonitoring, fonticons, weixin, shirtsinbulk, codepen, gitAlt, lyft, rev, windows, wizardsOfTheCoast, squareViadeo, meetup, centos, adn, cloudsmith, opensuse, piedPiperAlt, squareDribbble, codiepie, node, mix, steam, ccApplePay, scribd, debian, openid, instalod, expeditedssl, sellcast, squareTwitter, rProject, delicious, freebsd, vuejs, accusoft, ioxhost, fonticonsFi, appStore, ccMastercard, itunesNote, golang, kickstarter, grav, weibo, uncharted, firstdraft, squareYoutube, wikipediaW, wpressr, angellist, galacticRepublic, nfcDirectional, skype, joget, fedora, stripeS, meta, laravel, hotjar, bluetoothB, squareLetterboxd, stickerMule, creativeCommonsZero, hips, behance, reddit, discord, chrome, appStoreIos, ccDiscover, wpbeginner, confluence, shoelace, mdb, dochub, accessibleIcon, ebay, amazon, unsplash, yarn, squareSteam, fa500px, squareVimeo, asymmetrik, fontAwesome, gratipay, apple, hive, gitkraken, keybase, applePay, padlet, amazonPay, squareGithub, stumbleupon, fedex, phoenixFramework, shopify, neos, squareThreads, hackerrank, researchgate, swift, angular, speakap, angrycreative, yCombinator, empire, envira, googleScholar, squareGitlab, studiovinari, piedPiper, wordpress, productHunt, firefox, linode, goodreads, squareOdnoklassniki, jsfiddle, sith, themeisle, page4, hashnode, react, ccPaypal, squarespace, ccStripe, creativeCommonsShare, bitcoin, keycdn, opera, itchIo, umbraco, galacticSenate, ubuntu, draft2digital, stripe, houzz, gg, dhl, squarePinterest, xing, blackberry, creativeCommonsPd, playstation, quinscape, less, bloggerB, opencart, vine, signalMessenger, paypal, gitlab, typo3, redditAlien, yahoo, dailymotion, affiliatetheme, piedPiperPp, bootstrap, odnoklassniki, nfcSymbol, mintbit, ethereum, speakerDeck, creativeCommonsNcEu, patreon, avianex, ello, gofore, bimobject, braveReverse, facebookF, squareGooglePlus, mandalorian, firstOrderAlt, osi, googleWallet, dAndDBeyond, periscope, fulcrum, cloudscale, forumbee, mizuni, schlix, squareXing, bandcamp, wpforms, cloudversify, usps, megaport, magento, spotify, optinMonster, fly, aviato, itunes, cuttlefish, blogger, flickr, viber, soundcloud, digg, tencentWeibo, letterboxd, symfony, maxcdn, etsy, facebookMessenger, audible, thinkPeaks, bilibili, erlang, xTwitter, cottonBureau, dashcube, fa42Group, stackExchange, elementor, squarePiedPiper, creativeCommonsNd, palfed, superpowers, resolving, xbox, searchengin, tiktok, squareFacebook, renren, linux, glide, linkedin, hubspot, deploydog, twitch, ravelry, mixer, squareLastfm, vimeo, mendeley, uniregistry, figma, creativeCommonsRemix, ccAmazonPay, dropbox, instagram, cmplid, upwork, facebook, gripfire, jediOrder, uikit, fortAwesomeAlt, phabricator, ussunnah, earlybirds, tradeFederation, autoprefixer, whatsapp, slideshare, googlePlay, viadeo, line, googleDrive, servicestack, simplybuilt, bitbucket, imdb, deezer, raspberryPi, jira, docker, screenpal, bluetooth, gitter, dAndD, microblog, ccDinersClub, ggCircle, piedPiperHat, kickstarterK, yandex, readme, html5, sellsy, sass, wirsindhandwerk, buromobelexperte, salesforce, octopusDeploy, medapps, ns8, pinterestP, apper, fortAwesome, waze, ccJcb, snapchat, fantasyFlightGames, rust, wix, squareBehance, supple, webflow, rebel, css3, staylinked, kaggle, spaceAwesome, deviantart, cpanel, goodreadsG, squareGit, squareTumblr, trello, creativeCommonsNcJp, getPocket, perbyte, grunt, weebly, connectdevelop, leanpub, blackTie, themeco, python, android, bots, freeCodeCamp, hornbill, js, ideal, git, dev, sketch, yandexInternational, ccAmex, uber, github, php, alipay, youtube, skyatlas, firefoxBrowser, replyd, suse, jenkins, twitter, rockrms, pinterest, buffer, npm, yammer, btc, dribbble, stumbleuponCircle, internetExplorer, stubber, telegram, oldRepublic, odysee, squareWhatsapp, nodeJs, edgeLegacy, slack, medrt, usb, tumblr, vaadin, quora, squareXTwitter, reacteurope, medium, amilia, mixcloud, flipboard, viacoin, criticalRole, sitrox, discourse, joomla, mastodon, airbnb, wolfPackBattalion, buyNLarge, gulp, creativeCommonsSamplingPlus, strava, ember, canadianMapleLeaf, teamspeak, pushed, wordpressSimple, nutritionix, wodu, googlePay, intercom, zhihu, korvue, pix, steamSymbol, jsSquare, redditSquare, instagramSquare, hackerNewsSquare, snapchatSquare, fontAwesomeAlt, viadeoSquare, dribbbleSquare, twitterSquare, youtubeSquare, rendact, steamSquare, vimeoSquare, fontAwesomeFlag, fontAwesomeLogoFull, githubSquare, gitlabSquare, odnoklassnikiSquare, pinterestSquare, googlePlusSquare, xingSquare, innosoft, piedPiperSquare, facebookSquare, lastfmSquare, wsh, snapchatGhost, behanceSquare, gitSquare, tumblrSquare, telegramPlane, whatsappSquare, slackHash, mediumM)
+{-| Icons from the “Brands” pack.
 
-{-| Icons from the “Brands” pack. 
-@docs monero, hooli, yelp, ccVisa, lastfm, shopware, creativeCommonsNc, aws, redhat, yoast, cloudflare, ups, pixiv, wpexplorer, dyalog, bity, stackpath, buysellads, firstOrder, modx, guilded, vnv, squareJs, microsoft, qq, orcid, java, invision, creativeCommonsPdAlt, centercode, glideG, drupal, hireAHelper, creativeCommonsBy, unity, whmcs, rocketchat, vk, untappd, mailchimp, css3Alt, squareReddit, vimeoV, contao, squareFontAwesome, deskpro, brave, sistrix, squareInstagram, battleNet, theRedYeti, squareHackerNews, edge, threads, napster, squareSnapchat, googlePlusG, artstation, markdown, sourcetree, googlePlus, diaspora, foursquare, stackOverflow, githubAlt, phoenixSquadron, pagelines, algolia, redRiver, creativeCommonsSa, safari, google, squareFontAwesomeStroke, atlassian, linkedinIn, digitalOcean, nimblr, chromecast, evernote, hackerNews, creativeCommonsSampling, adversal, creativeCommons, watchmanMonitoring, fonticons, weixin, shirtsinbulk, codepen, gitAlt, lyft, rev, windows, wizardsOfTheCoast, squareViadeo, meetup, centos, adn, cloudsmith, opensuse, piedPiperAlt, squareDribbble, codiepie, node, mix, steam, ccApplePay, scribd, debian, openid, instalod, expeditedssl, sellcast, squareTwitter, rProject, delicious, freebsd, vuejs, accusoft, ioxhost, fonticonsFi, appStore, ccMastercard, itunesNote, golang, kickstarter, grav, weibo, uncharted, firstdraft, squareYoutube, wikipediaW, wpressr, angellist, galacticRepublic, nfcDirectional, skype, joget, fedora, stripeS, meta, laravel, hotjar, bluetoothB, squareLetterboxd, stickerMule, creativeCommonsZero, hips, behance, reddit, discord, chrome, appStoreIos, ccDiscover, wpbeginner, confluence, shoelace, mdb, dochub, accessibleIcon, ebay, amazon, unsplash, yarn, squareSteam, fa500px, squareVimeo, asymmetrik, fontAwesome, gratipay, apple, hive, gitkraken, keybase, applePay, padlet, amazonPay, squareGithub, stumbleupon, fedex, phoenixFramework, shopify, neos, squareThreads, hackerrank, researchgate, swift, angular, speakap, angrycreative, yCombinator, empire, envira, googleScholar, squareGitlab, studiovinari, piedPiper, wordpress, productHunt, firefox, linode, goodreads, squareOdnoklassniki, jsfiddle, sith, themeisle, page4, hashnode, react, ccPaypal, squarespace, ccStripe, creativeCommonsShare, bitcoin, keycdn, opera, itchIo, umbraco, galacticSenate, ubuntu, draft2digital, stripe, houzz, gg, dhl, squarePinterest, xing, blackberry, creativeCommonsPd, playstation, quinscape, less, bloggerB, opencart, vine, signalMessenger, paypal, gitlab, typo3, redditAlien, yahoo, dailymotion, affiliatetheme, piedPiperPp, bootstrap, odnoklassniki, nfcSymbol, mintbit, ethereum, speakerDeck, creativeCommonsNcEu, patreon, avianex, ello, gofore, bimobject, braveReverse, facebookF, squareGooglePlus, mandalorian, firstOrderAlt, osi, googleWallet, dAndDBeyond, periscope, fulcrum, cloudscale, forumbee, mizuni, schlix, squareXing, bandcamp, wpforms, cloudversify, usps, megaport, magento, spotify, optinMonster, fly, aviato, itunes, cuttlefish, blogger, flickr, viber, soundcloud, digg, tencentWeibo, letterboxd, symfony, maxcdn, etsy, facebookMessenger, audible, thinkPeaks, bilibili, erlang, xTwitter, cottonBureau, dashcube, fa42Group, stackExchange, elementor, squarePiedPiper, creativeCommonsNd, palfed, superpowers, resolving, xbox, searchengin, tiktok, squareFacebook, renren, linux, glide, linkedin, hubspot, deploydog, twitch, ravelry, mixer, squareLastfm, vimeo, mendeley, uniregistry, figma, creativeCommonsRemix, ccAmazonPay, dropbox, instagram, cmplid, upwork, facebook, gripfire, jediOrder, uikit, fortAwesomeAlt, phabricator, ussunnah, earlybirds, tradeFederation, autoprefixer, whatsapp, slideshare, googlePlay, viadeo, line, googleDrive, servicestack, simplybuilt, bitbucket, imdb, deezer, raspberryPi, jira, docker, screenpal, bluetooth, gitter, dAndD, microblog, ccDinersClub, ggCircle, piedPiperHat, kickstarterK, yandex, readme, html5, sellsy, sass, wirsindhandwerk, buromobelexperte, salesforce, octopusDeploy, medapps, ns8, pinterestP, apper, fortAwesome, waze, ccJcb, snapchat, fantasyFlightGames, rust, wix, squareBehance, supple, webflow, rebel, css3, staylinked, kaggle, spaceAwesome, deviantart, cpanel, goodreadsG, squareGit, squareTumblr, trello, creativeCommonsNcJp, getPocket, perbyte, grunt, weebly, connectdevelop, leanpub, blackTie, themeco, python, android, bots, freeCodeCamp, hornbill, js, ideal, git, dev, sketch, yandexInternational, ccAmex, uber, github, php, alipay, youtube, skyatlas, firefoxBrowser, replyd, suse, jenkins, twitter, rockrms, pinterest, buffer, npm, yammer, btc, dribbble, stumbleuponCircle, internetExplorer, stubber, telegram, oldRepublic, odysee, squareWhatsapp, nodeJs, edgeLegacy, slack, medrt, usb, tumblr, vaadin, quora, squareXTwitter, reacteurope, medium, amilia, mixcloud, flipboard, viacoin, criticalRole, sitrox, discourse, joomla, mastodon, airbnb, wolfPackBattalion, buyNLarge, gulp, creativeCommonsSamplingPlus, strava, ember, canadianMapleLeaf, teamspeak, pushed, wordpressSimple, nutritionix, wodu, googlePay, intercom, zhihu, korvue, pix, steamSymbol, jsSquare, redditSquare, instagramSquare, hackerNewsSquare, snapchatSquare, fontAwesomeAlt, viadeoSquare, dribbbleSquare, twitterSquare, youtubeSquare, rendact, steamSquare, vimeoSquare, fontAwesomeFlag, fontAwesomeLogoFull, githubSquare, gitlabSquare, odnoklassnikiSquare, pinterestSquare, googlePlusSquare, xingSquare, innosoft, piedPiperSquare, facebookSquare, lastfmSquare, wsh, snapchatGhost, behanceSquare, gitSquare, tumblrSquare, telegramPlane, whatsappSquare, slackHash, mediumM
+@docs monero, hooli, yelp, ccVisa, lastfm, shopware, creativeCommonsNc, aws, redhat, yoast, cloudflare, ups, pixiv, wpexplorer, dyalog, bity, stackpath, buysellads, firstOrder, modx, guilded, vnv, squareJs, microsoft, qq, orcid, java, invision, creativeCommonsPdAlt, centercode, glideG, drupal, jxl, hireAHelper, creativeCommonsBy, unity, whmcs, rocketchat, vk, untappd, mailchimp, css3Alt, squareReddit, vimeoV, contao, squareFontAwesome, deskpro, brave, sistrix, squareInstagram, battleNet, theRedYeti, squareHackerNews, edge, threads, napster, squareSnapchat, googlePlusG, artstation, markdown, sourcetree, googlePlus, diaspora, foursquare, stackOverflow, githubAlt, phoenixSquadron, pagelines, algolia, redRiver, creativeCommonsSa, safari, google, squareFontAwesomeStroke, atlassian, linkedinIn, digitalOcean, nimblr, chromecast, evernote, hackerNews, creativeCommonsSampling, adversal, creativeCommons, watchmanMonitoring, fonticons, weixin, shirtsinbulk, codepen, gitAlt, lyft, rev, windows, wizardsOfTheCoast, squareViadeo, meetup, centos, adn, cloudsmith, opensuse, piedPiperAlt, squareDribbble, codiepie, node, mix, steam, ccApplePay, scribd, debian, openid, instalod, expeditedssl, sellcast, squareTwitter, rProject, delicious, freebsd, vuejs, accusoft, ioxhost, fonticonsFi, appStore, ccMastercard, itunesNote, golang, kickstarter, grav, weibo, uncharted, firstdraft, squareYoutube, wikipediaW, wpressr, angellist, galacticRepublic, nfcDirectional, skype, joget, fedora, stripeS, meta, laravel, hotjar, bluetoothB, squareLetterboxd, stickerMule, creativeCommonsZero, hips, behance, reddit, discord, chrome, appStoreIos, ccDiscover, wpbeginner, confluence, shoelace, mdb, dochub, accessibleIcon, ebay, amazon, unsplash, yarn, squareSteam, fa500px, squareVimeo, asymmetrik, fontAwesome, gratipay, apple, hive, gitkraken, keybase, applePay, padlet, amazonPay, squareGithub, stumbleupon, fedex, phoenixFramework, shopify, neos, squareThreads, hackerrank, researchgate, swift, angular, speakap, angrycreative, yCombinator, empire, envira, googleScholar, squareGitlab, studiovinari, piedPiper, wordpress, productHunt, firefox, linode, goodreads, squareOdnoklassniki, jsfiddle, sith, themeisle, page4, hashnode, react, ccPaypal, squarespace, ccStripe, creativeCommonsShare, bitcoin, keycdn, opera, itchIo, umbraco, galacticSenate, ubuntu, draft2digital, stripe, houzz, gg, dhl, squarePinterest, xing, blackberry, creativeCommonsPd, playstation, quinscape, less, bloggerB, opencart, vine, signalMessenger, paypal, gitlab, typo3, redditAlien, yahoo, dailymotion, affiliatetheme, piedPiperPp, bootstrap, odnoklassniki, nfcSymbol, mintbit, ethereum, speakerDeck, creativeCommonsNcEu, patreon, avianex, ello, gofore, bimobject, braveReverse, facebookF, squareGooglePlus, webAwesome, mandalorian, firstOrderAlt, osi, googleWallet, dAndDBeyond, periscope, fulcrum, cloudscale, forumbee, mizuni, schlix, squareXing, bandcamp, wpforms, cloudversify, usps, megaport, magento, spotify, optinMonster, fly, aviato, itunes, cuttlefish, blogger, flickr, viber, soundcloud, digg, tencentWeibo, letterboxd, symfony, maxcdn, etsy, facebookMessenger, audible, thinkPeaks, bilibili, erlang, xTwitter, cottonBureau, dashcube, fa42Group, stackExchange, elementor, squarePiedPiper, creativeCommonsNd, palfed, superpowers, resolving, xbox, squareWebAwesomeStroke, searchengin, tiktok, squareFacebook, renren, linux, glide, linkedin, hubspot, deploydog, twitch, ravelry, mixer, squareLastfm, vimeo, mendeley, uniregistry, figma, creativeCommonsRemix, ccAmazonPay, dropbox, instagram, cmplid, upwork, facebook, gripfire, jediOrder, uikit, fortAwesomeAlt, phabricator, ussunnah, earlybirds, tradeFederation, autoprefixer, whatsapp, squareUpwork, slideshare, googlePlay, viadeo, line, googleDrive, servicestack, simplybuilt, bitbucket, imdb, deezer, raspberryPi, jira, docker, screenpal, bluetooth, gitter, dAndD, microblog, ccDinersClub, ggCircle, piedPiperHat, kickstarterK, yandex, readme, html5, sellsy, squareWebAwesome, sass, wirsindhandwerk, buromobelexperte, salesforce, octopusDeploy, medapps, ns8, pinterestP, apper, fortAwesome, waze, bluesky, ccJcb, snapchat, fantasyFlightGames, rust, wix, squareBehance, supple, webflow, rebel, css3, staylinked, kaggle, spaceAwesome, deviantart, cpanel, goodreadsG, squareGit, squareTumblr, trello, creativeCommonsNcJp, getPocket, perbyte, grunt, weebly, connectdevelop, leanpub, blackTie, themeco, python, android, bots, freeCodeCamp, hornbill, js, ideal, git, dev, sketch, yandexInternational, ccAmex, uber, github, php, alipay, youtube, skyatlas, firefoxBrowser, replyd, suse, jenkins, twitter, rockrms, pinterest, buffer, npm, yammer, btc, dribbble, stumbleuponCircle, internetExplorer, stubber, telegram, oldRepublic, odysee, squareWhatsapp, nodeJs, edgeLegacy, slack, medrt, usb, tumblr, vaadin, quora, squareXTwitter, reacteurope, medium, amilia, mixcloud, flipboard, viacoin, criticalRole, sitrox, discourse, joomla, mastodon, airbnb, wolfPackBattalion, buyNLarge, gulp, creativeCommonsSamplingPlus, strava, ember, canadianMapleLeaf, teamspeak, pushed, wordpressSimple, nutritionix, wodu, googlePay, intercom, zhihu, korvue, pix, steamSymbol, jsSquare, redditSquare, instagramSquare, hackerNewsSquare, snapchatSquare, fontAwesomeAlt, viadeoSquare, dribbbleSquare, twitterSquare, squareKickstarter, youtubeSquare, rendact, steamSquare, vimeoSquare, fontAwesomeFlag, fontAwesomeLogoFull, githubSquare, gitlabSquare, odnoklassnikiSquare, pinterestSquare, googlePlusSquare, xingSquare, innosoft, piedPiperSquare, facebookSquare, lastfmSquare, wsh, snapchatGhost, behanceSquare, gitSquare, tumblrSquare, telegramPlane, whatsappSquare, slackHash, mediumM
+
 -}
+
 import FontAwesome as Icon exposing (Icon)
 import FontAwesome.Brands.Definitions as Definitions
 
-{-| The [“monero”](https://fontawesome.com/icons/monero) icon. 
+
+{-| The [“monero”](https://fontawesome.com/icons/monero) icon.
 -}
 monero : Icon Icon.WithoutId
-monero = Icon.present Definitions.monero
+monero =
+    Icon.present Definitions.monero
 
-  
-{-| The [“hooli”](https://fontawesome.com/icons/hooli) icon. 
+
+{-| The [“hooli”](https://fontawesome.com/icons/hooli) icon.
 -}
 hooli : Icon Icon.WithoutId
-hooli = Icon.present Definitions.hooli
+hooli =
+    Icon.present Definitions.hooli
 
-  
-{-| The [“yelp”](https://fontawesome.com/icons/yelp) icon. 
+
+{-| The [“yelp”](https://fontawesome.com/icons/yelp) icon.
 -}
 yelp : Icon Icon.WithoutId
-yelp = Icon.present Definitions.yelp
+yelp =
+    Icon.present Definitions.yelp
 
-  
-{-| The [“cc-visa”](https://fontawesome.com/icons/cc-visa) icon. 
+
+{-| The [“cc-visa”](https://fontawesome.com/icons/cc-visa) icon.
 -}
 ccVisa : Icon Icon.WithoutId
-ccVisa = Icon.present Definitions.ccVisa
+ccVisa =
+    Icon.present Definitions.ccVisa
 
-  
-{-| The [“lastfm”](https://fontawesome.com/icons/lastfm) icon. 
+
+{-| The [“lastfm”](https://fontawesome.com/icons/lastfm) icon.
 -}
 lastfm : Icon Icon.WithoutId
-lastfm = Icon.present Definitions.lastfm
+lastfm =
+    Icon.present Definitions.lastfm
 
-  
-{-| The [“shopware”](https://fontawesome.com/icons/shopware) icon. 
+
+{-| The [“shopware”](https://fontawesome.com/icons/shopware) icon.
 -}
 shopware : Icon Icon.WithoutId
-shopware = Icon.present Definitions.shopware
+shopware =
+    Icon.present Definitions.shopware
 
-  
-{-| The [“creative-commons-nc”](https://fontawesome.com/icons/creative-commons-nc) icon. 
+
+{-| The [“creative-commons-nc”](https://fontawesome.com/icons/creative-commons-nc) icon.
 -}
 creativeCommonsNc : Icon Icon.WithoutId
-creativeCommonsNc = Icon.present Definitions.creativeCommonsNc
+creativeCommonsNc =
+    Icon.present Definitions.creativeCommonsNc
 
-  
-{-| The [“aws”](https://fontawesome.com/icons/aws) icon. 
+
+{-| The [“aws”](https://fontawesome.com/icons/aws) icon.
 -}
 aws : Icon Icon.WithoutId
-aws = Icon.present Definitions.aws
+aws =
+    Icon.present Definitions.aws
 
-  
-{-| The [“redhat”](https://fontawesome.com/icons/redhat) icon. 
+
+{-| The [“redhat”](https://fontawesome.com/icons/redhat) icon.
 -}
 redhat : Icon Icon.WithoutId
-redhat = Icon.present Definitions.redhat
+redhat =
+    Icon.present Definitions.redhat
 
-  
-{-| The [“yoast”](https://fontawesome.com/icons/yoast) icon. 
+
+{-| The [“yoast”](https://fontawesome.com/icons/yoast) icon.
 -}
 yoast : Icon Icon.WithoutId
-yoast = Icon.present Definitions.yoast
+yoast =
+    Icon.present Definitions.yoast
 
-  
-{-| The [“cloudflare”](https://fontawesome.com/icons/cloudflare) icon. 
+
+{-| The [“cloudflare”](https://fontawesome.com/icons/cloudflare) icon.
 -}
 cloudflare : Icon Icon.WithoutId
-cloudflare = Icon.present Definitions.cloudflare
+cloudflare =
+    Icon.present Definitions.cloudflare
 
-  
-{-| The [“ups”](https://fontawesome.com/icons/ups) icon. 
+
+{-| The [“ups”](https://fontawesome.com/icons/ups) icon.
 -}
 ups : Icon Icon.WithoutId
-ups = Icon.present Definitions.ups
+ups =
+    Icon.present Definitions.ups
 
-  
-{-| The [“pixiv”](https://fontawesome.com/icons/pixiv) icon. 
+
+{-| The [“pixiv”](https://fontawesome.com/icons/pixiv) icon.
 -}
 pixiv : Icon Icon.WithoutId
-pixiv = Icon.present Definitions.pixiv
+pixiv =
+    Icon.present Definitions.pixiv
 
-  
-{-| The [“wpexplorer”](https://fontawesome.com/icons/wpexplorer) icon. 
+
+{-| The [“wpexplorer”](https://fontawesome.com/icons/wpexplorer) icon.
 -}
 wpexplorer : Icon Icon.WithoutId
-wpexplorer = Icon.present Definitions.wpexplorer
+wpexplorer =
+    Icon.present Definitions.wpexplorer
 
-  
-{-| The [“dyalog”](https://fontawesome.com/icons/dyalog) icon. 
+
+{-| The [“dyalog”](https://fontawesome.com/icons/dyalog) icon.
 -}
 dyalog : Icon Icon.WithoutId
-dyalog = Icon.present Definitions.dyalog
+dyalog =
+    Icon.present Definitions.dyalog
 
-  
-{-| The [“bity”](https://fontawesome.com/icons/bity) icon. 
+
+{-| The [“bity”](https://fontawesome.com/icons/bity) icon.
 -}
 bity : Icon Icon.WithoutId
-bity = Icon.present Definitions.bity
+bity =
+    Icon.present Definitions.bity
 
-  
-{-| The [“stackpath”](https://fontawesome.com/icons/stackpath) icon. 
+
+{-| The [“stackpath”](https://fontawesome.com/icons/stackpath) icon.
 -}
 stackpath : Icon Icon.WithoutId
-stackpath = Icon.present Definitions.stackpath
+stackpath =
+    Icon.present Definitions.stackpath
 
-  
-{-| The [“buysellads”](https://fontawesome.com/icons/buysellads) icon. 
+
+{-| The [“buysellads”](https://fontawesome.com/icons/buysellads) icon.
 -}
 buysellads : Icon Icon.WithoutId
-buysellads = Icon.present Definitions.buysellads
+buysellads =
+    Icon.present Definitions.buysellads
 
-  
-{-| The [“first-order”](https://fontawesome.com/icons/first-order) icon. 
+
+{-| The [“first-order”](https://fontawesome.com/icons/first-order) icon.
 -}
 firstOrder : Icon Icon.WithoutId
-firstOrder = Icon.present Definitions.firstOrder
+firstOrder =
+    Icon.present Definitions.firstOrder
 
-  
-{-| The [“modx”](https://fontawesome.com/icons/modx) icon. 
+
+{-| The [“modx”](https://fontawesome.com/icons/modx) icon.
 -}
 modx : Icon Icon.WithoutId
-modx = Icon.present Definitions.modx
+modx =
+    Icon.present Definitions.modx
 
-  
-{-| The [“guilded”](https://fontawesome.com/icons/guilded) icon. 
+
+{-| The [“guilded”](https://fontawesome.com/icons/guilded) icon.
 -}
 guilded : Icon Icon.WithoutId
-guilded = Icon.present Definitions.guilded
+guilded =
+    Icon.present Definitions.guilded
 
-  
-{-| The [“vnv”](https://fontawesome.com/icons/vnv) icon. 
+
+{-| The [“vnv”](https://fontawesome.com/icons/vnv) icon.
 -}
 vnv : Icon Icon.WithoutId
-vnv = Icon.present Definitions.vnv
+vnv =
+    Icon.present Definitions.vnv
 
-  
-{-| The [“square-js”](https://fontawesome.com/icons/square-js) icon. 
+
+{-| The [“square-js”](https://fontawesome.com/icons/square-js) icon.
 -}
 squareJs : Icon Icon.WithoutId
-squareJs = Icon.present Definitions.squareJs
+squareJs =
+    Icon.present Definitions.squareJs
+
 
 {-| Synonym for `squareJs`.
 -}
 jsSquare : Icon Icon.WithoutId
-jsSquare = squareJs
-    
-  
-{-| The [“microsoft”](https://fontawesome.com/icons/microsoft) icon. 
+jsSquare =
+    squareJs
+
+
+{-| The [“microsoft”](https://fontawesome.com/icons/microsoft) icon.
 -}
 microsoft : Icon Icon.WithoutId
-microsoft = Icon.present Definitions.microsoft
+microsoft =
+    Icon.present Definitions.microsoft
 
-  
-{-| The [“qq”](https://fontawesome.com/icons/qq) icon. 
+
+{-| The [“qq”](https://fontawesome.com/icons/qq) icon.
 -}
 qq : Icon Icon.WithoutId
-qq = Icon.present Definitions.qq
+qq =
+    Icon.present Definitions.qq
 
-  
-{-| The [“orcid”](https://fontawesome.com/icons/orcid) icon. 
+
+{-| The [“orcid”](https://fontawesome.com/icons/orcid) icon.
 -}
 orcid : Icon Icon.WithoutId
-orcid = Icon.present Definitions.orcid
+orcid =
+    Icon.present Definitions.orcid
 
-  
-{-| The [“java”](https://fontawesome.com/icons/java) icon. 
+
+{-| The [“java”](https://fontawesome.com/icons/java) icon.
 -}
 java : Icon Icon.WithoutId
-java = Icon.present Definitions.java
+java =
+    Icon.present Definitions.java
 
-  
-{-| The [“invision”](https://fontawesome.com/icons/invision) icon. 
+
+{-| The [“invision”](https://fontawesome.com/icons/invision) icon.
 -}
 invision : Icon Icon.WithoutId
-invision = Icon.present Definitions.invision
+invision =
+    Icon.present Definitions.invision
 
-  
-{-| The [“creative-commons-pd-alt”](https://fontawesome.com/icons/creative-commons-pd-alt) icon. 
+
+{-| The [“creative-commons-pd-alt”](https://fontawesome.com/icons/creative-commons-pd-alt) icon.
 -}
 creativeCommonsPdAlt : Icon Icon.WithoutId
-creativeCommonsPdAlt = Icon.present Definitions.creativeCommonsPdAlt
+creativeCommonsPdAlt =
+    Icon.present Definitions.creativeCommonsPdAlt
 
-  
-{-| The [“centercode”](https://fontawesome.com/icons/centercode) icon. 
+
+{-| The [“centercode”](https://fontawesome.com/icons/centercode) icon.
 -}
 centercode : Icon Icon.WithoutId
-centercode = Icon.present Definitions.centercode
+centercode =
+    Icon.present Definitions.centercode
 
-  
-{-| The [“glide-g”](https://fontawesome.com/icons/glide-g) icon. 
+
+{-| The [“glide-g”](https://fontawesome.com/icons/glide-g) icon.
 -}
 glideG : Icon Icon.WithoutId
-glideG = Icon.present Definitions.glideG
+glideG =
+    Icon.present Definitions.glideG
 
-  
-{-| The [“drupal”](https://fontawesome.com/icons/drupal) icon. 
+
+{-| The [“drupal”](https://fontawesome.com/icons/drupal) icon.
 -}
 drupal : Icon Icon.WithoutId
-drupal = Icon.present Definitions.drupal
+drupal =
+    Icon.present Definitions.drupal
 
-  
-{-| The [“hire-a-helper”](https://fontawesome.com/icons/hire-a-helper) icon. 
+
+{-| The [“jxl”](https://fontawesome.com/icons/jxl) icon.
+-}
+jxl : Icon Icon.WithoutId
+jxl =
+    Icon.present Definitions.jxl
+
+
+{-| The [“hire-a-helper”](https://fontawesome.com/icons/hire-a-helper) icon.
 -}
 hireAHelper : Icon Icon.WithoutId
-hireAHelper = Icon.present Definitions.hireAHelper
+hireAHelper =
+    Icon.present Definitions.hireAHelper
 
-  
-{-| The [“creative-commons-by”](https://fontawesome.com/icons/creative-commons-by) icon. 
+
+{-| The [“creative-commons-by”](https://fontawesome.com/icons/creative-commons-by) icon.
 -}
 creativeCommonsBy : Icon Icon.WithoutId
-creativeCommonsBy = Icon.present Definitions.creativeCommonsBy
+creativeCommonsBy =
+    Icon.present Definitions.creativeCommonsBy
 
-  
-{-| The [“unity”](https://fontawesome.com/icons/unity) icon. 
+
+{-| The [“unity”](https://fontawesome.com/icons/unity) icon.
 -}
 unity : Icon Icon.WithoutId
-unity = Icon.present Definitions.unity
+unity =
+    Icon.present Definitions.unity
 
-  
-{-| The [“whmcs”](https://fontawesome.com/icons/whmcs) icon. 
+
+{-| The [“whmcs”](https://fontawesome.com/icons/whmcs) icon.
 -}
 whmcs : Icon Icon.WithoutId
-whmcs = Icon.present Definitions.whmcs
+whmcs =
+    Icon.present Definitions.whmcs
 
-  
-{-| The [“rocketchat”](https://fontawesome.com/icons/rocketchat) icon. 
+
+{-| The [“rocketchat”](https://fontawesome.com/icons/rocketchat) icon.
 -}
 rocketchat : Icon Icon.WithoutId
-rocketchat = Icon.present Definitions.rocketchat
+rocketchat =
+    Icon.present Definitions.rocketchat
 
-  
-{-| The [“vk”](https://fontawesome.com/icons/vk) icon. 
+
+{-| The [“vk”](https://fontawesome.com/icons/vk) icon.
 -}
 vk : Icon Icon.WithoutId
-vk = Icon.present Definitions.vk
+vk =
+    Icon.present Definitions.vk
 
-  
-{-| The [“untappd”](https://fontawesome.com/icons/untappd) icon. 
+
+{-| The [“untappd”](https://fontawesome.com/icons/untappd) icon.
 -}
 untappd : Icon Icon.WithoutId
-untappd = Icon.present Definitions.untappd
+untappd =
+    Icon.present Definitions.untappd
 
-  
-{-| The [“mailchimp”](https://fontawesome.com/icons/mailchimp) icon. 
+
+{-| The [“mailchimp”](https://fontawesome.com/icons/mailchimp) icon.
 -}
 mailchimp : Icon Icon.WithoutId
-mailchimp = Icon.present Definitions.mailchimp
+mailchimp =
+    Icon.present Definitions.mailchimp
 
-  
-{-| The [“css3-alt”](https://fontawesome.com/icons/css3-alt) icon. 
+
+{-| The [“css3-alt”](https://fontawesome.com/icons/css3-alt) icon.
 -}
 css3Alt : Icon Icon.WithoutId
-css3Alt = Icon.present Definitions.css3Alt
+css3Alt =
+    Icon.present Definitions.css3Alt
 
-  
-{-| The [“square-reddit”](https://fontawesome.com/icons/square-reddit) icon. 
+
+{-| The [“square-reddit”](https://fontawesome.com/icons/square-reddit) icon.
 -}
 squareReddit : Icon Icon.WithoutId
-squareReddit = Icon.present Definitions.squareReddit
+squareReddit =
+    Icon.present Definitions.squareReddit
+
 
 {-| Synonym for `squareReddit`.
 -}
 redditSquare : Icon Icon.WithoutId
-redditSquare = squareReddit
-    
-  
-{-| The [“vimeo-v”](https://fontawesome.com/icons/vimeo-v) icon. 
+redditSquare =
+    squareReddit
+
+
+{-| The [“vimeo-v”](https://fontawesome.com/icons/vimeo-v) icon.
 -}
 vimeoV : Icon Icon.WithoutId
-vimeoV = Icon.present Definitions.vimeoV
+vimeoV =
+    Icon.present Definitions.vimeoV
 
-  
-{-| The [“contao”](https://fontawesome.com/icons/contao) icon. 
+
+{-| The [“contao”](https://fontawesome.com/icons/contao) icon.
 -}
 contao : Icon Icon.WithoutId
-contao = Icon.present Definitions.contao
+contao =
+    Icon.present Definitions.contao
 
-  
-{-| The [“square-font-awesome”](https://fontawesome.com/icons/square-font-awesome) icon. 
+
+{-| The [“square-font-awesome”](https://fontawesome.com/icons/square-font-awesome) icon.
 -}
 squareFontAwesome : Icon Icon.WithoutId
-squareFontAwesome = Icon.present Definitions.squareFontAwesome
+squareFontAwesome =
+    Icon.present Definitions.squareFontAwesome
 
-  
-{-| The [“deskpro”](https://fontawesome.com/icons/deskpro) icon. 
+
+{-| The [“deskpro”](https://fontawesome.com/icons/deskpro) icon.
 -}
 deskpro : Icon Icon.WithoutId
-deskpro = Icon.present Definitions.deskpro
+deskpro =
+    Icon.present Definitions.deskpro
 
-  
-{-| The [“brave”](https://fontawesome.com/icons/brave) icon. 
+
+{-| The [“brave”](https://fontawesome.com/icons/brave) icon.
 -}
 brave : Icon Icon.WithoutId
-brave = Icon.present Definitions.brave
+brave =
+    Icon.present Definitions.brave
 
-  
-{-| The [“sistrix”](https://fontawesome.com/icons/sistrix) icon. 
+
+{-| The [“sistrix”](https://fontawesome.com/icons/sistrix) icon.
 -}
 sistrix : Icon Icon.WithoutId
-sistrix = Icon.present Definitions.sistrix
+sistrix =
+    Icon.present Definitions.sistrix
 
-  
-{-| The [“square-instagram”](https://fontawesome.com/icons/square-instagram) icon. 
+
+{-| The [“square-instagram”](https://fontawesome.com/icons/square-instagram) icon.
 -}
 squareInstagram : Icon Icon.WithoutId
-squareInstagram = Icon.present Definitions.squareInstagram
+squareInstagram =
+    Icon.present Definitions.squareInstagram
+
 
 {-| Synonym for `squareInstagram`.
 -}
 instagramSquare : Icon Icon.WithoutId
-instagramSquare = squareInstagram
-    
-  
-{-| The [“battle-net”](https://fontawesome.com/icons/battle-net) icon. 
+instagramSquare =
+    squareInstagram
+
+
+{-| The [“battle-net”](https://fontawesome.com/icons/battle-net) icon.
 -}
 battleNet : Icon Icon.WithoutId
-battleNet = Icon.present Definitions.battleNet
+battleNet =
+    Icon.present Definitions.battleNet
 
-  
-{-| The [“the-red-yeti”](https://fontawesome.com/icons/the-red-yeti) icon. 
+
+{-| The [“the-red-yeti”](https://fontawesome.com/icons/the-red-yeti) icon.
 -}
 theRedYeti : Icon Icon.WithoutId
-theRedYeti = Icon.present Definitions.theRedYeti
+theRedYeti =
+    Icon.present Definitions.theRedYeti
 
-  
-{-| The [“square-hacker-news”](https://fontawesome.com/icons/square-hacker-news) icon. 
+
+{-| The [“square-hacker-news”](https://fontawesome.com/icons/square-hacker-news) icon.
 -}
 squareHackerNews : Icon Icon.WithoutId
-squareHackerNews = Icon.present Definitions.squareHackerNews
+squareHackerNews =
+    Icon.present Definitions.squareHackerNews
+
 
 {-| Synonym for `squareHackerNews`.
 -}
 hackerNewsSquare : Icon Icon.WithoutId
-hackerNewsSquare = squareHackerNews
-    
-  
-{-| The [“edge”](https://fontawesome.com/icons/edge) icon. 
+hackerNewsSquare =
+    squareHackerNews
+
+
+{-| The [“edge”](https://fontawesome.com/icons/edge) icon.
 -}
 edge : Icon Icon.WithoutId
-edge = Icon.present Definitions.edge
+edge =
+    Icon.present Definitions.edge
 
-  
-{-| The [“threads”](https://fontawesome.com/icons/threads) icon. 
+
+{-| The [“threads”](https://fontawesome.com/icons/threads) icon.
 -}
 threads : Icon Icon.WithoutId
-threads = Icon.present Definitions.threads
+threads =
+    Icon.present Definitions.threads
 
-  
-{-| The [“napster”](https://fontawesome.com/icons/napster) icon. 
+
+{-| The [“napster”](https://fontawesome.com/icons/napster) icon.
 -}
 napster : Icon Icon.WithoutId
-napster = Icon.present Definitions.napster
+napster =
+    Icon.present Definitions.napster
 
-  
-{-| The [“square-snapchat”](https://fontawesome.com/icons/square-snapchat) icon. 
+
+{-| The [“square-snapchat”](https://fontawesome.com/icons/square-snapchat) icon.
 -}
 squareSnapchat : Icon Icon.WithoutId
-squareSnapchat = Icon.present Definitions.squareSnapchat
+squareSnapchat =
+    Icon.present Definitions.squareSnapchat
+
 
 {-| Synonym for `squareSnapchat`.
 -}
 snapchatSquare : Icon Icon.WithoutId
-snapchatSquare = squareSnapchat
-    
-  
-{-| The [“google-plus-g”](https://fontawesome.com/icons/google-plus-g) icon. 
+snapchatSquare =
+    squareSnapchat
+
+
+{-| The [“google-plus-g”](https://fontawesome.com/icons/google-plus-g) icon.
 -}
 googlePlusG : Icon Icon.WithoutId
-googlePlusG = Icon.present Definitions.googlePlusG
+googlePlusG =
+    Icon.present Definitions.googlePlusG
 
-  
-{-| The [“artstation”](https://fontawesome.com/icons/artstation) icon. 
+
+{-| The [“artstation”](https://fontawesome.com/icons/artstation) icon.
 -}
 artstation : Icon Icon.WithoutId
-artstation = Icon.present Definitions.artstation
+artstation =
+    Icon.present Definitions.artstation
 
-  
-{-| The [“markdown”](https://fontawesome.com/icons/markdown) icon. 
+
+{-| The [“markdown”](https://fontawesome.com/icons/markdown) icon.
 -}
 markdown : Icon Icon.WithoutId
-markdown = Icon.present Definitions.markdown
+markdown =
+    Icon.present Definitions.markdown
 
-  
-{-| The [“sourcetree”](https://fontawesome.com/icons/sourcetree) icon. 
+
+{-| The [“sourcetree”](https://fontawesome.com/icons/sourcetree) icon.
 -}
 sourcetree : Icon Icon.WithoutId
-sourcetree = Icon.present Definitions.sourcetree
+sourcetree =
+    Icon.present Definitions.sourcetree
 
-  
-{-| The [“google-plus”](https://fontawesome.com/icons/google-plus) icon. 
+
+{-| The [“google-plus”](https://fontawesome.com/icons/google-plus) icon.
 -}
 googlePlus : Icon Icon.WithoutId
-googlePlus = Icon.present Definitions.googlePlus
+googlePlus =
+    Icon.present Definitions.googlePlus
 
-  
-{-| The [“diaspora”](https://fontawesome.com/icons/diaspora) icon. 
+
+{-| The [“diaspora”](https://fontawesome.com/icons/diaspora) icon.
 -}
 diaspora : Icon Icon.WithoutId
-diaspora = Icon.present Definitions.diaspora
+diaspora =
+    Icon.present Definitions.diaspora
 
-  
-{-| The [“foursquare”](https://fontawesome.com/icons/foursquare) icon. 
+
+{-| The [“foursquare”](https://fontawesome.com/icons/foursquare) icon.
 -}
 foursquare : Icon Icon.WithoutId
-foursquare = Icon.present Definitions.foursquare
+foursquare =
+    Icon.present Definitions.foursquare
 
-  
-{-| The [“stack-overflow”](https://fontawesome.com/icons/stack-overflow) icon. 
+
+{-| The [“stack-overflow”](https://fontawesome.com/icons/stack-overflow) icon.
 -}
 stackOverflow : Icon Icon.WithoutId
-stackOverflow = Icon.present Definitions.stackOverflow
+stackOverflow =
+    Icon.present Definitions.stackOverflow
 
-  
-{-| The [“github-alt”](https://fontawesome.com/icons/github-alt) icon. 
+
+{-| The [“github-alt”](https://fontawesome.com/icons/github-alt) icon.
 -}
 githubAlt : Icon Icon.WithoutId
-githubAlt = Icon.present Definitions.githubAlt
+githubAlt =
+    Icon.present Definitions.githubAlt
 
-  
-{-| The [“phoenix-squadron”](https://fontawesome.com/icons/phoenix-squadron) icon. 
+
+{-| The [“phoenix-squadron”](https://fontawesome.com/icons/phoenix-squadron) icon.
 -}
 phoenixSquadron : Icon Icon.WithoutId
-phoenixSquadron = Icon.present Definitions.phoenixSquadron
+phoenixSquadron =
+    Icon.present Definitions.phoenixSquadron
 
-  
-{-| The [“pagelines”](https://fontawesome.com/icons/pagelines) icon. 
+
+{-| The [“pagelines”](https://fontawesome.com/icons/pagelines) icon.
 -}
 pagelines : Icon Icon.WithoutId
-pagelines = Icon.present Definitions.pagelines
+pagelines =
+    Icon.present Definitions.pagelines
 
-  
-{-| The [“algolia”](https://fontawesome.com/icons/algolia) icon. 
+
+{-| The [“algolia”](https://fontawesome.com/icons/algolia) icon.
 -}
 algolia : Icon Icon.WithoutId
-algolia = Icon.present Definitions.algolia
+algolia =
+    Icon.present Definitions.algolia
 
-  
-{-| The [“red-river”](https://fontawesome.com/icons/red-river) icon. 
+
+{-| The [“red-river”](https://fontawesome.com/icons/red-river) icon.
 -}
 redRiver : Icon Icon.WithoutId
-redRiver = Icon.present Definitions.redRiver
+redRiver =
+    Icon.present Definitions.redRiver
 
-  
-{-| The [“creative-commons-sa”](https://fontawesome.com/icons/creative-commons-sa) icon. 
+
+{-| The [“creative-commons-sa”](https://fontawesome.com/icons/creative-commons-sa) icon.
 -}
 creativeCommonsSa : Icon Icon.WithoutId
-creativeCommonsSa = Icon.present Definitions.creativeCommonsSa
+creativeCommonsSa =
+    Icon.present Definitions.creativeCommonsSa
 
-  
-{-| The [“safari”](https://fontawesome.com/icons/safari) icon. 
+
+{-| The [“safari”](https://fontawesome.com/icons/safari) icon.
 -}
 safari : Icon Icon.WithoutId
-safari = Icon.present Definitions.safari
+safari =
+    Icon.present Definitions.safari
 
-  
-{-| The [“google”](https://fontawesome.com/icons/google) icon. 
+
+{-| The [“google”](https://fontawesome.com/icons/google) icon.
 -}
 google : Icon Icon.WithoutId
-google = Icon.present Definitions.google
+google =
+    Icon.present Definitions.google
 
-  
-{-| The [“square-font-awesome-stroke”](https://fontawesome.com/icons/square-font-awesome-stroke) icon. 
+
+{-| The [“square-font-awesome-stroke”](https://fontawesome.com/icons/square-font-awesome-stroke) icon.
 -}
 squareFontAwesomeStroke : Icon Icon.WithoutId
-squareFontAwesomeStroke = Icon.present Definitions.squareFontAwesomeStroke
+squareFontAwesomeStroke =
+    Icon.present Definitions.squareFontAwesomeStroke
+
 
 {-| Synonym for `squareFontAwesomeStroke`.
 -}
 fontAwesomeAlt : Icon Icon.WithoutId
-fontAwesomeAlt = squareFontAwesomeStroke
-    
-  
-{-| The [“atlassian”](https://fontawesome.com/icons/atlassian) icon. 
+fontAwesomeAlt =
+    squareFontAwesomeStroke
+
+
+{-| The [“atlassian”](https://fontawesome.com/icons/atlassian) icon.
 -}
 atlassian : Icon Icon.WithoutId
-atlassian = Icon.present Definitions.atlassian
+atlassian =
+    Icon.present Definitions.atlassian
 
-  
-{-| The [“linkedin-in”](https://fontawesome.com/icons/linkedin-in) icon. 
+
+{-| The [“linkedin-in”](https://fontawesome.com/icons/linkedin-in) icon.
 -}
 linkedinIn : Icon Icon.WithoutId
-linkedinIn = Icon.present Definitions.linkedinIn
+linkedinIn =
+    Icon.present Definitions.linkedinIn
 
-  
-{-| The [“digital-ocean”](https://fontawesome.com/icons/digital-ocean) icon. 
+
+{-| The [“digital-ocean”](https://fontawesome.com/icons/digital-ocean) icon.
 -}
 digitalOcean : Icon Icon.WithoutId
-digitalOcean = Icon.present Definitions.digitalOcean
+digitalOcean =
+    Icon.present Definitions.digitalOcean
 
-  
-{-| The [“nimblr”](https://fontawesome.com/icons/nimblr) icon. 
+
+{-| The [“nimblr”](https://fontawesome.com/icons/nimblr) icon.
 -}
 nimblr : Icon Icon.WithoutId
-nimblr = Icon.present Definitions.nimblr
+nimblr =
+    Icon.present Definitions.nimblr
 
-  
-{-| The [“chromecast”](https://fontawesome.com/icons/chromecast) icon. 
+
+{-| The [“chromecast”](https://fontawesome.com/icons/chromecast) icon.
 -}
 chromecast : Icon Icon.WithoutId
-chromecast = Icon.present Definitions.chromecast
+chromecast =
+    Icon.present Definitions.chromecast
 
-  
-{-| The [“evernote”](https://fontawesome.com/icons/evernote) icon. 
+
+{-| The [“evernote”](https://fontawesome.com/icons/evernote) icon.
 -}
 evernote : Icon Icon.WithoutId
-evernote = Icon.present Definitions.evernote
+evernote =
+    Icon.present Definitions.evernote
 
-  
-{-| The [“hacker-news”](https://fontawesome.com/icons/hacker-news) icon. 
+
+{-| The [“hacker-news”](https://fontawesome.com/icons/hacker-news) icon.
 -}
 hackerNews : Icon Icon.WithoutId
-hackerNews = Icon.present Definitions.hackerNews
+hackerNews =
+    Icon.present Definitions.hackerNews
 
-  
-{-| The [“creative-commons-sampling”](https://fontawesome.com/icons/creative-commons-sampling) icon. 
+
+{-| The [“creative-commons-sampling”](https://fontawesome.com/icons/creative-commons-sampling) icon.
 -}
 creativeCommonsSampling : Icon Icon.WithoutId
-creativeCommonsSampling = Icon.present Definitions.creativeCommonsSampling
+creativeCommonsSampling =
+    Icon.present Definitions.creativeCommonsSampling
 
-  
-{-| The [“adversal”](https://fontawesome.com/icons/adversal) icon. 
+
+{-| The [“adversal”](https://fontawesome.com/icons/adversal) icon.
 -}
 adversal : Icon Icon.WithoutId
-adversal = Icon.present Definitions.adversal
+adversal =
+    Icon.present Definitions.adversal
 
-  
-{-| The [“creative-commons”](https://fontawesome.com/icons/creative-commons) icon. 
+
+{-| The [“creative-commons”](https://fontawesome.com/icons/creative-commons) icon.
 -}
 creativeCommons : Icon Icon.WithoutId
-creativeCommons = Icon.present Definitions.creativeCommons
+creativeCommons =
+    Icon.present Definitions.creativeCommons
 
-  
-{-| The [“watchman-monitoring”](https://fontawesome.com/icons/watchman-monitoring) icon. 
+
+{-| The [“watchman-monitoring”](https://fontawesome.com/icons/watchman-monitoring) icon.
 -}
 watchmanMonitoring : Icon Icon.WithoutId
-watchmanMonitoring = Icon.present Definitions.watchmanMonitoring
+watchmanMonitoring =
+    Icon.present Definitions.watchmanMonitoring
 
-  
-{-| The [“fonticons”](https://fontawesome.com/icons/fonticons) icon. 
+
+{-| The [“fonticons”](https://fontawesome.com/icons/fonticons) icon.
 -}
 fonticons : Icon Icon.WithoutId
-fonticons = Icon.present Definitions.fonticons
+fonticons =
+    Icon.present Definitions.fonticons
 
-  
-{-| The [“weixin”](https://fontawesome.com/icons/weixin) icon. 
+
+{-| The [“weixin”](https://fontawesome.com/icons/weixin) icon.
 -}
 weixin : Icon Icon.WithoutId
-weixin = Icon.present Definitions.weixin
+weixin =
+    Icon.present Definitions.weixin
 
-  
-{-| The [“shirtsinbulk”](https://fontawesome.com/icons/shirtsinbulk) icon. 
+
+{-| The [“shirtsinbulk”](https://fontawesome.com/icons/shirtsinbulk) icon.
 -}
 shirtsinbulk : Icon Icon.WithoutId
-shirtsinbulk = Icon.present Definitions.shirtsinbulk
+shirtsinbulk =
+    Icon.present Definitions.shirtsinbulk
 
-  
-{-| The [“codepen”](https://fontawesome.com/icons/codepen) icon. 
+
+{-| The [“codepen”](https://fontawesome.com/icons/codepen) icon.
 -}
 codepen : Icon Icon.WithoutId
-codepen = Icon.present Definitions.codepen
+codepen =
+    Icon.present Definitions.codepen
 
-  
-{-| The [“git-alt”](https://fontawesome.com/icons/git-alt) icon. 
+
+{-| The [“git-alt”](https://fontawesome.com/icons/git-alt) icon.
 -}
 gitAlt : Icon Icon.WithoutId
-gitAlt = Icon.present Definitions.gitAlt
+gitAlt =
+    Icon.present Definitions.gitAlt
 
-  
-{-| The [“lyft”](https://fontawesome.com/icons/lyft) icon. 
+
+{-| The [“lyft”](https://fontawesome.com/icons/lyft) icon.
 -}
 lyft : Icon Icon.WithoutId
-lyft = Icon.present Definitions.lyft
+lyft =
+    Icon.present Definitions.lyft
 
-  
-{-| The [“rev”](https://fontawesome.com/icons/rev) icon. 
+
+{-| The [“rev”](https://fontawesome.com/icons/rev) icon.
 -}
 rev : Icon Icon.WithoutId
-rev = Icon.present Definitions.rev
+rev =
+    Icon.present Definitions.rev
 
-  
-{-| The [“windows”](https://fontawesome.com/icons/windows) icon. 
+
+{-| The [“windows”](https://fontawesome.com/icons/windows) icon.
 -}
 windows : Icon Icon.WithoutId
-windows = Icon.present Definitions.windows
+windows =
+    Icon.present Definitions.windows
 
-  
-{-| The [“wizards-of-the-coast”](https://fontawesome.com/icons/wizards-of-the-coast) icon. 
+
+{-| The [“wizards-of-the-coast”](https://fontawesome.com/icons/wizards-of-the-coast) icon.
 -}
 wizardsOfTheCoast : Icon Icon.WithoutId
-wizardsOfTheCoast = Icon.present Definitions.wizardsOfTheCoast
+wizardsOfTheCoast =
+    Icon.present Definitions.wizardsOfTheCoast
 
-  
-{-| The [“square-viadeo”](https://fontawesome.com/icons/square-viadeo) icon. 
+
+{-| The [“square-viadeo”](https://fontawesome.com/icons/square-viadeo) icon.
 -}
 squareViadeo : Icon Icon.WithoutId
-squareViadeo = Icon.present Definitions.squareViadeo
+squareViadeo =
+    Icon.present Definitions.squareViadeo
+
 
 {-| Synonym for `squareViadeo`.
 -}
 viadeoSquare : Icon Icon.WithoutId
-viadeoSquare = squareViadeo
-    
-  
-{-| The [“meetup”](https://fontawesome.com/icons/meetup) icon. 
+viadeoSquare =
+    squareViadeo
+
+
+{-| The [“meetup”](https://fontawesome.com/icons/meetup) icon.
 -}
 meetup : Icon Icon.WithoutId
-meetup = Icon.present Definitions.meetup
+meetup =
+    Icon.present Definitions.meetup
 
-  
-{-| The [“centos”](https://fontawesome.com/icons/centos) icon. 
+
+{-| The [“centos”](https://fontawesome.com/icons/centos) icon.
 -}
 centos : Icon Icon.WithoutId
-centos = Icon.present Definitions.centos
+centos =
+    Icon.present Definitions.centos
 
-  
-{-| The [“adn”](https://fontawesome.com/icons/adn) icon. 
+
+{-| The [“adn”](https://fontawesome.com/icons/adn) icon.
 -}
 adn : Icon Icon.WithoutId
-adn = Icon.present Definitions.adn
+adn =
+    Icon.present Definitions.adn
 
-  
-{-| The [“cloudsmith”](https://fontawesome.com/icons/cloudsmith) icon. 
+
+{-| The [“cloudsmith”](https://fontawesome.com/icons/cloudsmith) icon.
 -}
 cloudsmith : Icon Icon.WithoutId
-cloudsmith = Icon.present Definitions.cloudsmith
+cloudsmith =
+    Icon.present Definitions.cloudsmith
 
-  
-{-| The [“opensuse”](https://fontawesome.com/icons/opensuse) icon. 
+
+{-| The [“opensuse”](https://fontawesome.com/icons/opensuse) icon.
 -}
 opensuse : Icon Icon.WithoutId
-opensuse = Icon.present Definitions.opensuse
+opensuse =
+    Icon.present Definitions.opensuse
 
-  
-{-| The [“pied-piper-alt”](https://fontawesome.com/icons/pied-piper-alt) icon. 
+
+{-| The [“pied-piper-alt”](https://fontawesome.com/icons/pied-piper-alt) icon.
 -}
 piedPiperAlt : Icon Icon.WithoutId
-piedPiperAlt = Icon.present Definitions.piedPiperAlt
+piedPiperAlt =
+    Icon.present Definitions.piedPiperAlt
 
-  
-{-| The [“square-dribbble”](https://fontawesome.com/icons/square-dribbble) icon. 
+
+{-| The [“square-dribbble”](https://fontawesome.com/icons/square-dribbble) icon.
 -}
 squareDribbble : Icon Icon.WithoutId
-squareDribbble = Icon.present Definitions.squareDribbble
+squareDribbble =
+    Icon.present Definitions.squareDribbble
+
 
 {-| Synonym for `squareDribbble`.
 -}
 dribbbleSquare : Icon Icon.WithoutId
-dribbbleSquare = squareDribbble
-    
-  
-{-| The [“codiepie”](https://fontawesome.com/icons/codiepie) icon. 
+dribbbleSquare =
+    squareDribbble
+
+
+{-| The [“codiepie”](https://fontawesome.com/icons/codiepie) icon.
 -}
 codiepie : Icon Icon.WithoutId
-codiepie = Icon.present Definitions.codiepie
+codiepie =
+    Icon.present Definitions.codiepie
 
-  
-{-| The [“node”](https://fontawesome.com/icons/node) icon. 
+
+{-| The [“node”](https://fontawesome.com/icons/node) icon.
 -}
 node : Icon Icon.WithoutId
-node = Icon.present Definitions.node
+node =
+    Icon.present Definitions.node
 
-  
-{-| The [“mix”](https://fontawesome.com/icons/mix) icon. 
+
+{-| The [“mix”](https://fontawesome.com/icons/mix) icon.
 -}
 mix : Icon Icon.WithoutId
-mix = Icon.present Definitions.mix
+mix =
+    Icon.present Definitions.mix
 
-  
-{-| The [“steam”](https://fontawesome.com/icons/steam) icon. 
+
+{-| The [“steam”](https://fontawesome.com/icons/steam) icon.
 -}
 steam : Icon Icon.WithoutId
-steam = Icon.present Definitions.steam
+steam =
+    Icon.present Definitions.steam
 
-  
-{-| The [“cc-apple-pay”](https://fontawesome.com/icons/cc-apple-pay) icon. 
+
+{-| The [“cc-apple-pay”](https://fontawesome.com/icons/cc-apple-pay) icon.
 -}
 ccApplePay : Icon Icon.WithoutId
-ccApplePay = Icon.present Definitions.ccApplePay
+ccApplePay =
+    Icon.present Definitions.ccApplePay
 
-  
-{-| The [“scribd”](https://fontawesome.com/icons/scribd) icon. 
+
+{-| The [“scribd”](https://fontawesome.com/icons/scribd) icon.
 -}
 scribd : Icon Icon.WithoutId
-scribd = Icon.present Definitions.scribd
+scribd =
+    Icon.present Definitions.scribd
 
-  
-{-| The [“debian”](https://fontawesome.com/icons/debian) icon. 
+
+{-| The [“debian”](https://fontawesome.com/icons/debian) icon.
 -}
 debian : Icon Icon.WithoutId
-debian = Icon.present Definitions.debian
+debian =
+    Icon.present Definitions.debian
 
-  
-{-| The [“openid”](https://fontawesome.com/icons/openid) icon. 
+
+{-| The [“openid”](https://fontawesome.com/icons/openid) icon.
 -}
 openid : Icon Icon.WithoutId
-openid = Icon.present Definitions.openid
+openid =
+    Icon.present Definitions.openid
 
-  
-{-| The [“instalod”](https://fontawesome.com/icons/instalod) icon. 
+
+{-| The [“instalod”](https://fontawesome.com/icons/instalod) icon.
 -}
 instalod : Icon Icon.WithoutId
-instalod = Icon.present Definitions.instalod
+instalod =
+    Icon.present Definitions.instalod
 
-  
-{-| The [“expeditedssl”](https://fontawesome.com/icons/expeditedssl) icon. 
+
+{-| The [“expeditedssl”](https://fontawesome.com/icons/expeditedssl) icon.
 -}
 expeditedssl : Icon Icon.WithoutId
-expeditedssl = Icon.present Definitions.expeditedssl
+expeditedssl =
+    Icon.present Definitions.expeditedssl
 
-  
-{-| The [“sellcast”](https://fontawesome.com/icons/sellcast) icon. 
+
+{-| The [“sellcast”](https://fontawesome.com/icons/sellcast) icon.
 -}
 sellcast : Icon Icon.WithoutId
-sellcast = Icon.present Definitions.sellcast
+sellcast =
+    Icon.present Definitions.sellcast
 
-  
-{-| The [“square-twitter”](https://fontawesome.com/icons/square-twitter) icon. 
+
+{-| The [“square-twitter”](https://fontawesome.com/icons/square-twitter) icon.
 -}
 squareTwitter : Icon Icon.WithoutId
-squareTwitter = Icon.present Definitions.squareTwitter
+squareTwitter =
+    Icon.present Definitions.squareTwitter
+
 
 {-| Synonym for `squareTwitter`.
 -}
 twitterSquare : Icon Icon.WithoutId
-twitterSquare = squareTwitter
-    
-  
-{-| The [“r-project”](https://fontawesome.com/icons/r-project) icon. 
+twitterSquare =
+    squareTwitter
+
+
+{-| The [“r-project”](https://fontawesome.com/icons/r-project) icon.
 -}
 rProject : Icon Icon.WithoutId
-rProject = Icon.present Definitions.rProject
+rProject =
+    Icon.present Definitions.rProject
 
-  
-{-| The [“delicious”](https://fontawesome.com/icons/delicious) icon. 
+
+{-| The [“delicious”](https://fontawesome.com/icons/delicious) icon.
 -}
 delicious : Icon Icon.WithoutId
-delicious = Icon.present Definitions.delicious
+delicious =
+    Icon.present Definitions.delicious
 
-  
-{-| The [“freebsd”](https://fontawesome.com/icons/freebsd) icon. 
+
+{-| The [“freebsd”](https://fontawesome.com/icons/freebsd) icon.
 -}
 freebsd : Icon Icon.WithoutId
-freebsd = Icon.present Definitions.freebsd
+freebsd =
+    Icon.present Definitions.freebsd
 
-  
-{-| The [“vuejs”](https://fontawesome.com/icons/vuejs) icon. 
+
+{-| The [“vuejs”](https://fontawesome.com/icons/vuejs) icon.
 -}
 vuejs : Icon Icon.WithoutId
-vuejs = Icon.present Definitions.vuejs
+vuejs =
+    Icon.present Definitions.vuejs
 
-  
-{-| The [“accusoft”](https://fontawesome.com/icons/accusoft) icon. 
+
+{-| The [“accusoft”](https://fontawesome.com/icons/accusoft) icon.
 -}
 accusoft : Icon Icon.WithoutId
-accusoft = Icon.present Definitions.accusoft
+accusoft =
+    Icon.present Definitions.accusoft
 
-  
-{-| The [“ioxhost”](https://fontawesome.com/icons/ioxhost) icon. 
+
+{-| The [“ioxhost”](https://fontawesome.com/icons/ioxhost) icon.
 -}
 ioxhost : Icon Icon.WithoutId
-ioxhost = Icon.present Definitions.ioxhost
+ioxhost =
+    Icon.present Definitions.ioxhost
 
-  
-{-| The [“fonticons-fi”](https://fontawesome.com/icons/fonticons-fi) icon. 
+
+{-| The [“fonticons-fi”](https://fontawesome.com/icons/fonticons-fi) icon.
 -}
 fonticonsFi : Icon Icon.WithoutId
-fonticonsFi = Icon.present Definitions.fonticonsFi
+fonticonsFi =
+    Icon.present Definitions.fonticonsFi
 
-  
-{-| The [“app-store”](https://fontawesome.com/icons/app-store) icon. 
+
+{-| The [“app-store”](https://fontawesome.com/icons/app-store) icon.
 -}
 appStore : Icon Icon.WithoutId
-appStore = Icon.present Definitions.appStore
+appStore =
+    Icon.present Definitions.appStore
 
-  
-{-| The [“cc-mastercard”](https://fontawesome.com/icons/cc-mastercard) icon. 
+
+{-| The [“cc-mastercard”](https://fontawesome.com/icons/cc-mastercard) icon.
 -}
 ccMastercard : Icon Icon.WithoutId
-ccMastercard = Icon.present Definitions.ccMastercard
+ccMastercard =
+    Icon.present Definitions.ccMastercard
 
-  
-{-| The [“itunes-note”](https://fontawesome.com/icons/itunes-note) icon. 
+
+{-| The [“itunes-note”](https://fontawesome.com/icons/itunes-note) icon.
 -}
 itunesNote : Icon Icon.WithoutId
-itunesNote = Icon.present Definitions.itunesNote
+itunesNote =
+    Icon.present Definitions.itunesNote
 
-  
-{-| The [“golang”](https://fontawesome.com/icons/golang) icon. 
+
+{-| The [“golang”](https://fontawesome.com/icons/golang) icon.
 -}
 golang : Icon Icon.WithoutId
-golang = Icon.present Definitions.golang
+golang =
+    Icon.present Definitions.golang
 
-  
-{-| The [“kickstarter”](https://fontawesome.com/icons/kickstarter) icon. 
+
+{-| The [“kickstarter”](https://fontawesome.com/icons/kickstarter) icon.
 -}
 kickstarter : Icon Icon.WithoutId
-kickstarter = Icon.present Definitions.kickstarter
+kickstarter =
+    Icon.present Definitions.kickstarter
 
-  
-{-| The [“grav”](https://fontawesome.com/icons/grav) icon. 
+
+{-| Synonym for `kickstarter`.
+-}
+squareKickstarter : Icon Icon.WithoutId
+squareKickstarter =
+    kickstarter
+
+
+{-| The [“grav”](https://fontawesome.com/icons/grav) icon.
 -}
 grav : Icon Icon.WithoutId
-grav = Icon.present Definitions.grav
+grav =
+    Icon.present Definitions.grav
 
-  
-{-| The [“weibo”](https://fontawesome.com/icons/weibo) icon. 
+
+{-| The [“weibo”](https://fontawesome.com/icons/weibo) icon.
 -}
 weibo : Icon Icon.WithoutId
-weibo = Icon.present Definitions.weibo
+weibo =
+    Icon.present Definitions.weibo
 
-  
-{-| The [“uncharted”](https://fontawesome.com/icons/uncharted) icon. 
+
+{-| The [“uncharted”](https://fontawesome.com/icons/uncharted) icon.
 -}
 uncharted : Icon Icon.WithoutId
-uncharted = Icon.present Definitions.uncharted
+uncharted =
+    Icon.present Definitions.uncharted
 
-  
-{-| The [“firstdraft”](https://fontawesome.com/icons/firstdraft) icon. 
+
+{-| The [“firstdraft”](https://fontawesome.com/icons/firstdraft) icon.
 -}
 firstdraft : Icon Icon.WithoutId
-firstdraft = Icon.present Definitions.firstdraft
+firstdraft =
+    Icon.present Definitions.firstdraft
 
-  
-{-| The [“square-youtube”](https://fontawesome.com/icons/square-youtube) icon. 
+
+{-| The [“square-youtube”](https://fontawesome.com/icons/square-youtube) icon.
 -}
 squareYoutube : Icon Icon.WithoutId
-squareYoutube = Icon.present Definitions.squareYoutube
+squareYoutube =
+    Icon.present Definitions.squareYoutube
+
 
 {-| Synonym for `squareYoutube`.
 -}
 youtubeSquare : Icon Icon.WithoutId
-youtubeSquare = squareYoutube
-    
-  
-{-| The [“wikipedia-w”](https://fontawesome.com/icons/wikipedia-w) icon. 
+youtubeSquare =
+    squareYoutube
+
+
+{-| The [“wikipedia-w”](https://fontawesome.com/icons/wikipedia-w) icon.
 -}
 wikipediaW : Icon Icon.WithoutId
-wikipediaW = Icon.present Definitions.wikipediaW
+wikipediaW =
+    Icon.present Definitions.wikipediaW
 
-  
-{-| The [“wpressr”](https://fontawesome.com/icons/wpressr) icon. 
+
+{-| The [“wpressr”](https://fontawesome.com/icons/wpressr) icon.
 -}
 wpressr : Icon Icon.WithoutId
-wpressr = Icon.present Definitions.wpressr
+wpressr =
+    Icon.present Definitions.wpressr
+
 
 {-| Synonym for `wpressr`.
 -}
 rendact : Icon Icon.WithoutId
-rendact = wpressr
-    
-  
-{-| The [“angellist”](https://fontawesome.com/icons/angellist) icon. 
+rendact =
+    wpressr
+
+
+{-| The [“angellist”](https://fontawesome.com/icons/angellist) icon.
 -}
 angellist : Icon Icon.WithoutId
-angellist = Icon.present Definitions.angellist
+angellist =
+    Icon.present Definitions.angellist
 
-  
-{-| The [“galactic-republic”](https://fontawesome.com/icons/galactic-republic) icon. 
+
+{-| The [“galactic-republic”](https://fontawesome.com/icons/galactic-republic) icon.
 -}
 galacticRepublic : Icon Icon.WithoutId
-galacticRepublic = Icon.present Definitions.galacticRepublic
+galacticRepublic =
+    Icon.present Definitions.galacticRepublic
 
-  
-{-| The [“nfc-directional”](https://fontawesome.com/icons/nfc-directional) icon. 
+
+{-| The [“nfc-directional”](https://fontawesome.com/icons/nfc-directional) icon.
 -}
 nfcDirectional : Icon Icon.WithoutId
-nfcDirectional = Icon.present Definitions.nfcDirectional
+nfcDirectional =
+    Icon.present Definitions.nfcDirectional
 
-  
-{-| The [“skype”](https://fontawesome.com/icons/skype) icon. 
+
+{-| The [“skype”](https://fontawesome.com/icons/skype) icon.
 -}
 skype : Icon Icon.WithoutId
-skype = Icon.present Definitions.skype
+skype =
+    Icon.present Definitions.skype
 
-  
-{-| The [“joget”](https://fontawesome.com/icons/joget) icon. 
+
+{-| The [“joget”](https://fontawesome.com/icons/joget) icon.
 -}
 joget : Icon Icon.WithoutId
-joget = Icon.present Definitions.joget
+joget =
+    Icon.present Definitions.joget
 
-  
-{-| The [“fedora”](https://fontawesome.com/icons/fedora) icon. 
+
+{-| The [“fedora”](https://fontawesome.com/icons/fedora) icon.
 -}
 fedora : Icon Icon.WithoutId
-fedora = Icon.present Definitions.fedora
+fedora =
+    Icon.present Definitions.fedora
 
-  
-{-| The [“stripe-s”](https://fontawesome.com/icons/stripe-s) icon. 
+
+{-| The [“stripe-s”](https://fontawesome.com/icons/stripe-s) icon.
 -}
 stripeS : Icon Icon.WithoutId
-stripeS = Icon.present Definitions.stripeS
+stripeS =
+    Icon.present Definitions.stripeS
 
-  
-{-| The [“meta”](https://fontawesome.com/icons/meta) icon. 
+
+{-| The [“meta”](https://fontawesome.com/icons/meta) icon.
 -}
 meta : Icon Icon.WithoutId
-meta = Icon.present Definitions.meta
+meta =
+    Icon.present Definitions.meta
 
-  
-{-| The [“laravel”](https://fontawesome.com/icons/laravel) icon. 
+
+{-| The [“laravel”](https://fontawesome.com/icons/laravel) icon.
 -}
 laravel : Icon Icon.WithoutId
-laravel = Icon.present Definitions.laravel
+laravel =
+    Icon.present Definitions.laravel
 
-  
-{-| The [“hotjar”](https://fontawesome.com/icons/hotjar) icon. 
+
+{-| The [“hotjar”](https://fontawesome.com/icons/hotjar) icon.
 -}
 hotjar : Icon Icon.WithoutId
-hotjar = Icon.present Definitions.hotjar
+hotjar =
+    Icon.present Definitions.hotjar
 
-  
-{-| The [“bluetooth-b”](https://fontawesome.com/icons/bluetooth-b) icon. 
+
+{-| The [“bluetooth-b”](https://fontawesome.com/icons/bluetooth-b) icon.
 -}
 bluetoothB : Icon Icon.WithoutId
-bluetoothB = Icon.present Definitions.bluetoothB
+bluetoothB =
+    Icon.present Definitions.bluetoothB
 
-  
-{-| The [“square-letterboxd”](https://fontawesome.com/icons/square-letterboxd) icon. 
+
+{-| The [“square-letterboxd”](https://fontawesome.com/icons/square-letterboxd) icon.
 -}
 squareLetterboxd : Icon Icon.WithoutId
-squareLetterboxd = Icon.present Definitions.squareLetterboxd
+squareLetterboxd =
+    Icon.present Definitions.squareLetterboxd
 
-  
-{-| The [“sticker-mule”](https://fontawesome.com/icons/sticker-mule) icon. 
+
+{-| The [“sticker-mule”](https://fontawesome.com/icons/sticker-mule) icon.
 -}
 stickerMule : Icon Icon.WithoutId
-stickerMule = Icon.present Definitions.stickerMule
+stickerMule =
+    Icon.present Definitions.stickerMule
 
-  
-{-| The [“creative-commons-zero”](https://fontawesome.com/icons/creative-commons-zero) icon. 
+
+{-| The [“creative-commons-zero”](https://fontawesome.com/icons/creative-commons-zero) icon.
 -}
 creativeCommonsZero : Icon Icon.WithoutId
-creativeCommonsZero = Icon.present Definitions.creativeCommonsZero
+creativeCommonsZero =
+    Icon.present Definitions.creativeCommonsZero
 
-  
-{-| The [“hips”](https://fontawesome.com/icons/hips) icon. 
+
+{-| The [“hips”](https://fontawesome.com/icons/hips) icon.
 -}
 hips : Icon Icon.WithoutId
-hips = Icon.present Definitions.hips
+hips =
+    Icon.present Definitions.hips
 
-  
-{-| The [“behance”](https://fontawesome.com/icons/behance) icon. 
+
+{-| The [“behance”](https://fontawesome.com/icons/behance) icon.
 -}
 behance : Icon Icon.WithoutId
-behance = Icon.present Definitions.behance
+behance =
+    Icon.present Definitions.behance
 
-  
-{-| The [“reddit”](https://fontawesome.com/icons/reddit) icon. 
+
+{-| The [“reddit”](https://fontawesome.com/icons/reddit) icon.
 -}
 reddit : Icon Icon.WithoutId
-reddit = Icon.present Definitions.reddit
+reddit =
+    Icon.present Definitions.reddit
 
-  
-{-| The [“discord”](https://fontawesome.com/icons/discord) icon. 
+
+{-| The [“discord”](https://fontawesome.com/icons/discord) icon.
 -}
 discord : Icon Icon.WithoutId
-discord = Icon.present Definitions.discord
+discord =
+    Icon.present Definitions.discord
 
-  
-{-| The [“chrome”](https://fontawesome.com/icons/chrome) icon. 
+
+{-| The [“chrome”](https://fontawesome.com/icons/chrome) icon.
 -}
 chrome : Icon Icon.WithoutId
-chrome = Icon.present Definitions.chrome
+chrome =
+    Icon.present Definitions.chrome
 
-  
-{-| The [“app-store-ios”](https://fontawesome.com/icons/app-store-ios) icon. 
+
+{-| The [“app-store-ios”](https://fontawesome.com/icons/app-store-ios) icon.
 -}
 appStoreIos : Icon Icon.WithoutId
-appStoreIos = Icon.present Definitions.appStoreIos
+appStoreIos =
+    Icon.present Definitions.appStoreIos
 
-  
-{-| The [“cc-discover”](https://fontawesome.com/icons/cc-discover) icon. 
+
+{-| The [“cc-discover”](https://fontawesome.com/icons/cc-discover) icon.
 -}
 ccDiscover : Icon Icon.WithoutId
-ccDiscover = Icon.present Definitions.ccDiscover
+ccDiscover =
+    Icon.present Definitions.ccDiscover
 
-  
-{-| The [“wpbeginner”](https://fontawesome.com/icons/wpbeginner) icon. 
+
+{-| The [“wpbeginner”](https://fontawesome.com/icons/wpbeginner) icon.
 -}
 wpbeginner : Icon Icon.WithoutId
-wpbeginner = Icon.present Definitions.wpbeginner
+wpbeginner =
+    Icon.present Definitions.wpbeginner
 
-  
-{-| The [“confluence”](https://fontawesome.com/icons/confluence) icon. 
+
+{-| The [“confluence”](https://fontawesome.com/icons/confluence) icon.
 -}
 confluence : Icon Icon.WithoutId
-confluence = Icon.present Definitions.confluence
+confluence =
+    Icon.present Definitions.confluence
 
-  
-{-| The [“shoelace”](https://fontawesome.com/icons/shoelace) icon. 
+
+{-| The [“shoelace”](https://fontawesome.com/icons/shoelace) icon.
 -}
 shoelace : Icon Icon.WithoutId
-shoelace = Icon.present Definitions.shoelace
+shoelace =
+    Icon.present Definitions.shoelace
 
-  
-{-| The [“mdb”](https://fontawesome.com/icons/mdb) icon. 
+
+{-| The [“mdb”](https://fontawesome.com/icons/mdb) icon.
 -}
 mdb : Icon Icon.WithoutId
-mdb = Icon.present Definitions.mdb
+mdb =
+    Icon.present Definitions.mdb
 
-  
-{-| The [“dochub”](https://fontawesome.com/icons/dochub) icon. 
+
+{-| The [“dochub”](https://fontawesome.com/icons/dochub) icon.
 -}
 dochub : Icon Icon.WithoutId
-dochub = Icon.present Definitions.dochub
+dochub =
+    Icon.present Definitions.dochub
 
-  
-{-| The [“accessible-icon”](https://fontawesome.com/icons/accessible-icon) icon. 
+
+{-| The [“accessible-icon”](https://fontawesome.com/icons/accessible-icon) icon.
 -}
 accessibleIcon : Icon Icon.WithoutId
-accessibleIcon = Icon.present Definitions.accessibleIcon
+accessibleIcon =
+    Icon.present Definitions.accessibleIcon
 
-  
-{-| The [“ebay”](https://fontawesome.com/icons/ebay) icon. 
+
+{-| The [“ebay”](https://fontawesome.com/icons/ebay) icon.
 -}
 ebay : Icon Icon.WithoutId
-ebay = Icon.present Definitions.ebay
+ebay =
+    Icon.present Definitions.ebay
 
-  
-{-| The [“amazon”](https://fontawesome.com/icons/amazon) icon. 
+
+{-| The [“amazon”](https://fontawesome.com/icons/amazon) icon.
 -}
 amazon : Icon Icon.WithoutId
-amazon = Icon.present Definitions.amazon
+amazon =
+    Icon.present Definitions.amazon
 
-  
-{-| The [“unsplash”](https://fontawesome.com/icons/unsplash) icon. 
+
+{-| The [“unsplash”](https://fontawesome.com/icons/unsplash) icon.
 -}
 unsplash : Icon Icon.WithoutId
-unsplash = Icon.present Definitions.unsplash
+unsplash =
+    Icon.present Definitions.unsplash
 
-  
-{-| The [“yarn”](https://fontawesome.com/icons/yarn) icon. 
+
+{-| The [“yarn”](https://fontawesome.com/icons/yarn) icon.
 -}
 yarn : Icon Icon.WithoutId
-yarn = Icon.present Definitions.yarn
+yarn =
+    Icon.present Definitions.yarn
 
-  
-{-| The [“square-steam”](https://fontawesome.com/icons/square-steam) icon. 
+
+{-| The [“square-steam”](https://fontawesome.com/icons/square-steam) icon.
 -}
 squareSteam : Icon Icon.WithoutId
-squareSteam = Icon.present Definitions.squareSteam
+squareSteam =
+    Icon.present Definitions.squareSteam
+
 
 {-| Synonym for `squareSteam`.
 -}
 steamSquare : Icon Icon.WithoutId
-steamSquare = squareSteam
-    
-  
-{-| The [“500px”](https://fontawesome.com/icons/500px) icon. 
+steamSquare =
+    squareSteam
+
+
+{-| The [“500px”](https://fontawesome.com/icons/500px) icon.
 -}
 fa500px : Icon Icon.WithoutId
-fa500px = Icon.present Definitions.fa500px
+fa500px =
+    Icon.present Definitions.fa500px
 
-  
-{-| The [“square-vimeo”](https://fontawesome.com/icons/square-vimeo) icon. 
+
+{-| The [“square-vimeo”](https://fontawesome.com/icons/square-vimeo) icon.
 -}
 squareVimeo : Icon Icon.WithoutId
-squareVimeo = Icon.present Definitions.squareVimeo
+squareVimeo =
+    Icon.present Definitions.squareVimeo
+
 
 {-| Synonym for `squareVimeo`.
 -}
 vimeoSquare : Icon Icon.WithoutId
-vimeoSquare = squareVimeo
-    
-  
-{-| The [“asymmetrik”](https://fontawesome.com/icons/asymmetrik) icon. 
+vimeoSquare =
+    squareVimeo
+
+
+{-| The [“asymmetrik”](https://fontawesome.com/icons/asymmetrik) icon.
 -}
 asymmetrik : Icon Icon.WithoutId
-asymmetrik = Icon.present Definitions.asymmetrik
+asymmetrik =
+    Icon.present Definitions.asymmetrik
 
-  
-{-| The [“font-awesome”](https://fontawesome.com/icons/font-awesome) icon. 
+
+{-| The [“font-awesome”](https://fontawesome.com/icons/font-awesome) icon.
 -}
 fontAwesome : Icon Icon.WithoutId
-fontAwesome = Icon.present Definitions.fontAwesome
+fontAwesome =
+    Icon.present Definitions.fontAwesome
+
 
 {-| Synonym for `fontAwesome`.
 -}
 fontAwesomeFlag : Icon Icon.WithoutId
-fontAwesomeFlag = fontAwesome
-    
+fontAwesomeFlag =
+    fontAwesome
+
+
 {-| Synonym for `fontAwesome`.
 -}
 fontAwesomeLogoFull : Icon Icon.WithoutId
-fontAwesomeLogoFull = fontAwesome
-    
-  
-{-| The [“gratipay”](https://fontawesome.com/icons/gratipay) icon. 
+fontAwesomeLogoFull =
+    fontAwesome
+
+
+{-| The [“gratipay”](https://fontawesome.com/icons/gratipay) icon.
 -}
 gratipay : Icon Icon.WithoutId
-gratipay = Icon.present Definitions.gratipay
+gratipay =
+    Icon.present Definitions.gratipay
 
-  
-{-| The [“apple”](https://fontawesome.com/icons/apple) icon. 
+
+{-| The [“apple”](https://fontawesome.com/icons/apple) icon.
 -}
 apple : Icon Icon.WithoutId
-apple = Icon.present Definitions.apple
+apple =
+    Icon.present Definitions.apple
 
-  
-{-| The [“hive”](https://fontawesome.com/icons/hive) icon. 
+
+{-| The [“hive”](https://fontawesome.com/icons/hive) icon.
 -}
 hive : Icon Icon.WithoutId
-hive = Icon.present Definitions.hive
+hive =
+    Icon.present Definitions.hive
 
-  
-{-| The [“gitkraken”](https://fontawesome.com/icons/gitkraken) icon. 
+
+{-| The [“gitkraken”](https://fontawesome.com/icons/gitkraken) icon.
 -}
 gitkraken : Icon Icon.WithoutId
-gitkraken = Icon.present Definitions.gitkraken
+gitkraken =
+    Icon.present Definitions.gitkraken
 
-  
-{-| The [“keybase”](https://fontawesome.com/icons/keybase) icon. 
+
+{-| The [“keybase”](https://fontawesome.com/icons/keybase) icon.
 -}
 keybase : Icon Icon.WithoutId
-keybase = Icon.present Definitions.keybase
+keybase =
+    Icon.present Definitions.keybase
 
-  
-{-| The [“apple-pay”](https://fontawesome.com/icons/apple-pay) icon. 
+
+{-| The [“apple-pay”](https://fontawesome.com/icons/apple-pay) icon.
 -}
 applePay : Icon Icon.WithoutId
-applePay = Icon.present Definitions.applePay
+applePay =
+    Icon.present Definitions.applePay
 
-  
-{-| The [“padlet”](https://fontawesome.com/icons/padlet) icon. 
+
+{-| The [“padlet”](https://fontawesome.com/icons/padlet) icon.
 -}
 padlet : Icon Icon.WithoutId
-padlet = Icon.present Definitions.padlet
+padlet =
+    Icon.present Definitions.padlet
 
-  
-{-| The [“amazon-pay”](https://fontawesome.com/icons/amazon-pay) icon. 
+
+{-| The [“amazon-pay”](https://fontawesome.com/icons/amazon-pay) icon.
 -}
 amazonPay : Icon Icon.WithoutId
-amazonPay = Icon.present Definitions.amazonPay
+amazonPay =
+    Icon.present Definitions.amazonPay
 
-  
-{-| The [“square-github”](https://fontawesome.com/icons/square-github) icon. 
+
+{-| The [“square-github”](https://fontawesome.com/icons/square-github) icon.
 -}
 squareGithub : Icon Icon.WithoutId
-squareGithub = Icon.present Definitions.squareGithub
+squareGithub =
+    Icon.present Definitions.squareGithub
+
 
 {-| Synonym for `squareGithub`.
 -}
 githubSquare : Icon Icon.WithoutId
-githubSquare = squareGithub
-    
-  
-{-| The [“stumbleupon”](https://fontawesome.com/icons/stumbleupon) icon. 
+githubSquare =
+    squareGithub
+
+
+{-| The [“stumbleupon”](https://fontawesome.com/icons/stumbleupon) icon.
 -}
 stumbleupon : Icon Icon.WithoutId
-stumbleupon = Icon.present Definitions.stumbleupon
+stumbleupon =
+    Icon.present Definitions.stumbleupon
 
-  
-{-| The [“fedex”](https://fontawesome.com/icons/fedex) icon. 
+
+{-| The [“fedex”](https://fontawesome.com/icons/fedex) icon.
 -}
 fedex : Icon Icon.WithoutId
-fedex = Icon.present Definitions.fedex
+fedex =
+    Icon.present Definitions.fedex
 
-  
-{-| The [“phoenix-framework”](https://fontawesome.com/icons/phoenix-framework) icon. 
+
+{-| The [“phoenix-framework”](https://fontawesome.com/icons/phoenix-framework) icon.
 -}
 phoenixFramework : Icon Icon.WithoutId
-phoenixFramework = Icon.present Definitions.phoenixFramework
+phoenixFramework =
+    Icon.present Definitions.phoenixFramework
 
-  
-{-| The [“shopify”](https://fontawesome.com/icons/shopify) icon. 
+
+{-| The [“shopify”](https://fontawesome.com/icons/shopify) icon.
 -}
 shopify : Icon Icon.WithoutId
-shopify = Icon.present Definitions.shopify
+shopify =
+    Icon.present Definitions.shopify
 
-  
-{-| The [“neos”](https://fontawesome.com/icons/neos) icon. 
+
+{-| The [“neos”](https://fontawesome.com/icons/neos) icon.
 -}
 neos : Icon Icon.WithoutId
-neos = Icon.present Definitions.neos
+neos =
+    Icon.present Definitions.neos
 
-  
-{-| The [“square-threads”](https://fontawesome.com/icons/square-threads) icon. 
+
+{-| The [“square-threads”](https://fontawesome.com/icons/square-threads) icon.
 -}
 squareThreads : Icon Icon.WithoutId
-squareThreads = Icon.present Definitions.squareThreads
+squareThreads =
+    Icon.present Definitions.squareThreads
 
-  
-{-| The [“hackerrank”](https://fontawesome.com/icons/hackerrank) icon. 
+
+{-| The [“hackerrank”](https://fontawesome.com/icons/hackerrank) icon.
 -}
 hackerrank : Icon Icon.WithoutId
-hackerrank = Icon.present Definitions.hackerrank
+hackerrank =
+    Icon.present Definitions.hackerrank
 
-  
-{-| The [“researchgate”](https://fontawesome.com/icons/researchgate) icon. 
+
+{-| The [“researchgate”](https://fontawesome.com/icons/researchgate) icon.
 -}
 researchgate : Icon Icon.WithoutId
-researchgate = Icon.present Definitions.researchgate
+researchgate =
+    Icon.present Definitions.researchgate
 
-  
-{-| The [“swift”](https://fontawesome.com/icons/swift) icon. 
+
+{-| The [“swift”](https://fontawesome.com/icons/swift) icon.
 -}
 swift : Icon Icon.WithoutId
-swift = Icon.present Definitions.swift
+swift =
+    Icon.present Definitions.swift
 
-  
-{-| The [“angular”](https://fontawesome.com/icons/angular) icon. 
+
+{-| The [“angular”](https://fontawesome.com/icons/angular) icon.
 -}
 angular : Icon Icon.WithoutId
-angular = Icon.present Definitions.angular
+angular =
+    Icon.present Definitions.angular
 
-  
-{-| The [“speakap”](https://fontawesome.com/icons/speakap) icon. 
+
+{-| The [“speakap”](https://fontawesome.com/icons/speakap) icon.
 -}
 speakap : Icon Icon.WithoutId
-speakap = Icon.present Definitions.speakap
+speakap =
+    Icon.present Definitions.speakap
 
-  
-{-| The [“angrycreative”](https://fontawesome.com/icons/angrycreative) icon. 
+
+{-| The [“angrycreative”](https://fontawesome.com/icons/angrycreative) icon.
 -}
 angrycreative : Icon Icon.WithoutId
-angrycreative = Icon.present Definitions.angrycreative
+angrycreative =
+    Icon.present Definitions.angrycreative
 
-  
-{-| The [“y-combinator”](https://fontawesome.com/icons/y-combinator) icon. 
+
+{-| The [“y-combinator”](https://fontawesome.com/icons/y-combinator) icon.
 -}
 yCombinator : Icon Icon.WithoutId
-yCombinator = Icon.present Definitions.yCombinator
+yCombinator =
+    Icon.present Definitions.yCombinator
 
-  
-{-| The [“empire”](https://fontawesome.com/icons/empire) icon. 
+
+{-| The [“empire”](https://fontawesome.com/icons/empire) icon.
 -}
 empire : Icon Icon.WithoutId
-empire = Icon.present Definitions.empire
+empire =
+    Icon.present Definitions.empire
 
-  
-{-| The [“envira”](https://fontawesome.com/icons/envira) icon. 
+
+{-| The [“envira”](https://fontawesome.com/icons/envira) icon.
 -}
 envira : Icon Icon.WithoutId
-envira = Icon.present Definitions.envira
+envira =
+    Icon.present Definitions.envira
 
-  
-{-| The [“google-scholar”](https://fontawesome.com/icons/google-scholar) icon. 
+
+{-| The [“google-scholar”](https://fontawesome.com/icons/google-scholar) icon.
 -}
 googleScholar : Icon Icon.WithoutId
-googleScholar = Icon.present Definitions.googleScholar
+googleScholar =
+    Icon.present Definitions.googleScholar
 
-  
-{-| The [“square-gitlab”](https://fontawesome.com/icons/square-gitlab) icon. 
+
+{-| The [“square-gitlab”](https://fontawesome.com/icons/square-gitlab) icon.
 -}
 squareGitlab : Icon Icon.WithoutId
-squareGitlab = Icon.present Definitions.squareGitlab
+squareGitlab =
+    Icon.present Definitions.squareGitlab
+
 
 {-| Synonym for `squareGitlab`.
 -}
 gitlabSquare : Icon Icon.WithoutId
-gitlabSquare = squareGitlab
-    
-  
-{-| The [“studiovinari”](https://fontawesome.com/icons/studiovinari) icon. 
+gitlabSquare =
+    squareGitlab
+
+
+{-| The [“studiovinari”](https://fontawesome.com/icons/studiovinari) icon.
 -}
 studiovinari : Icon Icon.WithoutId
-studiovinari = Icon.present Definitions.studiovinari
+studiovinari =
+    Icon.present Definitions.studiovinari
 
-  
-{-| The [“pied-piper”](https://fontawesome.com/icons/pied-piper) icon. 
+
+{-| The [“pied-piper”](https://fontawesome.com/icons/pied-piper) icon.
 -}
 piedPiper : Icon Icon.WithoutId
-piedPiper = Icon.present Definitions.piedPiper
+piedPiper =
+    Icon.present Definitions.piedPiper
 
-  
-{-| The [“wordpress”](https://fontawesome.com/icons/wordpress) icon. 
+
+{-| The [“wordpress”](https://fontawesome.com/icons/wordpress) icon.
 -}
 wordpress : Icon Icon.WithoutId
-wordpress = Icon.present Definitions.wordpress
+wordpress =
+    Icon.present Definitions.wordpress
 
-  
-{-| The [“product-hunt”](https://fontawesome.com/icons/product-hunt) icon. 
+
+{-| The [“product-hunt”](https://fontawesome.com/icons/product-hunt) icon.
 -}
 productHunt : Icon Icon.WithoutId
-productHunt = Icon.present Definitions.productHunt
+productHunt =
+    Icon.present Definitions.productHunt
 
-  
-{-| The [“firefox”](https://fontawesome.com/icons/firefox) icon. 
+
+{-| The [“firefox”](https://fontawesome.com/icons/firefox) icon.
 -}
 firefox : Icon Icon.WithoutId
-firefox = Icon.present Definitions.firefox
+firefox =
+    Icon.present Definitions.firefox
 
-  
-{-| The [“linode”](https://fontawesome.com/icons/linode) icon. 
+
+{-| The [“linode”](https://fontawesome.com/icons/linode) icon.
 -}
 linode : Icon Icon.WithoutId
-linode = Icon.present Definitions.linode
+linode =
+    Icon.present Definitions.linode
 
-  
-{-| The [“goodreads”](https://fontawesome.com/icons/goodreads) icon. 
+
+{-| The [“goodreads”](https://fontawesome.com/icons/goodreads) icon.
 -}
 goodreads : Icon Icon.WithoutId
-goodreads = Icon.present Definitions.goodreads
+goodreads =
+    Icon.present Definitions.goodreads
 
-  
-{-| The [“square-odnoklassniki”](https://fontawesome.com/icons/square-odnoklassniki) icon. 
+
+{-| The [“square-odnoklassniki”](https://fontawesome.com/icons/square-odnoklassniki) icon.
 -}
 squareOdnoklassniki : Icon Icon.WithoutId
-squareOdnoklassniki = Icon.present Definitions.squareOdnoklassniki
+squareOdnoklassniki =
+    Icon.present Definitions.squareOdnoklassniki
+
 
 {-| Synonym for `squareOdnoklassniki`.
 -}
 odnoklassnikiSquare : Icon Icon.WithoutId
-odnoklassnikiSquare = squareOdnoklassniki
-    
-  
-{-| The [“jsfiddle”](https://fontawesome.com/icons/jsfiddle) icon. 
+odnoklassnikiSquare =
+    squareOdnoklassniki
+
+
+{-| The [“jsfiddle”](https://fontawesome.com/icons/jsfiddle) icon.
 -}
 jsfiddle : Icon Icon.WithoutId
-jsfiddle = Icon.present Definitions.jsfiddle
+jsfiddle =
+    Icon.present Definitions.jsfiddle
 
-  
-{-| The [“sith”](https://fontawesome.com/icons/sith) icon. 
+
+{-| The [“sith”](https://fontawesome.com/icons/sith) icon.
 -}
 sith : Icon Icon.WithoutId
-sith = Icon.present Definitions.sith
+sith =
+    Icon.present Definitions.sith
 
-  
-{-| The [“themeisle”](https://fontawesome.com/icons/themeisle) icon. 
+
+{-| The [“themeisle”](https://fontawesome.com/icons/themeisle) icon.
 -}
 themeisle : Icon Icon.WithoutId
-themeisle = Icon.present Definitions.themeisle
+themeisle =
+    Icon.present Definitions.themeisle
 
-  
-{-| The [“page4”](https://fontawesome.com/icons/page4) icon. 
+
+{-| The [“page4”](https://fontawesome.com/icons/page4) icon.
 -}
 page4 : Icon Icon.WithoutId
-page4 = Icon.present Definitions.page4
+page4 =
+    Icon.present Definitions.page4
 
-  
-{-| The [“hashnode”](https://fontawesome.com/icons/hashnode) icon. 
+
+{-| The [“hashnode”](https://fontawesome.com/icons/hashnode) icon.
 -}
 hashnode : Icon Icon.WithoutId
-hashnode = Icon.present Definitions.hashnode
+hashnode =
+    Icon.present Definitions.hashnode
 
-  
-{-| The [“react”](https://fontawesome.com/icons/react) icon. 
+
+{-| The [“react”](https://fontawesome.com/icons/react) icon.
 -}
 react : Icon Icon.WithoutId
-react = Icon.present Definitions.react
+react =
+    Icon.present Definitions.react
 
-  
-{-| The [“cc-paypal”](https://fontawesome.com/icons/cc-paypal) icon. 
+
+{-| The [“cc-paypal”](https://fontawesome.com/icons/cc-paypal) icon.
 -}
 ccPaypal : Icon Icon.WithoutId
-ccPaypal = Icon.present Definitions.ccPaypal
+ccPaypal =
+    Icon.present Definitions.ccPaypal
 
-  
-{-| The [“squarespace”](https://fontawesome.com/icons/squarespace) icon. 
+
+{-| The [“squarespace”](https://fontawesome.com/icons/squarespace) icon.
 -}
 squarespace : Icon Icon.WithoutId
-squarespace = Icon.present Definitions.squarespace
+squarespace =
+    Icon.present Definitions.squarespace
 
-  
-{-| The [“cc-stripe”](https://fontawesome.com/icons/cc-stripe) icon. 
+
+{-| The [“cc-stripe”](https://fontawesome.com/icons/cc-stripe) icon.
 -}
 ccStripe : Icon Icon.WithoutId
-ccStripe = Icon.present Definitions.ccStripe
+ccStripe =
+    Icon.present Definitions.ccStripe
 
-  
-{-| The [“creative-commons-share”](https://fontawesome.com/icons/creative-commons-share) icon. 
+
+{-| The [“creative-commons-share”](https://fontawesome.com/icons/creative-commons-share) icon.
 -}
 creativeCommonsShare : Icon Icon.WithoutId
-creativeCommonsShare = Icon.present Definitions.creativeCommonsShare
+creativeCommonsShare =
+    Icon.present Definitions.creativeCommonsShare
 
-  
-{-| The [“bitcoin”](https://fontawesome.com/icons/bitcoin) icon. 
+
+{-| The [“bitcoin”](https://fontawesome.com/icons/bitcoin) icon.
 -}
 bitcoin : Icon Icon.WithoutId
-bitcoin = Icon.present Definitions.bitcoin
+bitcoin =
+    Icon.present Definitions.bitcoin
 
-  
-{-| The [“keycdn”](https://fontawesome.com/icons/keycdn) icon. 
+
+{-| The [“keycdn”](https://fontawesome.com/icons/keycdn) icon.
 -}
 keycdn : Icon Icon.WithoutId
-keycdn = Icon.present Definitions.keycdn
+keycdn =
+    Icon.present Definitions.keycdn
 
-  
-{-| The [“opera”](https://fontawesome.com/icons/opera) icon. 
+
+{-| The [“opera”](https://fontawesome.com/icons/opera) icon.
 -}
 opera : Icon Icon.WithoutId
-opera = Icon.present Definitions.opera
+opera =
+    Icon.present Definitions.opera
 
-  
-{-| The [“itch-io”](https://fontawesome.com/icons/itch-io) icon. 
+
+{-| The [“itch-io”](https://fontawesome.com/icons/itch-io) icon.
 -}
 itchIo : Icon Icon.WithoutId
-itchIo = Icon.present Definitions.itchIo
+itchIo =
+    Icon.present Definitions.itchIo
 
-  
-{-| The [“umbraco”](https://fontawesome.com/icons/umbraco) icon. 
+
+{-| The [“umbraco”](https://fontawesome.com/icons/umbraco) icon.
 -}
 umbraco : Icon Icon.WithoutId
-umbraco = Icon.present Definitions.umbraco
+umbraco =
+    Icon.present Definitions.umbraco
 
-  
-{-| The [“galactic-senate”](https://fontawesome.com/icons/galactic-senate) icon. 
+
+{-| The [“galactic-senate”](https://fontawesome.com/icons/galactic-senate) icon.
 -}
 galacticSenate : Icon Icon.WithoutId
-galacticSenate = Icon.present Definitions.galacticSenate
+galacticSenate =
+    Icon.present Definitions.galacticSenate
 
-  
-{-| The [“ubuntu”](https://fontawesome.com/icons/ubuntu) icon. 
+
+{-| The [“ubuntu”](https://fontawesome.com/icons/ubuntu) icon.
 -}
 ubuntu : Icon Icon.WithoutId
-ubuntu = Icon.present Definitions.ubuntu
+ubuntu =
+    Icon.present Definitions.ubuntu
 
-  
-{-| The [“draft2digital”](https://fontawesome.com/icons/draft2digital) icon. 
+
+{-| The [“draft2digital”](https://fontawesome.com/icons/draft2digital) icon.
 -}
 draft2digital : Icon Icon.WithoutId
-draft2digital = Icon.present Definitions.draft2digital
+draft2digital =
+    Icon.present Definitions.draft2digital
 
-  
-{-| The [“stripe”](https://fontawesome.com/icons/stripe) icon. 
+
+{-| The [“stripe”](https://fontawesome.com/icons/stripe) icon.
 -}
 stripe : Icon Icon.WithoutId
-stripe = Icon.present Definitions.stripe
+stripe =
+    Icon.present Definitions.stripe
 
-  
-{-| The [“houzz”](https://fontawesome.com/icons/houzz) icon. 
+
+{-| The [“houzz”](https://fontawesome.com/icons/houzz) icon.
 -}
 houzz : Icon Icon.WithoutId
-houzz = Icon.present Definitions.houzz
+houzz =
+    Icon.present Definitions.houzz
 
-  
-{-| The [“gg”](https://fontawesome.com/icons/gg) icon. 
+
+{-| The [“gg”](https://fontawesome.com/icons/gg) icon.
 -}
 gg : Icon Icon.WithoutId
-gg = Icon.present Definitions.gg
+gg =
+    Icon.present Definitions.gg
 
-  
-{-| The [“dhl”](https://fontawesome.com/icons/dhl) icon. 
+
+{-| The [“dhl”](https://fontawesome.com/icons/dhl) icon.
 -}
 dhl : Icon Icon.WithoutId
-dhl = Icon.present Definitions.dhl
+dhl =
+    Icon.present Definitions.dhl
 
-  
-{-| The [“square-pinterest”](https://fontawesome.com/icons/square-pinterest) icon. 
+
+{-| The [“square-pinterest”](https://fontawesome.com/icons/square-pinterest) icon.
 -}
 squarePinterest : Icon Icon.WithoutId
-squarePinterest = Icon.present Definitions.squarePinterest
+squarePinterest =
+    Icon.present Definitions.squarePinterest
+
 
 {-| Synonym for `squarePinterest`.
 -}
 pinterestSquare : Icon Icon.WithoutId
-pinterestSquare = squarePinterest
-    
-  
-{-| The [“xing”](https://fontawesome.com/icons/xing) icon. 
+pinterestSquare =
+    squarePinterest
+
+
+{-| The [“xing”](https://fontawesome.com/icons/xing) icon.
 -}
 xing : Icon Icon.WithoutId
-xing = Icon.present Definitions.xing
+xing =
+    Icon.present Definitions.xing
 
-  
-{-| The [“blackberry”](https://fontawesome.com/icons/blackberry) icon. 
+
+{-| The [“blackberry”](https://fontawesome.com/icons/blackberry) icon.
 -}
 blackberry : Icon Icon.WithoutId
-blackberry = Icon.present Definitions.blackberry
+blackberry =
+    Icon.present Definitions.blackberry
 
-  
-{-| The [“creative-commons-pd”](https://fontawesome.com/icons/creative-commons-pd) icon. 
+
+{-| The [“creative-commons-pd”](https://fontawesome.com/icons/creative-commons-pd) icon.
 -}
 creativeCommonsPd : Icon Icon.WithoutId
-creativeCommonsPd = Icon.present Definitions.creativeCommonsPd
+creativeCommonsPd =
+    Icon.present Definitions.creativeCommonsPd
 
-  
-{-| The [“playstation”](https://fontawesome.com/icons/playstation) icon. 
+
+{-| The [“playstation”](https://fontawesome.com/icons/playstation) icon.
 -}
 playstation : Icon Icon.WithoutId
-playstation = Icon.present Definitions.playstation
+playstation =
+    Icon.present Definitions.playstation
 
-  
-{-| The [“quinscape”](https://fontawesome.com/icons/quinscape) icon. 
+
+{-| The [“quinscape”](https://fontawesome.com/icons/quinscape) icon.
 -}
 quinscape : Icon Icon.WithoutId
-quinscape = Icon.present Definitions.quinscape
+quinscape =
+    Icon.present Definitions.quinscape
 
-  
-{-| The [“less”](https://fontawesome.com/icons/less) icon. 
+
+{-| The [“less”](https://fontawesome.com/icons/less) icon.
 -}
 less : Icon Icon.WithoutId
-less = Icon.present Definitions.less
+less =
+    Icon.present Definitions.less
 
-  
-{-| The [“blogger-b”](https://fontawesome.com/icons/blogger-b) icon. 
+
+{-| The [“blogger-b”](https://fontawesome.com/icons/blogger-b) icon.
 -}
 bloggerB : Icon Icon.WithoutId
-bloggerB = Icon.present Definitions.bloggerB
+bloggerB =
+    Icon.present Definitions.bloggerB
 
-  
-{-| The [“opencart”](https://fontawesome.com/icons/opencart) icon. 
+
+{-| The [“opencart”](https://fontawesome.com/icons/opencart) icon.
 -}
 opencart : Icon Icon.WithoutId
-opencart = Icon.present Definitions.opencart
+opencart =
+    Icon.present Definitions.opencart
 
-  
-{-| The [“vine”](https://fontawesome.com/icons/vine) icon. 
+
+{-| The [“vine”](https://fontawesome.com/icons/vine) icon.
 -}
 vine : Icon Icon.WithoutId
-vine = Icon.present Definitions.vine
+vine =
+    Icon.present Definitions.vine
 
-  
-{-| The [“signal-messenger”](https://fontawesome.com/icons/signal-messenger) icon. 
+
+{-| The [“signal-messenger”](https://fontawesome.com/icons/signal-messenger) icon.
 -}
 signalMessenger : Icon Icon.WithoutId
-signalMessenger = Icon.present Definitions.signalMessenger
+signalMessenger =
+    Icon.present Definitions.signalMessenger
 
-  
-{-| The [“paypal”](https://fontawesome.com/icons/paypal) icon. 
+
+{-| The [“paypal”](https://fontawesome.com/icons/paypal) icon.
 -}
 paypal : Icon Icon.WithoutId
-paypal = Icon.present Definitions.paypal
+paypal =
+    Icon.present Definitions.paypal
 
-  
-{-| The [“gitlab”](https://fontawesome.com/icons/gitlab) icon. 
+
+{-| The [“gitlab”](https://fontawesome.com/icons/gitlab) icon.
 -}
 gitlab : Icon Icon.WithoutId
-gitlab = Icon.present Definitions.gitlab
+gitlab =
+    Icon.present Definitions.gitlab
 
-  
-{-| The [“typo3”](https://fontawesome.com/icons/typo3) icon. 
+
+{-| The [“typo3”](https://fontawesome.com/icons/typo3) icon.
 -}
 typo3 : Icon Icon.WithoutId
-typo3 = Icon.present Definitions.typo3
+typo3 =
+    Icon.present Definitions.typo3
 
-  
-{-| The [“reddit-alien”](https://fontawesome.com/icons/reddit-alien) icon. 
+
+{-| The [“reddit-alien”](https://fontawesome.com/icons/reddit-alien) icon.
 -}
 redditAlien : Icon Icon.WithoutId
-redditAlien = Icon.present Definitions.redditAlien
+redditAlien =
+    Icon.present Definitions.redditAlien
 
-  
-{-| The [“yahoo”](https://fontawesome.com/icons/yahoo) icon. 
+
+{-| The [“yahoo”](https://fontawesome.com/icons/yahoo) icon.
 -}
 yahoo : Icon Icon.WithoutId
-yahoo = Icon.present Definitions.yahoo
+yahoo =
+    Icon.present Definitions.yahoo
 
-  
-{-| The [“dailymotion”](https://fontawesome.com/icons/dailymotion) icon. 
+
+{-| The [“dailymotion”](https://fontawesome.com/icons/dailymotion) icon.
 -}
 dailymotion : Icon Icon.WithoutId
-dailymotion = Icon.present Definitions.dailymotion
+dailymotion =
+    Icon.present Definitions.dailymotion
 
-  
-{-| The [“affiliatetheme”](https://fontawesome.com/icons/affiliatetheme) icon. 
+
+{-| The [“affiliatetheme”](https://fontawesome.com/icons/affiliatetheme) icon.
 -}
 affiliatetheme : Icon Icon.WithoutId
-affiliatetheme = Icon.present Definitions.affiliatetheme
+affiliatetheme =
+    Icon.present Definitions.affiliatetheme
 
-  
-{-| The [“pied-piper-pp”](https://fontawesome.com/icons/pied-piper-pp) icon. 
+
+{-| The [“pied-piper-pp”](https://fontawesome.com/icons/pied-piper-pp) icon.
 -}
 piedPiperPp : Icon Icon.WithoutId
-piedPiperPp = Icon.present Definitions.piedPiperPp
+piedPiperPp =
+    Icon.present Definitions.piedPiperPp
 
-  
-{-| The [“bootstrap”](https://fontawesome.com/icons/bootstrap) icon. 
+
+{-| The [“bootstrap”](https://fontawesome.com/icons/bootstrap) icon.
 -}
 bootstrap : Icon Icon.WithoutId
-bootstrap = Icon.present Definitions.bootstrap
+bootstrap =
+    Icon.present Definitions.bootstrap
 
-  
-{-| The [“odnoklassniki”](https://fontawesome.com/icons/odnoklassniki) icon. 
+
+{-| The [“odnoklassniki”](https://fontawesome.com/icons/odnoklassniki) icon.
 -}
 odnoklassniki : Icon Icon.WithoutId
-odnoklassniki = Icon.present Definitions.odnoklassniki
+odnoklassniki =
+    Icon.present Definitions.odnoklassniki
 
-  
-{-| The [“nfc-symbol”](https://fontawesome.com/icons/nfc-symbol) icon. 
+
+{-| The [“nfc-symbol”](https://fontawesome.com/icons/nfc-symbol) icon.
 -}
 nfcSymbol : Icon Icon.WithoutId
-nfcSymbol = Icon.present Definitions.nfcSymbol
+nfcSymbol =
+    Icon.present Definitions.nfcSymbol
 
-  
-{-| The [“mintbit”](https://fontawesome.com/icons/mintbit) icon. 
+
+{-| The [“mintbit”](https://fontawesome.com/icons/mintbit) icon.
 -}
 mintbit : Icon Icon.WithoutId
-mintbit = Icon.present Definitions.mintbit
+mintbit =
+    Icon.present Definitions.mintbit
 
-  
-{-| The [“ethereum”](https://fontawesome.com/icons/ethereum) icon. 
+
+{-| The [“ethereum”](https://fontawesome.com/icons/ethereum) icon.
 -}
 ethereum : Icon Icon.WithoutId
-ethereum = Icon.present Definitions.ethereum
+ethereum =
+    Icon.present Definitions.ethereum
 
-  
-{-| The [“speaker-deck”](https://fontawesome.com/icons/speaker-deck) icon. 
+
+{-| The [“speaker-deck”](https://fontawesome.com/icons/speaker-deck) icon.
 -}
 speakerDeck : Icon Icon.WithoutId
-speakerDeck = Icon.present Definitions.speakerDeck
+speakerDeck =
+    Icon.present Definitions.speakerDeck
 
-  
-{-| The [“creative-commons-nc-eu”](https://fontawesome.com/icons/creative-commons-nc-eu) icon. 
+
+{-| The [“creative-commons-nc-eu”](https://fontawesome.com/icons/creative-commons-nc-eu) icon.
 -}
 creativeCommonsNcEu : Icon Icon.WithoutId
-creativeCommonsNcEu = Icon.present Definitions.creativeCommonsNcEu
+creativeCommonsNcEu =
+    Icon.present Definitions.creativeCommonsNcEu
 
-  
-{-| The [“patreon”](https://fontawesome.com/icons/patreon) icon. 
+
+{-| The [“patreon”](https://fontawesome.com/icons/patreon) icon.
 -}
 patreon : Icon Icon.WithoutId
-patreon = Icon.present Definitions.patreon
+patreon =
+    Icon.present Definitions.patreon
 
-  
-{-| The [“avianex”](https://fontawesome.com/icons/avianex) icon. 
+
+{-| The [“avianex”](https://fontawesome.com/icons/avianex) icon.
 -}
 avianex : Icon Icon.WithoutId
-avianex = Icon.present Definitions.avianex
+avianex =
+    Icon.present Definitions.avianex
 
-  
-{-| The [“ello”](https://fontawesome.com/icons/ello) icon. 
+
+{-| The [“ello”](https://fontawesome.com/icons/ello) icon.
 -}
 ello : Icon Icon.WithoutId
-ello = Icon.present Definitions.ello
+ello =
+    Icon.present Definitions.ello
 
-  
-{-| The [“gofore”](https://fontawesome.com/icons/gofore) icon. 
+
+{-| The [“gofore”](https://fontawesome.com/icons/gofore) icon.
 -}
 gofore : Icon Icon.WithoutId
-gofore = Icon.present Definitions.gofore
+gofore =
+    Icon.present Definitions.gofore
 
-  
-{-| The [“bimobject”](https://fontawesome.com/icons/bimobject) icon. 
+
+{-| The [“bimobject”](https://fontawesome.com/icons/bimobject) icon.
 -}
 bimobject : Icon Icon.WithoutId
-bimobject = Icon.present Definitions.bimobject
+bimobject =
+    Icon.present Definitions.bimobject
 
-  
-{-| The [“brave-reverse”](https://fontawesome.com/icons/brave-reverse) icon. 
+
+{-| The [“brave-reverse”](https://fontawesome.com/icons/brave-reverse) icon.
 -}
 braveReverse : Icon Icon.WithoutId
-braveReverse = Icon.present Definitions.braveReverse
+braveReverse =
+    Icon.present Definitions.braveReverse
 
-  
-{-| The [“facebook-f”](https://fontawesome.com/icons/facebook-f) icon. 
+
+{-| The [“facebook-f”](https://fontawesome.com/icons/facebook-f) icon.
 -}
 facebookF : Icon Icon.WithoutId
-facebookF = Icon.present Definitions.facebookF
+facebookF =
+    Icon.present Definitions.facebookF
 
-  
-{-| The [“square-google-plus”](https://fontawesome.com/icons/square-google-plus) icon. 
+
+{-| The [“square-google-plus”](https://fontawesome.com/icons/square-google-plus) icon.
 -}
 squareGooglePlus : Icon Icon.WithoutId
-squareGooglePlus = Icon.present Definitions.squareGooglePlus
+squareGooglePlus =
+    Icon.present Definitions.squareGooglePlus
+
 
 {-| Synonym for `squareGooglePlus`.
 -}
 googlePlusSquare : Icon Icon.WithoutId
-googlePlusSquare = squareGooglePlus
-    
-  
-{-| The [“mandalorian”](https://fontawesome.com/icons/mandalorian) icon. 
+googlePlusSquare =
+    squareGooglePlus
+
+
+{-| The [“web-awesome”](https://fontawesome.com/icons/web-awesome) icon.
+-}
+webAwesome : Icon Icon.WithoutId
+webAwesome =
+    Icon.present Definitions.webAwesome
+
+
+{-| The [“mandalorian”](https://fontawesome.com/icons/mandalorian) icon.
 -}
 mandalorian : Icon Icon.WithoutId
-mandalorian = Icon.present Definitions.mandalorian
+mandalorian =
+    Icon.present Definitions.mandalorian
 
-  
-{-| The [“first-order-alt”](https://fontawesome.com/icons/first-order-alt) icon. 
+
+{-| The [“first-order-alt”](https://fontawesome.com/icons/first-order-alt) icon.
 -}
 firstOrderAlt : Icon Icon.WithoutId
-firstOrderAlt = Icon.present Definitions.firstOrderAlt
+firstOrderAlt =
+    Icon.present Definitions.firstOrderAlt
 
-  
-{-| The [“osi”](https://fontawesome.com/icons/osi) icon. 
+
+{-| The [“osi”](https://fontawesome.com/icons/osi) icon.
 -}
 osi : Icon Icon.WithoutId
-osi = Icon.present Definitions.osi
+osi =
+    Icon.present Definitions.osi
 
-  
-{-| The [“google-wallet”](https://fontawesome.com/icons/google-wallet) icon. 
+
+{-| The [“google-wallet”](https://fontawesome.com/icons/google-wallet) icon.
 -}
 googleWallet : Icon Icon.WithoutId
-googleWallet = Icon.present Definitions.googleWallet
+googleWallet =
+    Icon.present Definitions.googleWallet
 
-  
-{-| The [“d-and-d-beyond”](https://fontawesome.com/icons/d-and-d-beyond) icon. 
+
+{-| The [“d-and-d-beyond”](https://fontawesome.com/icons/d-and-d-beyond) icon.
 -}
 dAndDBeyond : Icon Icon.WithoutId
-dAndDBeyond = Icon.present Definitions.dAndDBeyond
+dAndDBeyond =
+    Icon.present Definitions.dAndDBeyond
 
-  
-{-| The [“periscope”](https://fontawesome.com/icons/periscope) icon. 
+
+{-| The [“periscope”](https://fontawesome.com/icons/periscope) icon.
 -}
 periscope : Icon Icon.WithoutId
-periscope = Icon.present Definitions.periscope
+periscope =
+    Icon.present Definitions.periscope
 
-  
-{-| The [“fulcrum”](https://fontawesome.com/icons/fulcrum) icon. 
+
+{-| The [“fulcrum”](https://fontawesome.com/icons/fulcrum) icon.
 -}
 fulcrum : Icon Icon.WithoutId
-fulcrum = Icon.present Definitions.fulcrum
+fulcrum =
+    Icon.present Definitions.fulcrum
 
-  
-{-| The [“cloudscale”](https://fontawesome.com/icons/cloudscale) icon. 
+
+{-| The [“cloudscale”](https://fontawesome.com/icons/cloudscale) icon.
 -}
 cloudscale : Icon Icon.WithoutId
-cloudscale = Icon.present Definitions.cloudscale
+cloudscale =
+    Icon.present Definitions.cloudscale
 
-  
-{-| The [“forumbee”](https://fontawesome.com/icons/forumbee) icon. 
+
+{-| The [“forumbee”](https://fontawesome.com/icons/forumbee) icon.
 -}
 forumbee : Icon Icon.WithoutId
-forumbee = Icon.present Definitions.forumbee
+forumbee =
+    Icon.present Definitions.forumbee
 
-  
-{-| The [“mizuni”](https://fontawesome.com/icons/mizuni) icon. 
+
+{-| The [“mizuni”](https://fontawesome.com/icons/mizuni) icon.
 -}
 mizuni : Icon Icon.WithoutId
-mizuni = Icon.present Definitions.mizuni
+mizuni =
+    Icon.present Definitions.mizuni
 
-  
-{-| The [“schlix”](https://fontawesome.com/icons/schlix) icon. 
+
+{-| The [“schlix”](https://fontawesome.com/icons/schlix) icon.
 -}
 schlix : Icon Icon.WithoutId
-schlix = Icon.present Definitions.schlix
+schlix =
+    Icon.present Definitions.schlix
 
-  
-{-| The [“square-xing”](https://fontawesome.com/icons/square-xing) icon. 
+
+{-| The [“square-xing”](https://fontawesome.com/icons/square-xing) icon.
 -}
 squareXing : Icon Icon.WithoutId
-squareXing = Icon.present Definitions.squareXing
+squareXing =
+    Icon.present Definitions.squareXing
+
 
 {-| Synonym for `squareXing`.
 -}
 xingSquare : Icon Icon.WithoutId
-xingSquare = squareXing
-    
-  
-{-| The [“bandcamp”](https://fontawesome.com/icons/bandcamp) icon. 
+xingSquare =
+    squareXing
+
+
+{-| The [“bandcamp”](https://fontawesome.com/icons/bandcamp) icon.
 -}
 bandcamp : Icon Icon.WithoutId
-bandcamp = Icon.present Definitions.bandcamp
+bandcamp =
+    Icon.present Definitions.bandcamp
 
-  
-{-| The [“wpforms”](https://fontawesome.com/icons/wpforms) icon. 
+
+{-| The [“wpforms”](https://fontawesome.com/icons/wpforms) icon.
 -}
 wpforms : Icon Icon.WithoutId
-wpforms = Icon.present Definitions.wpforms
+wpforms =
+    Icon.present Definitions.wpforms
 
-  
-{-| The [“cloudversify”](https://fontawesome.com/icons/cloudversify) icon. 
+
+{-| The [“cloudversify”](https://fontawesome.com/icons/cloudversify) icon.
 -}
 cloudversify : Icon Icon.WithoutId
-cloudversify = Icon.present Definitions.cloudversify
+cloudversify =
+    Icon.present Definitions.cloudversify
 
-  
-{-| The [“usps”](https://fontawesome.com/icons/usps) icon. 
+
+{-| The [“usps”](https://fontawesome.com/icons/usps) icon.
 -}
 usps : Icon Icon.WithoutId
-usps = Icon.present Definitions.usps
+usps =
+    Icon.present Definitions.usps
 
-  
-{-| The [“megaport”](https://fontawesome.com/icons/megaport) icon. 
+
+{-| The [“megaport”](https://fontawesome.com/icons/megaport) icon.
 -}
 megaport : Icon Icon.WithoutId
-megaport = Icon.present Definitions.megaport
+megaport =
+    Icon.present Definitions.megaport
 
-  
-{-| The [“magento”](https://fontawesome.com/icons/magento) icon. 
+
+{-| The [“magento”](https://fontawesome.com/icons/magento) icon.
 -}
 magento : Icon Icon.WithoutId
-magento = Icon.present Definitions.magento
+magento =
+    Icon.present Definitions.magento
 
-  
-{-| The [“spotify”](https://fontawesome.com/icons/spotify) icon. 
+
+{-| The [“spotify”](https://fontawesome.com/icons/spotify) icon.
 -}
 spotify : Icon Icon.WithoutId
-spotify = Icon.present Definitions.spotify
+spotify =
+    Icon.present Definitions.spotify
 
-  
-{-| The [“optin-monster”](https://fontawesome.com/icons/optin-monster) icon. 
+
+{-| The [“optin-monster”](https://fontawesome.com/icons/optin-monster) icon.
 -}
 optinMonster : Icon Icon.WithoutId
-optinMonster = Icon.present Definitions.optinMonster
+optinMonster =
+    Icon.present Definitions.optinMonster
 
-  
-{-| The [“fly”](https://fontawesome.com/icons/fly) icon. 
+
+{-| The [“fly”](https://fontawesome.com/icons/fly) icon.
 -}
 fly : Icon Icon.WithoutId
-fly = Icon.present Definitions.fly
+fly =
+    Icon.present Definitions.fly
 
-  
-{-| The [“aviato”](https://fontawesome.com/icons/aviato) icon. 
+
+{-| The [“aviato”](https://fontawesome.com/icons/aviato) icon.
 -}
 aviato : Icon Icon.WithoutId
-aviato = Icon.present Definitions.aviato
+aviato =
+    Icon.present Definitions.aviato
 
-  
-{-| The [“itunes”](https://fontawesome.com/icons/itunes) icon. 
+
+{-| The [“itunes”](https://fontawesome.com/icons/itunes) icon.
 -}
 itunes : Icon Icon.WithoutId
-itunes = Icon.present Definitions.itunes
+itunes =
+    Icon.present Definitions.itunes
 
-  
-{-| The [“cuttlefish”](https://fontawesome.com/icons/cuttlefish) icon. 
+
+{-| The [“cuttlefish”](https://fontawesome.com/icons/cuttlefish) icon.
 -}
 cuttlefish : Icon Icon.WithoutId
-cuttlefish = Icon.present Definitions.cuttlefish
+cuttlefish =
+    Icon.present Definitions.cuttlefish
 
-  
-{-| The [“blogger”](https://fontawesome.com/icons/blogger) icon. 
+
+{-| The [“blogger”](https://fontawesome.com/icons/blogger) icon.
 -}
 blogger : Icon Icon.WithoutId
-blogger = Icon.present Definitions.blogger
+blogger =
+    Icon.present Definitions.blogger
 
-  
-{-| The [“flickr”](https://fontawesome.com/icons/flickr) icon. 
+
+{-| The [“flickr”](https://fontawesome.com/icons/flickr) icon.
 -}
 flickr : Icon Icon.WithoutId
-flickr = Icon.present Definitions.flickr
+flickr =
+    Icon.present Definitions.flickr
 
-  
-{-| The [“viber”](https://fontawesome.com/icons/viber) icon. 
+
+{-| The [“viber”](https://fontawesome.com/icons/viber) icon.
 -}
 viber : Icon Icon.WithoutId
-viber = Icon.present Definitions.viber
+viber =
+    Icon.present Definitions.viber
 
-  
-{-| The [“soundcloud”](https://fontawesome.com/icons/soundcloud) icon. 
+
+{-| The [“soundcloud”](https://fontawesome.com/icons/soundcloud) icon.
 -}
 soundcloud : Icon Icon.WithoutId
-soundcloud = Icon.present Definitions.soundcloud
+soundcloud =
+    Icon.present Definitions.soundcloud
 
-  
-{-| The [“digg”](https://fontawesome.com/icons/digg) icon. 
+
+{-| The [“digg”](https://fontawesome.com/icons/digg) icon.
 -}
 digg : Icon Icon.WithoutId
-digg = Icon.present Definitions.digg
+digg =
+    Icon.present Definitions.digg
 
-  
-{-| The [“tencent-weibo”](https://fontawesome.com/icons/tencent-weibo) icon. 
+
+{-| The [“tencent-weibo”](https://fontawesome.com/icons/tencent-weibo) icon.
 -}
 tencentWeibo : Icon Icon.WithoutId
-tencentWeibo = Icon.present Definitions.tencentWeibo
+tencentWeibo =
+    Icon.present Definitions.tencentWeibo
 
-  
-{-| The [“letterboxd”](https://fontawesome.com/icons/letterboxd) icon. 
+
+{-| The [“letterboxd”](https://fontawesome.com/icons/letterboxd) icon.
 -}
 letterboxd : Icon Icon.WithoutId
-letterboxd = Icon.present Definitions.letterboxd
+letterboxd =
+    Icon.present Definitions.letterboxd
 
-  
-{-| The [“symfony”](https://fontawesome.com/icons/symfony) icon. 
+
+{-| The [“symfony”](https://fontawesome.com/icons/symfony) icon.
 -}
 symfony : Icon Icon.WithoutId
-symfony = Icon.present Definitions.symfony
+symfony =
+    Icon.present Definitions.symfony
 
-  
-{-| The [“maxcdn”](https://fontawesome.com/icons/maxcdn) icon. 
+
+{-| The [“maxcdn”](https://fontawesome.com/icons/maxcdn) icon.
 -}
 maxcdn : Icon Icon.WithoutId
-maxcdn = Icon.present Definitions.maxcdn
+maxcdn =
+    Icon.present Definitions.maxcdn
 
-  
-{-| The [“etsy”](https://fontawesome.com/icons/etsy) icon. 
+
+{-| The [“etsy”](https://fontawesome.com/icons/etsy) icon.
 -}
 etsy : Icon Icon.WithoutId
-etsy = Icon.present Definitions.etsy
+etsy =
+    Icon.present Definitions.etsy
 
-  
-{-| The [“facebook-messenger”](https://fontawesome.com/icons/facebook-messenger) icon. 
+
+{-| The [“facebook-messenger”](https://fontawesome.com/icons/facebook-messenger) icon.
 -}
 facebookMessenger : Icon Icon.WithoutId
-facebookMessenger = Icon.present Definitions.facebookMessenger
+facebookMessenger =
+    Icon.present Definitions.facebookMessenger
 
-  
-{-| The [“audible”](https://fontawesome.com/icons/audible) icon. 
+
+{-| The [“audible”](https://fontawesome.com/icons/audible) icon.
 -}
 audible : Icon Icon.WithoutId
-audible = Icon.present Definitions.audible
+audible =
+    Icon.present Definitions.audible
 
-  
-{-| The [“think-peaks”](https://fontawesome.com/icons/think-peaks) icon. 
+
+{-| The [“think-peaks”](https://fontawesome.com/icons/think-peaks) icon.
 -}
 thinkPeaks : Icon Icon.WithoutId
-thinkPeaks = Icon.present Definitions.thinkPeaks
+thinkPeaks =
+    Icon.present Definitions.thinkPeaks
 
-  
-{-| The [“bilibili”](https://fontawesome.com/icons/bilibili) icon. 
+
+{-| The [“bilibili”](https://fontawesome.com/icons/bilibili) icon.
 -}
 bilibili : Icon Icon.WithoutId
-bilibili = Icon.present Definitions.bilibili
+bilibili =
+    Icon.present Definitions.bilibili
 
-  
-{-| The [“erlang”](https://fontawesome.com/icons/erlang) icon. 
+
+{-| The [“erlang”](https://fontawesome.com/icons/erlang) icon.
 -}
 erlang : Icon Icon.WithoutId
-erlang = Icon.present Definitions.erlang
+erlang =
+    Icon.present Definitions.erlang
 
-  
-{-| The [“x-twitter”](https://fontawesome.com/icons/x-twitter) icon. 
+
+{-| The [“x-twitter”](https://fontawesome.com/icons/x-twitter) icon.
 -}
 xTwitter : Icon Icon.WithoutId
-xTwitter = Icon.present Definitions.xTwitter
+xTwitter =
+    Icon.present Definitions.xTwitter
 
-  
-{-| The [“cotton-bureau”](https://fontawesome.com/icons/cotton-bureau) icon. 
+
+{-| The [“cotton-bureau”](https://fontawesome.com/icons/cotton-bureau) icon.
 -}
 cottonBureau : Icon Icon.WithoutId
-cottonBureau = Icon.present Definitions.cottonBureau
+cottonBureau =
+    Icon.present Definitions.cottonBureau
 
-  
-{-| The [“dashcube”](https://fontawesome.com/icons/dashcube) icon. 
+
+{-| The [“dashcube”](https://fontawesome.com/icons/dashcube) icon.
 -}
 dashcube : Icon Icon.WithoutId
-dashcube = Icon.present Definitions.dashcube
+dashcube =
+    Icon.present Definitions.dashcube
 
-  
-{-| The [“42-group”](https://fontawesome.com/icons/42-group) icon. 
+
+{-| The [“42-group”](https://fontawesome.com/icons/42-group) icon.
 -}
 fa42Group : Icon Icon.WithoutId
-fa42Group = Icon.present Definitions.fa42Group
+fa42Group =
+    Icon.present Definitions.fa42Group
+
 
 {-| Synonym for `fa42Group`.
 -}
 innosoft : Icon Icon.WithoutId
-innosoft = fa42Group
-    
-  
-{-| The [“stack-exchange”](https://fontawesome.com/icons/stack-exchange) icon. 
+innosoft =
+    fa42Group
+
+
+{-| The [“stack-exchange”](https://fontawesome.com/icons/stack-exchange) icon.
 -}
 stackExchange : Icon Icon.WithoutId
-stackExchange = Icon.present Definitions.stackExchange
+stackExchange =
+    Icon.present Definitions.stackExchange
 
-  
-{-| The [“elementor”](https://fontawesome.com/icons/elementor) icon. 
+
+{-| The [“elementor”](https://fontawesome.com/icons/elementor) icon.
 -}
 elementor : Icon Icon.WithoutId
-elementor = Icon.present Definitions.elementor
+elementor =
+    Icon.present Definitions.elementor
 
-  
-{-| The [“square-pied-piper”](https://fontawesome.com/icons/square-pied-piper) icon. 
+
+{-| The [“square-pied-piper”](https://fontawesome.com/icons/square-pied-piper) icon.
 -}
 squarePiedPiper : Icon Icon.WithoutId
-squarePiedPiper = Icon.present Definitions.squarePiedPiper
+squarePiedPiper =
+    Icon.present Definitions.squarePiedPiper
+
 
 {-| Synonym for `squarePiedPiper`.
 -}
 piedPiperSquare : Icon Icon.WithoutId
-piedPiperSquare = squarePiedPiper
-    
-  
-{-| The [“creative-commons-nd”](https://fontawesome.com/icons/creative-commons-nd) icon. 
+piedPiperSquare =
+    squarePiedPiper
+
+
+{-| The [“creative-commons-nd”](https://fontawesome.com/icons/creative-commons-nd) icon.
 -}
 creativeCommonsNd : Icon Icon.WithoutId
-creativeCommonsNd = Icon.present Definitions.creativeCommonsNd
+creativeCommonsNd =
+    Icon.present Definitions.creativeCommonsNd
 
-  
-{-| The [“palfed”](https://fontawesome.com/icons/palfed) icon. 
+
+{-| The [“palfed”](https://fontawesome.com/icons/palfed) icon.
 -}
 palfed : Icon Icon.WithoutId
-palfed = Icon.present Definitions.palfed
+palfed =
+    Icon.present Definitions.palfed
 
-  
-{-| The [“superpowers”](https://fontawesome.com/icons/superpowers) icon. 
+
+{-| The [“superpowers”](https://fontawesome.com/icons/superpowers) icon.
 -}
 superpowers : Icon Icon.WithoutId
-superpowers = Icon.present Definitions.superpowers
+superpowers =
+    Icon.present Definitions.superpowers
 
-  
-{-| The [“resolving”](https://fontawesome.com/icons/resolving) icon. 
+
+{-| The [“resolving”](https://fontawesome.com/icons/resolving) icon.
 -}
 resolving : Icon Icon.WithoutId
-resolving = Icon.present Definitions.resolving
+resolving =
+    Icon.present Definitions.resolving
 
-  
-{-| The [“xbox”](https://fontawesome.com/icons/xbox) icon. 
+
+{-| The [“xbox”](https://fontawesome.com/icons/xbox) icon.
 -}
 xbox : Icon Icon.WithoutId
-xbox = Icon.present Definitions.xbox
+xbox =
+    Icon.present Definitions.xbox
 
-  
-{-| The [“searchengin”](https://fontawesome.com/icons/searchengin) icon. 
+
+{-| The [“square-web-awesome-stroke”](https://fontawesome.com/icons/square-web-awesome-stroke) icon.
+-}
+squareWebAwesomeStroke : Icon Icon.WithoutId
+squareWebAwesomeStroke =
+    Icon.present Definitions.squareWebAwesomeStroke
+
+
+{-| The [“searchengin”](https://fontawesome.com/icons/searchengin) icon.
 -}
 searchengin : Icon Icon.WithoutId
-searchengin = Icon.present Definitions.searchengin
+searchengin =
+    Icon.present Definitions.searchengin
 
-  
-{-| The [“tiktok”](https://fontawesome.com/icons/tiktok) icon. 
+
+{-| The [“tiktok”](https://fontawesome.com/icons/tiktok) icon.
 -}
 tiktok : Icon Icon.WithoutId
-tiktok = Icon.present Definitions.tiktok
+tiktok =
+    Icon.present Definitions.tiktok
 
-  
-{-| The [“square-facebook”](https://fontawesome.com/icons/square-facebook) icon. 
+
+{-| The [“square-facebook”](https://fontawesome.com/icons/square-facebook) icon.
 -}
 squareFacebook : Icon Icon.WithoutId
-squareFacebook = Icon.present Definitions.squareFacebook
+squareFacebook =
+    Icon.present Definitions.squareFacebook
+
 
 {-| Synonym for `squareFacebook`.
 -}
 facebookSquare : Icon Icon.WithoutId
-facebookSquare = squareFacebook
-    
-  
-{-| The [“renren”](https://fontawesome.com/icons/renren) icon. 
+facebookSquare =
+    squareFacebook
+
+
+{-| The [“renren”](https://fontawesome.com/icons/renren) icon.
 -}
 renren : Icon Icon.WithoutId
-renren = Icon.present Definitions.renren
+renren =
+    Icon.present Definitions.renren
 
-  
-{-| The [“linux”](https://fontawesome.com/icons/linux) icon. 
+
+{-| The [“linux”](https://fontawesome.com/icons/linux) icon.
 -}
 linux : Icon Icon.WithoutId
-linux = Icon.present Definitions.linux
+linux =
+    Icon.present Definitions.linux
 
-  
-{-| The [“glide”](https://fontawesome.com/icons/glide) icon. 
+
+{-| The [“glide”](https://fontawesome.com/icons/glide) icon.
 -}
 glide : Icon Icon.WithoutId
-glide = Icon.present Definitions.glide
+glide =
+    Icon.present Definitions.glide
 
-  
-{-| The [“linkedin”](https://fontawesome.com/icons/linkedin) icon. 
+
+{-| The [“linkedin”](https://fontawesome.com/icons/linkedin) icon.
 -}
 linkedin : Icon Icon.WithoutId
-linkedin = Icon.present Definitions.linkedin
+linkedin =
+    Icon.present Definitions.linkedin
 
-  
-{-| The [“hubspot”](https://fontawesome.com/icons/hubspot) icon. 
+
+{-| The [“hubspot”](https://fontawesome.com/icons/hubspot) icon.
 -}
 hubspot : Icon Icon.WithoutId
-hubspot = Icon.present Definitions.hubspot
+hubspot =
+    Icon.present Definitions.hubspot
 
-  
-{-| The [“deploydog”](https://fontawesome.com/icons/deploydog) icon. 
+
+{-| The [“deploydog”](https://fontawesome.com/icons/deploydog) icon.
 -}
 deploydog : Icon Icon.WithoutId
-deploydog = Icon.present Definitions.deploydog
+deploydog =
+    Icon.present Definitions.deploydog
 
-  
-{-| The [“twitch”](https://fontawesome.com/icons/twitch) icon. 
+
+{-| The [“twitch”](https://fontawesome.com/icons/twitch) icon.
 -}
 twitch : Icon Icon.WithoutId
-twitch = Icon.present Definitions.twitch
+twitch =
+    Icon.present Definitions.twitch
 
-  
-{-| The [“ravelry”](https://fontawesome.com/icons/ravelry) icon. 
+
+{-| The [“ravelry”](https://fontawesome.com/icons/ravelry) icon.
 -}
 ravelry : Icon Icon.WithoutId
-ravelry = Icon.present Definitions.ravelry
+ravelry =
+    Icon.present Definitions.ravelry
 
-  
-{-| The [“mixer”](https://fontawesome.com/icons/mixer) icon. 
+
+{-| The [“mixer”](https://fontawesome.com/icons/mixer) icon.
 -}
 mixer : Icon Icon.WithoutId
-mixer = Icon.present Definitions.mixer
+mixer =
+    Icon.present Definitions.mixer
 
-  
-{-| The [“square-lastfm”](https://fontawesome.com/icons/square-lastfm) icon. 
+
+{-| The [“square-lastfm”](https://fontawesome.com/icons/square-lastfm) icon.
 -}
 squareLastfm : Icon Icon.WithoutId
-squareLastfm = Icon.present Definitions.squareLastfm
+squareLastfm =
+    Icon.present Definitions.squareLastfm
+
 
 {-| Synonym for `squareLastfm`.
 -}
 lastfmSquare : Icon Icon.WithoutId
-lastfmSquare = squareLastfm
-    
-  
-{-| The [“vimeo”](https://fontawesome.com/icons/vimeo) icon. 
+lastfmSquare =
+    squareLastfm
+
+
+{-| The [“vimeo”](https://fontawesome.com/icons/vimeo) icon.
 -}
 vimeo : Icon Icon.WithoutId
-vimeo = Icon.present Definitions.vimeo
+vimeo =
+    Icon.present Definitions.vimeo
 
-  
-{-| The [“mendeley”](https://fontawesome.com/icons/mendeley) icon. 
+
+{-| The [“mendeley”](https://fontawesome.com/icons/mendeley) icon.
 -}
 mendeley : Icon Icon.WithoutId
-mendeley = Icon.present Definitions.mendeley
+mendeley =
+    Icon.present Definitions.mendeley
 
-  
-{-| The [“uniregistry”](https://fontawesome.com/icons/uniregistry) icon. 
+
+{-| The [“uniregistry”](https://fontawesome.com/icons/uniregistry) icon.
 -}
 uniregistry : Icon Icon.WithoutId
-uniregistry = Icon.present Definitions.uniregistry
+uniregistry =
+    Icon.present Definitions.uniregistry
 
-  
-{-| The [“figma”](https://fontawesome.com/icons/figma) icon. 
+
+{-| The [“figma”](https://fontawesome.com/icons/figma) icon.
 -}
 figma : Icon Icon.WithoutId
-figma = Icon.present Definitions.figma
+figma =
+    Icon.present Definitions.figma
 
-  
-{-| The [“creative-commons-remix”](https://fontawesome.com/icons/creative-commons-remix) icon. 
+
+{-| The [“creative-commons-remix”](https://fontawesome.com/icons/creative-commons-remix) icon.
 -}
 creativeCommonsRemix : Icon Icon.WithoutId
-creativeCommonsRemix = Icon.present Definitions.creativeCommonsRemix
+creativeCommonsRemix =
+    Icon.present Definitions.creativeCommonsRemix
 
-  
-{-| The [“cc-amazon-pay”](https://fontawesome.com/icons/cc-amazon-pay) icon. 
+
+{-| The [“cc-amazon-pay”](https://fontawesome.com/icons/cc-amazon-pay) icon.
 -}
 ccAmazonPay : Icon Icon.WithoutId
-ccAmazonPay = Icon.present Definitions.ccAmazonPay
+ccAmazonPay =
+    Icon.present Definitions.ccAmazonPay
 
-  
-{-| The [“dropbox”](https://fontawesome.com/icons/dropbox) icon. 
+
+{-| The [“dropbox”](https://fontawesome.com/icons/dropbox) icon.
 -}
 dropbox : Icon Icon.WithoutId
-dropbox = Icon.present Definitions.dropbox
+dropbox =
+    Icon.present Definitions.dropbox
 
-  
-{-| The [“instagram”](https://fontawesome.com/icons/instagram) icon. 
+
+{-| The [“instagram”](https://fontawesome.com/icons/instagram) icon.
 -}
 instagram : Icon Icon.WithoutId
-instagram = Icon.present Definitions.instagram
+instagram =
+    Icon.present Definitions.instagram
 
-  
-{-| The [“cmplid”](https://fontawesome.com/icons/cmplid) icon. 
+
+{-| The [“cmplid”](https://fontawesome.com/icons/cmplid) icon.
 -}
 cmplid : Icon Icon.WithoutId
-cmplid = Icon.present Definitions.cmplid
+cmplid =
+    Icon.present Definitions.cmplid
 
-  
-{-| The [“upwork”](https://fontawesome.com/icons/upwork) icon. 
+
+{-| The [“upwork”](https://fontawesome.com/icons/upwork) icon.
 -}
 upwork : Icon Icon.WithoutId
-upwork = Icon.present Definitions.upwork
+upwork =
+    Icon.present Definitions.upwork
 
-  
-{-| The [“facebook”](https://fontawesome.com/icons/facebook) icon. 
+
+{-| The [“facebook”](https://fontawesome.com/icons/facebook) icon.
 -}
 facebook : Icon Icon.WithoutId
-facebook = Icon.present Definitions.facebook
+facebook =
+    Icon.present Definitions.facebook
 
-  
-{-| The [“gripfire”](https://fontawesome.com/icons/gripfire) icon. 
+
+{-| The [“gripfire”](https://fontawesome.com/icons/gripfire) icon.
 -}
 gripfire : Icon Icon.WithoutId
-gripfire = Icon.present Definitions.gripfire
+gripfire =
+    Icon.present Definitions.gripfire
 
-  
-{-| The [“jedi-order”](https://fontawesome.com/icons/jedi-order) icon. 
+
+{-| The [“jedi-order”](https://fontawesome.com/icons/jedi-order) icon.
 -}
 jediOrder : Icon Icon.WithoutId
-jediOrder = Icon.present Definitions.jediOrder
+jediOrder =
+    Icon.present Definitions.jediOrder
 
-  
-{-| The [“uikit”](https://fontawesome.com/icons/uikit) icon. 
+
+{-| The [“uikit”](https://fontawesome.com/icons/uikit) icon.
 -}
 uikit : Icon Icon.WithoutId
-uikit = Icon.present Definitions.uikit
+uikit =
+    Icon.present Definitions.uikit
 
-  
-{-| The [“fort-awesome-alt”](https://fontawesome.com/icons/fort-awesome-alt) icon. 
+
+{-| The [“fort-awesome-alt”](https://fontawesome.com/icons/fort-awesome-alt) icon.
 -}
 fortAwesomeAlt : Icon Icon.WithoutId
-fortAwesomeAlt = Icon.present Definitions.fortAwesomeAlt
+fortAwesomeAlt =
+    Icon.present Definitions.fortAwesomeAlt
 
-  
-{-| The [“phabricator”](https://fontawesome.com/icons/phabricator) icon. 
+
+{-| The [“phabricator”](https://fontawesome.com/icons/phabricator) icon.
 -}
 phabricator : Icon Icon.WithoutId
-phabricator = Icon.present Definitions.phabricator
+phabricator =
+    Icon.present Definitions.phabricator
 
-  
-{-| The [“ussunnah”](https://fontawesome.com/icons/ussunnah) icon. 
+
+{-| The [“ussunnah”](https://fontawesome.com/icons/ussunnah) icon.
 -}
 ussunnah : Icon Icon.WithoutId
-ussunnah = Icon.present Definitions.ussunnah
+ussunnah =
+    Icon.present Definitions.ussunnah
 
-  
-{-| The [“earlybirds”](https://fontawesome.com/icons/earlybirds) icon. 
+
+{-| The [“earlybirds”](https://fontawesome.com/icons/earlybirds) icon.
 -}
 earlybirds : Icon Icon.WithoutId
-earlybirds = Icon.present Definitions.earlybirds
+earlybirds =
+    Icon.present Definitions.earlybirds
 
-  
-{-| The [“trade-federation”](https://fontawesome.com/icons/trade-federation) icon. 
+
+{-| The [“trade-federation”](https://fontawesome.com/icons/trade-federation) icon.
 -}
 tradeFederation : Icon Icon.WithoutId
-tradeFederation = Icon.present Definitions.tradeFederation
+tradeFederation =
+    Icon.present Definitions.tradeFederation
 
-  
-{-| The [“autoprefixer”](https://fontawesome.com/icons/autoprefixer) icon. 
+
+{-| The [“autoprefixer”](https://fontawesome.com/icons/autoprefixer) icon.
 -}
 autoprefixer : Icon Icon.WithoutId
-autoprefixer = Icon.present Definitions.autoprefixer
+autoprefixer =
+    Icon.present Definitions.autoprefixer
 
-  
-{-| The [“whatsapp”](https://fontawesome.com/icons/whatsapp) icon. 
+
+{-| The [“whatsapp”](https://fontawesome.com/icons/whatsapp) icon.
 -}
 whatsapp : Icon Icon.WithoutId
-whatsapp = Icon.present Definitions.whatsapp
+whatsapp =
+    Icon.present Definitions.whatsapp
 
-  
-{-| The [“slideshare”](https://fontawesome.com/icons/slideshare) icon. 
+
+{-| The [“square-upwork”](https://fontawesome.com/icons/square-upwork) icon.
+-}
+squareUpwork : Icon Icon.WithoutId
+squareUpwork =
+    Icon.present Definitions.squareUpwork
+
+
+{-| The [“slideshare”](https://fontawesome.com/icons/slideshare) icon.
 -}
 slideshare : Icon Icon.WithoutId
-slideshare = Icon.present Definitions.slideshare
+slideshare =
+    Icon.present Definitions.slideshare
 
-  
-{-| The [“google-play”](https://fontawesome.com/icons/google-play) icon. 
+
+{-| The [“google-play”](https://fontawesome.com/icons/google-play) icon.
 -}
 googlePlay : Icon Icon.WithoutId
-googlePlay = Icon.present Definitions.googlePlay
+googlePlay =
+    Icon.present Definitions.googlePlay
 
-  
-{-| The [“viadeo”](https://fontawesome.com/icons/viadeo) icon. 
+
+{-| The [“viadeo”](https://fontawesome.com/icons/viadeo) icon.
 -}
 viadeo : Icon Icon.WithoutId
-viadeo = Icon.present Definitions.viadeo
+viadeo =
+    Icon.present Definitions.viadeo
 
-  
-{-| The [“line”](https://fontawesome.com/icons/line) icon. 
+
+{-| The [“line”](https://fontawesome.com/icons/line) icon.
 -}
 line : Icon Icon.WithoutId
-line = Icon.present Definitions.line
+line =
+    Icon.present Definitions.line
 
-  
-{-| The [“google-drive”](https://fontawesome.com/icons/google-drive) icon. 
+
+{-| The [“google-drive”](https://fontawesome.com/icons/google-drive) icon.
 -}
 googleDrive : Icon Icon.WithoutId
-googleDrive = Icon.present Definitions.googleDrive
+googleDrive =
+    Icon.present Definitions.googleDrive
 
-  
-{-| The [“servicestack”](https://fontawesome.com/icons/servicestack) icon. 
+
+{-| The [“servicestack”](https://fontawesome.com/icons/servicestack) icon.
 -}
 servicestack : Icon Icon.WithoutId
-servicestack = Icon.present Definitions.servicestack
+servicestack =
+    Icon.present Definitions.servicestack
 
-  
-{-| The [“simplybuilt”](https://fontawesome.com/icons/simplybuilt) icon. 
+
+{-| The [“simplybuilt”](https://fontawesome.com/icons/simplybuilt) icon.
 -}
 simplybuilt : Icon Icon.WithoutId
-simplybuilt = Icon.present Definitions.simplybuilt
+simplybuilt =
+    Icon.present Definitions.simplybuilt
 
-  
-{-| The [“bitbucket”](https://fontawesome.com/icons/bitbucket) icon. 
+
+{-| The [“bitbucket”](https://fontawesome.com/icons/bitbucket) icon.
 -}
 bitbucket : Icon Icon.WithoutId
-bitbucket = Icon.present Definitions.bitbucket
+bitbucket =
+    Icon.present Definitions.bitbucket
 
-  
-{-| The [“imdb”](https://fontawesome.com/icons/imdb) icon. 
+
+{-| The [“imdb”](https://fontawesome.com/icons/imdb) icon.
 -}
 imdb : Icon Icon.WithoutId
-imdb = Icon.present Definitions.imdb
+imdb =
+    Icon.present Definitions.imdb
 
-  
-{-| The [“deezer”](https://fontawesome.com/icons/deezer) icon. 
+
+{-| The [“deezer”](https://fontawesome.com/icons/deezer) icon.
 -}
 deezer : Icon Icon.WithoutId
-deezer = Icon.present Definitions.deezer
+deezer =
+    Icon.present Definitions.deezer
 
-  
-{-| The [“raspberry-pi”](https://fontawesome.com/icons/raspberry-pi) icon. 
+
+{-| The [“raspberry-pi”](https://fontawesome.com/icons/raspberry-pi) icon.
 -}
 raspberryPi : Icon Icon.WithoutId
-raspberryPi = Icon.present Definitions.raspberryPi
+raspberryPi =
+    Icon.present Definitions.raspberryPi
 
-  
-{-| The [“jira”](https://fontawesome.com/icons/jira) icon. 
+
+{-| The [“jira”](https://fontawesome.com/icons/jira) icon.
 -}
 jira : Icon Icon.WithoutId
-jira = Icon.present Definitions.jira
+jira =
+    Icon.present Definitions.jira
 
-  
-{-| The [“docker”](https://fontawesome.com/icons/docker) icon. 
+
+{-| The [“docker”](https://fontawesome.com/icons/docker) icon.
 -}
 docker : Icon Icon.WithoutId
-docker = Icon.present Definitions.docker
+docker =
+    Icon.present Definitions.docker
 
-  
-{-| The [“screenpal”](https://fontawesome.com/icons/screenpal) icon. 
+
+{-| The [“screenpal”](https://fontawesome.com/icons/screenpal) icon.
 -}
 screenpal : Icon Icon.WithoutId
-screenpal = Icon.present Definitions.screenpal
+screenpal =
+    Icon.present Definitions.screenpal
 
-  
-{-| The [“bluetooth”](https://fontawesome.com/icons/bluetooth) icon. 
+
+{-| The [“bluetooth”](https://fontawesome.com/icons/bluetooth) icon.
 -}
 bluetooth : Icon Icon.WithoutId
-bluetooth = Icon.present Definitions.bluetooth
+bluetooth =
+    Icon.present Definitions.bluetooth
 
-  
-{-| The [“gitter”](https://fontawesome.com/icons/gitter) icon. 
+
+{-| The [“gitter”](https://fontawesome.com/icons/gitter) icon.
 -}
 gitter : Icon Icon.WithoutId
-gitter = Icon.present Definitions.gitter
+gitter =
+    Icon.present Definitions.gitter
 
-  
-{-| The [“d-and-d”](https://fontawesome.com/icons/d-and-d) icon. 
+
+{-| The [“d-and-d”](https://fontawesome.com/icons/d-and-d) icon.
 -}
 dAndD : Icon Icon.WithoutId
-dAndD = Icon.present Definitions.dAndD
+dAndD =
+    Icon.present Definitions.dAndD
 
-  
-{-| The [“microblog”](https://fontawesome.com/icons/microblog) icon. 
+
+{-| The [“microblog”](https://fontawesome.com/icons/microblog) icon.
 -}
 microblog : Icon Icon.WithoutId
-microblog = Icon.present Definitions.microblog
+microblog =
+    Icon.present Definitions.microblog
 
-  
-{-| The [“cc-diners-club”](https://fontawesome.com/icons/cc-diners-club) icon. 
+
+{-| The [“cc-diners-club”](https://fontawesome.com/icons/cc-diners-club) icon.
 -}
 ccDinersClub : Icon Icon.WithoutId
-ccDinersClub = Icon.present Definitions.ccDinersClub
+ccDinersClub =
+    Icon.present Definitions.ccDinersClub
 
-  
-{-| The [“gg-circle”](https://fontawesome.com/icons/gg-circle) icon. 
+
+{-| The [“gg-circle”](https://fontawesome.com/icons/gg-circle) icon.
 -}
 ggCircle : Icon Icon.WithoutId
-ggCircle = Icon.present Definitions.ggCircle
+ggCircle =
+    Icon.present Definitions.ggCircle
 
-  
-{-| The [“pied-piper-hat”](https://fontawesome.com/icons/pied-piper-hat) icon. 
+
+{-| The [“pied-piper-hat”](https://fontawesome.com/icons/pied-piper-hat) icon.
 -}
 piedPiperHat : Icon Icon.WithoutId
-piedPiperHat = Icon.present Definitions.piedPiperHat
+piedPiperHat =
+    Icon.present Definitions.piedPiperHat
 
-  
-{-| The [“kickstarter-k”](https://fontawesome.com/icons/kickstarter-k) icon. 
+
+{-| The [“kickstarter-k”](https://fontawesome.com/icons/kickstarter-k) icon.
 -}
 kickstarterK : Icon Icon.WithoutId
-kickstarterK = Icon.present Definitions.kickstarterK
+kickstarterK =
+    Icon.present Definitions.kickstarterK
 
-  
-{-| The [“yandex”](https://fontawesome.com/icons/yandex) icon. 
+
+{-| The [“yandex”](https://fontawesome.com/icons/yandex) icon.
 -}
 yandex : Icon Icon.WithoutId
-yandex = Icon.present Definitions.yandex
+yandex =
+    Icon.present Definitions.yandex
 
-  
-{-| The [“readme”](https://fontawesome.com/icons/readme) icon. 
+
+{-| The [“readme”](https://fontawesome.com/icons/readme) icon.
 -}
 readme : Icon Icon.WithoutId
-readme = Icon.present Definitions.readme
+readme =
+    Icon.present Definitions.readme
 
-  
-{-| The [“html5”](https://fontawesome.com/icons/html5) icon. 
+
+{-| The [“html5”](https://fontawesome.com/icons/html5) icon.
 -}
 html5 : Icon Icon.WithoutId
-html5 = Icon.present Definitions.html5
+html5 =
+    Icon.present Definitions.html5
 
-  
-{-| The [“sellsy”](https://fontawesome.com/icons/sellsy) icon. 
+
+{-| The [“sellsy”](https://fontawesome.com/icons/sellsy) icon.
 -}
 sellsy : Icon Icon.WithoutId
-sellsy = Icon.present Definitions.sellsy
+sellsy =
+    Icon.present Definitions.sellsy
 
-  
-{-| The [“sass”](https://fontawesome.com/icons/sass) icon. 
+
+{-| The [“square-web-awesome”](https://fontawesome.com/icons/square-web-awesome) icon.
+-}
+squareWebAwesome : Icon Icon.WithoutId
+squareWebAwesome =
+    Icon.present Definitions.squareWebAwesome
+
+
+{-| The [“sass”](https://fontawesome.com/icons/sass) icon.
 -}
 sass : Icon Icon.WithoutId
-sass = Icon.present Definitions.sass
+sass =
+    Icon.present Definitions.sass
 
-  
-{-| The [“wirsindhandwerk”](https://fontawesome.com/icons/wirsindhandwerk) icon. 
+
+{-| The [“wirsindhandwerk”](https://fontawesome.com/icons/wirsindhandwerk) icon.
 -}
 wirsindhandwerk : Icon Icon.WithoutId
-wirsindhandwerk = Icon.present Definitions.wirsindhandwerk
+wirsindhandwerk =
+    Icon.present Definitions.wirsindhandwerk
+
 
 {-| Synonym for `wirsindhandwerk`.
 -}
 wsh : Icon Icon.WithoutId
-wsh = wirsindhandwerk
-    
-  
-{-| The [“buromobelexperte”](https://fontawesome.com/icons/buromobelexperte) icon. 
+wsh =
+    wirsindhandwerk
+
+
+{-| The [“buromobelexperte”](https://fontawesome.com/icons/buromobelexperte) icon.
 -}
 buromobelexperte : Icon Icon.WithoutId
-buromobelexperte = Icon.present Definitions.buromobelexperte
+buromobelexperte =
+    Icon.present Definitions.buromobelexperte
 
-  
-{-| The [“salesforce”](https://fontawesome.com/icons/salesforce) icon. 
+
+{-| The [“salesforce”](https://fontawesome.com/icons/salesforce) icon.
 -}
 salesforce : Icon Icon.WithoutId
-salesforce = Icon.present Definitions.salesforce
+salesforce =
+    Icon.present Definitions.salesforce
 
-  
-{-| The [“octopus-deploy”](https://fontawesome.com/icons/octopus-deploy) icon. 
+
+{-| The [“octopus-deploy”](https://fontawesome.com/icons/octopus-deploy) icon.
 -}
 octopusDeploy : Icon Icon.WithoutId
-octopusDeploy = Icon.present Definitions.octopusDeploy
+octopusDeploy =
+    Icon.present Definitions.octopusDeploy
 
-  
-{-| The [“medapps”](https://fontawesome.com/icons/medapps) icon. 
+
+{-| The [“medapps”](https://fontawesome.com/icons/medapps) icon.
 -}
 medapps : Icon Icon.WithoutId
-medapps = Icon.present Definitions.medapps
+medapps =
+    Icon.present Definitions.medapps
 
-  
-{-| The [“ns8”](https://fontawesome.com/icons/ns8) icon. 
+
+{-| The [“ns8”](https://fontawesome.com/icons/ns8) icon.
 -}
 ns8 : Icon Icon.WithoutId
-ns8 = Icon.present Definitions.ns8
+ns8 =
+    Icon.present Definitions.ns8
 
-  
-{-| The [“pinterest-p”](https://fontawesome.com/icons/pinterest-p) icon. 
+
+{-| The [“pinterest-p”](https://fontawesome.com/icons/pinterest-p) icon.
 -}
 pinterestP : Icon Icon.WithoutId
-pinterestP = Icon.present Definitions.pinterestP
+pinterestP =
+    Icon.present Definitions.pinterestP
 
-  
-{-| The [“apper”](https://fontawesome.com/icons/apper) icon. 
+
+{-| The [“apper”](https://fontawesome.com/icons/apper) icon.
 -}
 apper : Icon Icon.WithoutId
-apper = Icon.present Definitions.apper
+apper =
+    Icon.present Definitions.apper
 
-  
-{-| The [“fort-awesome”](https://fontawesome.com/icons/fort-awesome) icon. 
+
+{-| The [“fort-awesome”](https://fontawesome.com/icons/fort-awesome) icon.
 -}
 fortAwesome : Icon Icon.WithoutId
-fortAwesome = Icon.present Definitions.fortAwesome
+fortAwesome =
+    Icon.present Definitions.fortAwesome
 
-  
-{-| The [“waze”](https://fontawesome.com/icons/waze) icon. 
+
+{-| The [“waze”](https://fontawesome.com/icons/waze) icon.
 -}
 waze : Icon Icon.WithoutId
-waze = Icon.present Definitions.waze
+waze =
+    Icon.present Definitions.waze
 
-  
-{-| The [“cc-jcb”](https://fontawesome.com/icons/cc-jcb) icon. 
+
+{-| The [“bluesky”](https://fontawesome.com/icons/bluesky) icon.
+-}
+bluesky : Icon Icon.WithoutId
+bluesky =
+    Icon.present Definitions.bluesky
+
+
+{-| The [“cc-jcb”](https://fontawesome.com/icons/cc-jcb) icon.
 -}
 ccJcb : Icon Icon.WithoutId
-ccJcb = Icon.present Definitions.ccJcb
+ccJcb =
+    Icon.present Definitions.ccJcb
 
-  
-{-| The [“snapchat”](https://fontawesome.com/icons/snapchat) icon. 
+
+{-| The [“snapchat”](https://fontawesome.com/icons/snapchat) icon.
 -}
 snapchat : Icon Icon.WithoutId
-snapchat = Icon.present Definitions.snapchat
+snapchat =
+    Icon.present Definitions.snapchat
+
 
 {-| Synonym for `snapchat`.
 -}
 snapchatGhost : Icon Icon.WithoutId
-snapchatGhost = snapchat
-    
-  
-{-| The [“fantasy-flight-games”](https://fontawesome.com/icons/fantasy-flight-games) icon. 
+snapchatGhost =
+    snapchat
+
+
+{-| The [“fantasy-flight-games”](https://fontawesome.com/icons/fantasy-flight-games) icon.
 -}
 fantasyFlightGames : Icon Icon.WithoutId
-fantasyFlightGames = Icon.present Definitions.fantasyFlightGames
+fantasyFlightGames =
+    Icon.present Definitions.fantasyFlightGames
 
-  
-{-| The [“rust”](https://fontawesome.com/icons/rust) icon. 
+
+{-| The [“rust”](https://fontawesome.com/icons/rust) icon.
 -}
 rust : Icon Icon.WithoutId
-rust = Icon.present Definitions.rust
+rust =
+    Icon.present Definitions.rust
 
-  
-{-| The [“wix”](https://fontawesome.com/icons/wix) icon. 
+
+{-| The [“wix”](https://fontawesome.com/icons/wix) icon.
 -}
 wix : Icon Icon.WithoutId
-wix = Icon.present Definitions.wix
+wix =
+    Icon.present Definitions.wix
 
-  
-{-| The [“square-behance”](https://fontawesome.com/icons/square-behance) icon. 
+
+{-| The [“square-behance”](https://fontawesome.com/icons/square-behance) icon.
 -}
 squareBehance : Icon Icon.WithoutId
-squareBehance = Icon.present Definitions.squareBehance
+squareBehance =
+    Icon.present Definitions.squareBehance
+
 
 {-| Synonym for `squareBehance`.
 -}
 behanceSquare : Icon Icon.WithoutId
-behanceSquare = squareBehance
-    
-  
-{-| The [“supple”](https://fontawesome.com/icons/supple) icon. 
+behanceSquare =
+    squareBehance
+
+
+{-| The [“supple”](https://fontawesome.com/icons/supple) icon.
 -}
 supple : Icon Icon.WithoutId
-supple = Icon.present Definitions.supple
+supple =
+    Icon.present Definitions.supple
 
-  
-{-| The [“webflow”](https://fontawesome.com/icons/webflow) icon. 
+
+{-| The [“webflow”](https://fontawesome.com/icons/webflow) icon.
 -}
 webflow : Icon Icon.WithoutId
-webflow = Icon.present Definitions.webflow
+webflow =
+    Icon.present Definitions.webflow
 
-  
-{-| The [“rebel”](https://fontawesome.com/icons/rebel) icon. 
+
+{-| The [“rebel”](https://fontawesome.com/icons/rebel) icon.
 -}
 rebel : Icon Icon.WithoutId
-rebel = Icon.present Definitions.rebel
+rebel =
+    Icon.present Definitions.rebel
 
-  
-{-| The [“css3”](https://fontawesome.com/icons/css3) icon. 
+
+{-| The [“css3”](https://fontawesome.com/icons/css3) icon.
 -}
 css3 : Icon Icon.WithoutId
-css3 = Icon.present Definitions.css3
+css3 =
+    Icon.present Definitions.css3
 
-  
-{-| The [“staylinked”](https://fontawesome.com/icons/staylinked) icon. 
+
+{-| The [“staylinked”](https://fontawesome.com/icons/staylinked) icon.
 -}
 staylinked : Icon Icon.WithoutId
-staylinked = Icon.present Definitions.staylinked
+staylinked =
+    Icon.present Definitions.staylinked
 
-  
-{-| The [“kaggle”](https://fontawesome.com/icons/kaggle) icon. 
+
+{-| The [“kaggle”](https://fontawesome.com/icons/kaggle) icon.
 -}
 kaggle : Icon Icon.WithoutId
-kaggle = Icon.present Definitions.kaggle
+kaggle =
+    Icon.present Definitions.kaggle
 
-  
-{-| The [“space-awesome”](https://fontawesome.com/icons/space-awesome) icon. 
+
+{-| The [“space-awesome”](https://fontawesome.com/icons/space-awesome) icon.
 -}
 spaceAwesome : Icon Icon.WithoutId
-spaceAwesome = Icon.present Definitions.spaceAwesome
+spaceAwesome =
+    Icon.present Definitions.spaceAwesome
 
-  
-{-| The [“deviantart”](https://fontawesome.com/icons/deviantart) icon. 
+
+{-| The [“deviantart”](https://fontawesome.com/icons/deviantart) icon.
 -}
 deviantart : Icon Icon.WithoutId
-deviantart = Icon.present Definitions.deviantart
+deviantart =
+    Icon.present Definitions.deviantart
 
-  
-{-| The [“cpanel”](https://fontawesome.com/icons/cpanel) icon. 
+
+{-| The [“cpanel”](https://fontawesome.com/icons/cpanel) icon.
 -}
 cpanel : Icon Icon.WithoutId
-cpanel = Icon.present Definitions.cpanel
+cpanel =
+    Icon.present Definitions.cpanel
 
-  
-{-| The [“goodreads-g”](https://fontawesome.com/icons/goodreads-g) icon. 
+
+{-| The [“goodreads-g”](https://fontawesome.com/icons/goodreads-g) icon.
 -}
 goodreadsG : Icon Icon.WithoutId
-goodreadsG = Icon.present Definitions.goodreadsG
+goodreadsG =
+    Icon.present Definitions.goodreadsG
 
-  
-{-| The [“square-git”](https://fontawesome.com/icons/square-git) icon. 
+
+{-| The [“square-git”](https://fontawesome.com/icons/square-git) icon.
 -}
 squareGit : Icon Icon.WithoutId
-squareGit = Icon.present Definitions.squareGit
+squareGit =
+    Icon.present Definitions.squareGit
+
 
 {-| Synonym for `squareGit`.
 -}
 gitSquare : Icon Icon.WithoutId
-gitSquare = squareGit
-    
-  
-{-| The [“square-tumblr”](https://fontawesome.com/icons/square-tumblr) icon. 
+gitSquare =
+    squareGit
+
+
+{-| The [“square-tumblr”](https://fontawesome.com/icons/square-tumblr) icon.
 -}
 squareTumblr : Icon Icon.WithoutId
-squareTumblr = Icon.present Definitions.squareTumblr
+squareTumblr =
+    Icon.present Definitions.squareTumblr
+
 
 {-| Synonym for `squareTumblr`.
 -}
 tumblrSquare : Icon Icon.WithoutId
-tumblrSquare = squareTumblr
-    
-  
-{-| The [“trello”](https://fontawesome.com/icons/trello) icon. 
+tumblrSquare =
+    squareTumblr
+
+
+{-| The [“trello”](https://fontawesome.com/icons/trello) icon.
 -}
 trello : Icon Icon.WithoutId
-trello = Icon.present Definitions.trello
+trello =
+    Icon.present Definitions.trello
 
-  
-{-| The [“creative-commons-nc-jp”](https://fontawesome.com/icons/creative-commons-nc-jp) icon. 
+
+{-| The [“creative-commons-nc-jp”](https://fontawesome.com/icons/creative-commons-nc-jp) icon.
 -}
 creativeCommonsNcJp : Icon Icon.WithoutId
-creativeCommonsNcJp = Icon.present Definitions.creativeCommonsNcJp
+creativeCommonsNcJp =
+    Icon.present Definitions.creativeCommonsNcJp
 
-  
-{-| The [“get-pocket”](https://fontawesome.com/icons/get-pocket) icon. 
+
+{-| The [“get-pocket”](https://fontawesome.com/icons/get-pocket) icon.
 -}
 getPocket : Icon Icon.WithoutId
-getPocket = Icon.present Definitions.getPocket
+getPocket =
+    Icon.present Definitions.getPocket
 
-  
-{-| The [“perbyte”](https://fontawesome.com/icons/perbyte) icon. 
+
+{-| The [“perbyte”](https://fontawesome.com/icons/perbyte) icon.
 -}
 perbyte : Icon Icon.WithoutId
-perbyte = Icon.present Definitions.perbyte
+perbyte =
+    Icon.present Definitions.perbyte
 
-  
-{-| The [“grunt”](https://fontawesome.com/icons/grunt) icon. 
+
+{-| The [“grunt”](https://fontawesome.com/icons/grunt) icon.
 -}
 grunt : Icon Icon.WithoutId
-grunt = Icon.present Definitions.grunt
+grunt =
+    Icon.present Definitions.grunt
 
-  
-{-| The [“weebly”](https://fontawesome.com/icons/weebly) icon. 
+
+{-| The [“weebly”](https://fontawesome.com/icons/weebly) icon.
 -}
 weebly : Icon Icon.WithoutId
-weebly = Icon.present Definitions.weebly
+weebly =
+    Icon.present Definitions.weebly
 
-  
-{-| The [“connectdevelop”](https://fontawesome.com/icons/connectdevelop) icon. 
+
+{-| The [“connectdevelop”](https://fontawesome.com/icons/connectdevelop) icon.
 -}
 connectdevelop : Icon Icon.WithoutId
-connectdevelop = Icon.present Definitions.connectdevelop
+connectdevelop =
+    Icon.present Definitions.connectdevelop
 
-  
-{-| The [“leanpub”](https://fontawesome.com/icons/leanpub) icon. 
+
+{-| The [“leanpub”](https://fontawesome.com/icons/leanpub) icon.
 -}
 leanpub : Icon Icon.WithoutId
-leanpub = Icon.present Definitions.leanpub
+leanpub =
+    Icon.present Definitions.leanpub
 
-  
-{-| The [“black-tie”](https://fontawesome.com/icons/black-tie) icon. 
+
+{-| The [“black-tie”](https://fontawesome.com/icons/black-tie) icon.
 -}
 blackTie : Icon Icon.WithoutId
-blackTie = Icon.present Definitions.blackTie
+blackTie =
+    Icon.present Definitions.blackTie
 
-  
-{-| The [“themeco”](https://fontawesome.com/icons/themeco) icon. 
+
+{-| The [“themeco”](https://fontawesome.com/icons/themeco) icon.
 -}
 themeco : Icon Icon.WithoutId
-themeco = Icon.present Definitions.themeco
+themeco =
+    Icon.present Definitions.themeco
 
-  
-{-| The [“python”](https://fontawesome.com/icons/python) icon. 
+
+{-| The [“python”](https://fontawesome.com/icons/python) icon.
 -}
 python : Icon Icon.WithoutId
-python = Icon.present Definitions.python
+python =
+    Icon.present Definitions.python
 
-  
-{-| The [“android”](https://fontawesome.com/icons/android) icon. 
+
+{-| The [“android”](https://fontawesome.com/icons/android) icon.
 -}
 android : Icon Icon.WithoutId
-android = Icon.present Definitions.android
+android =
+    Icon.present Definitions.android
 
-  
-{-| The [“bots”](https://fontawesome.com/icons/bots) icon. 
+
+{-| The [“bots”](https://fontawesome.com/icons/bots) icon.
 -}
 bots : Icon Icon.WithoutId
-bots = Icon.present Definitions.bots
+bots =
+    Icon.present Definitions.bots
 
-  
-{-| The [“free-code-camp”](https://fontawesome.com/icons/free-code-camp) icon. 
+
+{-| The [“free-code-camp”](https://fontawesome.com/icons/free-code-camp) icon.
 -}
 freeCodeCamp : Icon Icon.WithoutId
-freeCodeCamp = Icon.present Definitions.freeCodeCamp
+freeCodeCamp =
+    Icon.present Definitions.freeCodeCamp
 
-  
-{-| The [“hornbill”](https://fontawesome.com/icons/hornbill) icon. 
+
+{-| The [“hornbill”](https://fontawesome.com/icons/hornbill) icon.
 -}
 hornbill : Icon Icon.WithoutId
-hornbill = Icon.present Definitions.hornbill
+hornbill =
+    Icon.present Definitions.hornbill
 
-  
-{-| The [“js”](https://fontawesome.com/icons/js) icon. 
+
+{-| The [“js”](https://fontawesome.com/icons/js) icon.
 -}
 js : Icon Icon.WithoutId
-js = Icon.present Definitions.js
+js =
+    Icon.present Definitions.js
 
-  
-{-| The [“ideal”](https://fontawesome.com/icons/ideal) icon. 
+
+{-| The [“ideal”](https://fontawesome.com/icons/ideal) icon.
 -}
 ideal : Icon Icon.WithoutId
-ideal = Icon.present Definitions.ideal
+ideal =
+    Icon.present Definitions.ideal
 
-  
-{-| The [“git”](https://fontawesome.com/icons/git) icon. 
+
+{-| The [“git”](https://fontawesome.com/icons/git) icon.
 -}
 git : Icon Icon.WithoutId
-git = Icon.present Definitions.git
+git =
+    Icon.present Definitions.git
 
-  
-{-| The [“dev”](https://fontawesome.com/icons/dev) icon. 
+
+{-| The [“dev”](https://fontawesome.com/icons/dev) icon.
 -}
 dev : Icon Icon.WithoutId
-dev = Icon.present Definitions.dev
+dev =
+    Icon.present Definitions.dev
 
-  
-{-| The [“sketch”](https://fontawesome.com/icons/sketch) icon. 
+
+{-| The [“sketch”](https://fontawesome.com/icons/sketch) icon.
 -}
 sketch : Icon Icon.WithoutId
-sketch = Icon.present Definitions.sketch
+sketch =
+    Icon.present Definitions.sketch
 
-  
-{-| The [“yandex-international”](https://fontawesome.com/icons/yandex-international) icon. 
+
+{-| The [“yandex-international”](https://fontawesome.com/icons/yandex-international) icon.
 -}
 yandexInternational : Icon Icon.WithoutId
-yandexInternational = Icon.present Definitions.yandexInternational
+yandexInternational =
+    Icon.present Definitions.yandexInternational
 
-  
-{-| The [“cc-amex”](https://fontawesome.com/icons/cc-amex) icon. 
+
+{-| The [“cc-amex”](https://fontawesome.com/icons/cc-amex) icon.
 -}
 ccAmex : Icon Icon.WithoutId
-ccAmex = Icon.present Definitions.ccAmex
+ccAmex =
+    Icon.present Definitions.ccAmex
 
-  
-{-| The [“uber”](https://fontawesome.com/icons/uber) icon. 
+
+{-| The [“uber”](https://fontawesome.com/icons/uber) icon.
 -}
 uber : Icon Icon.WithoutId
-uber = Icon.present Definitions.uber
+uber =
+    Icon.present Definitions.uber
 
-  
-{-| The [“github”](https://fontawesome.com/icons/github) icon. 
+
+{-| The [“github”](https://fontawesome.com/icons/github) icon.
 -}
 github : Icon Icon.WithoutId
-github = Icon.present Definitions.github
+github =
+    Icon.present Definitions.github
 
-  
-{-| The [“php”](https://fontawesome.com/icons/php) icon. 
+
+{-| The [“php”](https://fontawesome.com/icons/php) icon.
 -}
 php : Icon Icon.WithoutId
-php = Icon.present Definitions.php
+php =
+    Icon.present Definitions.php
 
-  
-{-| The [“alipay”](https://fontawesome.com/icons/alipay) icon. 
+
+{-| The [“alipay”](https://fontawesome.com/icons/alipay) icon.
 -}
 alipay : Icon Icon.WithoutId
-alipay = Icon.present Definitions.alipay
+alipay =
+    Icon.present Definitions.alipay
 
-  
-{-| The [“youtube”](https://fontawesome.com/icons/youtube) icon. 
+
+{-| The [“youtube”](https://fontawesome.com/icons/youtube) icon.
 -}
 youtube : Icon Icon.WithoutId
-youtube = Icon.present Definitions.youtube
+youtube =
+    Icon.present Definitions.youtube
 
-  
-{-| The [“skyatlas”](https://fontawesome.com/icons/skyatlas) icon. 
+
+{-| The [“skyatlas”](https://fontawesome.com/icons/skyatlas) icon.
 -}
 skyatlas : Icon Icon.WithoutId
-skyatlas = Icon.present Definitions.skyatlas
+skyatlas =
+    Icon.present Definitions.skyatlas
 
-  
-{-| The [“firefox-browser”](https://fontawesome.com/icons/firefox-browser) icon. 
+
+{-| The [“firefox-browser”](https://fontawesome.com/icons/firefox-browser) icon.
 -}
 firefoxBrowser : Icon Icon.WithoutId
-firefoxBrowser = Icon.present Definitions.firefoxBrowser
+firefoxBrowser =
+    Icon.present Definitions.firefoxBrowser
 
-  
-{-| The [“replyd”](https://fontawesome.com/icons/replyd) icon. 
+
+{-| The [“replyd”](https://fontawesome.com/icons/replyd) icon.
 -}
 replyd : Icon Icon.WithoutId
-replyd = Icon.present Definitions.replyd
+replyd =
+    Icon.present Definitions.replyd
 
-  
-{-| The [“suse”](https://fontawesome.com/icons/suse) icon. 
+
+{-| The [“suse”](https://fontawesome.com/icons/suse) icon.
 -}
 suse : Icon Icon.WithoutId
-suse = Icon.present Definitions.suse
+suse =
+    Icon.present Definitions.suse
 
-  
-{-| The [“jenkins”](https://fontawesome.com/icons/jenkins) icon. 
+
+{-| The [“jenkins”](https://fontawesome.com/icons/jenkins) icon.
 -}
 jenkins : Icon Icon.WithoutId
-jenkins = Icon.present Definitions.jenkins
+jenkins =
+    Icon.present Definitions.jenkins
 
-  
-{-| The [“twitter”](https://fontawesome.com/icons/twitter) icon. 
+
+{-| The [“twitter”](https://fontawesome.com/icons/twitter) icon.
 -}
 twitter : Icon Icon.WithoutId
-twitter = Icon.present Definitions.twitter
+twitter =
+    Icon.present Definitions.twitter
 
-  
-{-| The [“rockrms”](https://fontawesome.com/icons/rockrms) icon. 
+
+{-| The [“rockrms”](https://fontawesome.com/icons/rockrms) icon.
 -}
 rockrms : Icon Icon.WithoutId
-rockrms = Icon.present Definitions.rockrms
+rockrms =
+    Icon.present Definitions.rockrms
 
-  
-{-| The [“pinterest”](https://fontawesome.com/icons/pinterest) icon. 
+
+{-| The [“pinterest”](https://fontawesome.com/icons/pinterest) icon.
 -}
 pinterest : Icon Icon.WithoutId
-pinterest = Icon.present Definitions.pinterest
+pinterest =
+    Icon.present Definitions.pinterest
 
-  
-{-| The [“buffer”](https://fontawesome.com/icons/buffer) icon. 
+
+{-| The [“buffer”](https://fontawesome.com/icons/buffer) icon.
 -}
 buffer : Icon Icon.WithoutId
-buffer = Icon.present Definitions.buffer
+buffer =
+    Icon.present Definitions.buffer
 
-  
-{-| The [“npm”](https://fontawesome.com/icons/npm) icon. 
+
+{-| The [“npm”](https://fontawesome.com/icons/npm) icon.
 -}
 npm : Icon Icon.WithoutId
-npm = Icon.present Definitions.npm
+npm =
+    Icon.present Definitions.npm
 
-  
-{-| The [“yammer”](https://fontawesome.com/icons/yammer) icon. 
+
+{-| The [“yammer”](https://fontawesome.com/icons/yammer) icon.
 -}
 yammer : Icon Icon.WithoutId
-yammer = Icon.present Definitions.yammer
+yammer =
+    Icon.present Definitions.yammer
 
-  
-{-| The [“btc”](https://fontawesome.com/icons/btc) icon. 
+
+{-| The [“btc”](https://fontawesome.com/icons/btc) icon.
 -}
 btc : Icon Icon.WithoutId
-btc = Icon.present Definitions.btc
+btc =
+    Icon.present Definitions.btc
 
-  
-{-| The [“dribbble”](https://fontawesome.com/icons/dribbble) icon. 
+
+{-| The [“dribbble”](https://fontawesome.com/icons/dribbble) icon.
 -}
 dribbble : Icon Icon.WithoutId
-dribbble = Icon.present Definitions.dribbble
+dribbble =
+    Icon.present Definitions.dribbble
 
-  
-{-| The [“stumbleupon-circle”](https://fontawesome.com/icons/stumbleupon-circle) icon. 
+
+{-| The [“stumbleupon-circle”](https://fontawesome.com/icons/stumbleupon-circle) icon.
 -}
 stumbleuponCircle : Icon Icon.WithoutId
-stumbleuponCircle = Icon.present Definitions.stumbleuponCircle
+stumbleuponCircle =
+    Icon.present Definitions.stumbleuponCircle
 
-  
-{-| The [“internet-explorer”](https://fontawesome.com/icons/internet-explorer) icon. 
+
+{-| The [“internet-explorer”](https://fontawesome.com/icons/internet-explorer) icon.
 -}
 internetExplorer : Icon Icon.WithoutId
-internetExplorer = Icon.present Definitions.internetExplorer
+internetExplorer =
+    Icon.present Definitions.internetExplorer
 
-  
-{-| The [“stubber”](https://fontawesome.com/icons/stubber) icon. 
+
+{-| The [“stubber”](https://fontawesome.com/icons/stubber) icon.
 -}
 stubber : Icon Icon.WithoutId
-stubber = Icon.present Definitions.stubber
+stubber =
+    Icon.present Definitions.stubber
 
-  
-{-| The [“telegram”](https://fontawesome.com/icons/telegram) icon. 
+
+{-| The [“telegram”](https://fontawesome.com/icons/telegram) icon.
 -}
 telegram : Icon Icon.WithoutId
-telegram = Icon.present Definitions.telegram
+telegram =
+    Icon.present Definitions.telegram
+
 
 {-| Synonym for `telegram`.
 -}
 telegramPlane : Icon Icon.WithoutId
-telegramPlane = telegram
-    
-  
-{-| The [“old-republic”](https://fontawesome.com/icons/old-republic) icon. 
+telegramPlane =
+    telegram
+
+
+{-| The [“old-republic”](https://fontawesome.com/icons/old-republic) icon.
 -}
 oldRepublic : Icon Icon.WithoutId
-oldRepublic = Icon.present Definitions.oldRepublic
+oldRepublic =
+    Icon.present Definitions.oldRepublic
 
-  
-{-| The [“odysee”](https://fontawesome.com/icons/odysee) icon. 
+
+{-| The [“odysee”](https://fontawesome.com/icons/odysee) icon.
 -}
 odysee : Icon Icon.WithoutId
-odysee = Icon.present Definitions.odysee
+odysee =
+    Icon.present Definitions.odysee
 
-  
-{-| The [“square-whatsapp”](https://fontawesome.com/icons/square-whatsapp) icon. 
+
+{-| The [“square-whatsapp”](https://fontawesome.com/icons/square-whatsapp) icon.
 -}
 squareWhatsapp : Icon Icon.WithoutId
-squareWhatsapp = Icon.present Definitions.squareWhatsapp
+squareWhatsapp =
+    Icon.present Definitions.squareWhatsapp
+
 
 {-| Synonym for `squareWhatsapp`.
 -}
 whatsappSquare : Icon Icon.WithoutId
-whatsappSquare = squareWhatsapp
-    
-  
-{-| The [“node-js”](https://fontawesome.com/icons/node-js) icon. 
+whatsappSquare =
+    squareWhatsapp
+
+
+{-| The [“node-js”](https://fontawesome.com/icons/node-js) icon.
 -}
 nodeJs : Icon Icon.WithoutId
-nodeJs = Icon.present Definitions.nodeJs
+nodeJs =
+    Icon.present Definitions.nodeJs
 
-  
-{-| The [“edge-legacy”](https://fontawesome.com/icons/edge-legacy) icon. 
+
+{-| The [“edge-legacy”](https://fontawesome.com/icons/edge-legacy) icon.
 -}
 edgeLegacy : Icon Icon.WithoutId
-edgeLegacy = Icon.present Definitions.edgeLegacy
+edgeLegacy =
+    Icon.present Definitions.edgeLegacy
 
-  
-{-| The [“slack”](https://fontawesome.com/icons/slack) icon. 
+
+{-| The [“slack”](https://fontawesome.com/icons/slack) icon.
 -}
 slack : Icon Icon.WithoutId
-slack = Icon.present Definitions.slack
+slack =
+    Icon.present Definitions.slack
+
 
 {-| Synonym for `slack`.
 -}
 slackHash : Icon Icon.WithoutId
-slackHash = slack
-    
-  
-{-| The [“medrt”](https://fontawesome.com/icons/medrt) icon. 
+slackHash =
+    slack
+
+
+{-| The [“medrt”](https://fontawesome.com/icons/medrt) icon.
 -}
 medrt : Icon Icon.WithoutId
-medrt = Icon.present Definitions.medrt
+medrt =
+    Icon.present Definitions.medrt
 
-  
-{-| The [“usb”](https://fontawesome.com/icons/usb) icon. 
+
+{-| The [“usb”](https://fontawesome.com/icons/usb) icon.
 -}
 usb : Icon Icon.WithoutId
-usb = Icon.present Definitions.usb
+usb =
+    Icon.present Definitions.usb
 
-  
-{-| The [“tumblr”](https://fontawesome.com/icons/tumblr) icon. 
+
+{-| The [“tumblr”](https://fontawesome.com/icons/tumblr) icon.
 -}
 tumblr : Icon Icon.WithoutId
-tumblr = Icon.present Definitions.tumblr
+tumblr =
+    Icon.present Definitions.tumblr
 
-  
-{-| The [“vaadin”](https://fontawesome.com/icons/vaadin) icon. 
+
+{-| The [“vaadin”](https://fontawesome.com/icons/vaadin) icon.
 -}
 vaadin : Icon Icon.WithoutId
-vaadin = Icon.present Definitions.vaadin
+vaadin =
+    Icon.present Definitions.vaadin
 
-  
-{-| The [“quora”](https://fontawesome.com/icons/quora) icon. 
+
+{-| The [“quora”](https://fontawesome.com/icons/quora) icon.
 -}
 quora : Icon Icon.WithoutId
-quora = Icon.present Definitions.quora
+quora =
+    Icon.present Definitions.quora
 
-  
-{-| The [“square-x-twitter”](https://fontawesome.com/icons/square-x-twitter) icon. 
+
+{-| The [“square-x-twitter”](https://fontawesome.com/icons/square-x-twitter) icon.
 -}
 squareXTwitter : Icon Icon.WithoutId
-squareXTwitter = Icon.present Definitions.squareXTwitter
+squareXTwitter =
+    Icon.present Definitions.squareXTwitter
 
-  
-{-| The [“reacteurope”](https://fontawesome.com/icons/reacteurope) icon. 
+
+{-| The [“reacteurope”](https://fontawesome.com/icons/reacteurope) icon.
 -}
 reacteurope : Icon Icon.WithoutId
-reacteurope = Icon.present Definitions.reacteurope
+reacteurope =
+    Icon.present Definitions.reacteurope
 
-  
-{-| The [“medium”](https://fontawesome.com/icons/medium) icon. 
+
+{-| The [“medium”](https://fontawesome.com/icons/medium) icon.
 -}
 medium : Icon Icon.WithoutId
-medium = Icon.present Definitions.medium
+medium =
+    Icon.present Definitions.medium
+
 
 {-| Synonym for `medium`.
 -}
 mediumM : Icon Icon.WithoutId
-mediumM = medium
-    
-  
-{-| The [“amilia”](https://fontawesome.com/icons/amilia) icon. 
+mediumM =
+    medium
+
+
+{-| The [“amilia”](https://fontawesome.com/icons/amilia) icon.
 -}
 amilia : Icon Icon.WithoutId
-amilia = Icon.present Definitions.amilia
+amilia =
+    Icon.present Definitions.amilia
 
-  
-{-| The [“mixcloud”](https://fontawesome.com/icons/mixcloud) icon. 
+
+{-| The [“mixcloud”](https://fontawesome.com/icons/mixcloud) icon.
 -}
 mixcloud : Icon Icon.WithoutId
-mixcloud = Icon.present Definitions.mixcloud
+mixcloud =
+    Icon.present Definitions.mixcloud
 
-  
-{-| The [“flipboard”](https://fontawesome.com/icons/flipboard) icon. 
+
+{-| The [“flipboard”](https://fontawesome.com/icons/flipboard) icon.
 -}
 flipboard : Icon Icon.WithoutId
-flipboard = Icon.present Definitions.flipboard
+flipboard =
+    Icon.present Definitions.flipboard
 
-  
-{-| The [“viacoin”](https://fontawesome.com/icons/viacoin) icon. 
+
+{-| The [“viacoin”](https://fontawesome.com/icons/viacoin) icon.
 -}
 viacoin : Icon Icon.WithoutId
-viacoin = Icon.present Definitions.viacoin
+viacoin =
+    Icon.present Definitions.viacoin
 
-  
-{-| The [“critical-role”](https://fontawesome.com/icons/critical-role) icon. 
+
+{-| The [“critical-role”](https://fontawesome.com/icons/critical-role) icon.
 -}
 criticalRole : Icon Icon.WithoutId
-criticalRole = Icon.present Definitions.criticalRole
+criticalRole =
+    Icon.present Definitions.criticalRole
 
-  
-{-| The [“sitrox”](https://fontawesome.com/icons/sitrox) icon. 
+
+{-| The [“sitrox”](https://fontawesome.com/icons/sitrox) icon.
 -}
 sitrox : Icon Icon.WithoutId
-sitrox = Icon.present Definitions.sitrox
+sitrox =
+    Icon.present Definitions.sitrox
 
-  
-{-| The [“discourse”](https://fontawesome.com/icons/discourse) icon. 
+
+{-| The [“discourse”](https://fontawesome.com/icons/discourse) icon.
 -}
 discourse : Icon Icon.WithoutId
-discourse = Icon.present Definitions.discourse
+discourse =
+    Icon.present Definitions.discourse
 
-  
-{-| The [“joomla”](https://fontawesome.com/icons/joomla) icon. 
+
+{-| The [“joomla”](https://fontawesome.com/icons/joomla) icon.
 -}
 joomla : Icon Icon.WithoutId
-joomla = Icon.present Definitions.joomla
+joomla =
+    Icon.present Definitions.joomla
 
-  
-{-| The [“mastodon”](https://fontawesome.com/icons/mastodon) icon. 
+
+{-| The [“mastodon”](https://fontawesome.com/icons/mastodon) icon.
 -}
 mastodon : Icon Icon.WithoutId
-mastodon = Icon.present Definitions.mastodon
+mastodon =
+    Icon.present Definitions.mastodon
 
-  
-{-| The [“airbnb”](https://fontawesome.com/icons/airbnb) icon. 
+
+{-| The [“airbnb”](https://fontawesome.com/icons/airbnb) icon.
 -}
 airbnb : Icon Icon.WithoutId
-airbnb = Icon.present Definitions.airbnb
+airbnb =
+    Icon.present Definitions.airbnb
 
-  
-{-| The [“wolf-pack-battalion”](https://fontawesome.com/icons/wolf-pack-battalion) icon. 
+
+{-| The [“wolf-pack-battalion”](https://fontawesome.com/icons/wolf-pack-battalion) icon.
 -}
 wolfPackBattalion : Icon Icon.WithoutId
-wolfPackBattalion = Icon.present Definitions.wolfPackBattalion
+wolfPackBattalion =
+    Icon.present Definitions.wolfPackBattalion
 
-  
-{-| The [“buy-n-large”](https://fontawesome.com/icons/buy-n-large) icon. 
+
+{-| The [“buy-n-large”](https://fontawesome.com/icons/buy-n-large) icon.
 -}
 buyNLarge : Icon Icon.WithoutId
-buyNLarge = Icon.present Definitions.buyNLarge
+buyNLarge =
+    Icon.present Definitions.buyNLarge
 
-  
-{-| The [“gulp”](https://fontawesome.com/icons/gulp) icon. 
+
+{-| The [“gulp”](https://fontawesome.com/icons/gulp) icon.
 -}
 gulp : Icon Icon.WithoutId
-gulp = Icon.present Definitions.gulp
+gulp =
+    Icon.present Definitions.gulp
 
-  
-{-| The [“creative-commons-sampling-plus”](https://fontawesome.com/icons/creative-commons-sampling-plus) icon. 
+
+{-| The [“creative-commons-sampling-plus”](https://fontawesome.com/icons/creative-commons-sampling-plus) icon.
 -}
 creativeCommonsSamplingPlus : Icon Icon.WithoutId
-creativeCommonsSamplingPlus = Icon.present Definitions.creativeCommonsSamplingPlus
+creativeCommonsSamplingPlus =
+    Icon.present Definitions.creativeCommonsSamplingPlus
 
-  
-{-| The [“strava”](https://fontawesome.com/icons/strava) icon. 
+
+{-| The [“strava”](https://fontawesome.com/icons/strava) icon.
 -}
 strava : Icon Icon.WithoutId
-strava = Icon.present Definitions.strava
+strava =
+    Icon.present Definitions.strava
 
-  
-{-| The [“ember”](https://fontawesome.com/icons/ember) icon. 
+
+{-| The [“ember”](https://fontawesome.com/icons/ember) icon.
 -}
 ember : Icon Icon.WithoutId
-ember = Icon.present Definitions.ember
+ember =
+    Icon.present Definitions.ember
 
-  
-{-| The [“canadian-maple-leaf”](https://fontawesome.com/icons/canadian-maple-leaf) icon. 
+
+{-| The [“canadian-maple-leaf”](https://fontawesome.com/icons/canadian-maple-leaf) icon.
 -}
 canadianMapleLeaf : Icon Icon.WithoutId
-canadianMapleLeaf = Icon.present Definitions.canadianMapleLeaf
+canadianMapleLeaf =
+    Icon.present Definitions.canadianMapleLeaf
 
-  
-{-| The [“teamspeak”](https://fontawesome.com/icons/teamspeak) icon. 
+
+{-| The [“teamspeak”](https://fontawesome.com/icons/teamspeak) icon.
 -}
 teamspeak : Icon Icon.WithoutId
-teamspeak = Icon.present Definitions.teamspeak
+teamspeak =
+    Icon.present Definitions.teamspeak
 
-  
-{-| The [“pushed”](https://fontawesome.com/icons/pushed) icon. 
+
+{-| The [“pushed”](https://fontawesome.com/icons/pushed) icon.
 -}
 pushed : Icon Icon.WithoutId
-pushed = Icon.present Definitions.pushed
+pushed =
+    Icon.present Definitions.pushed
 
-  
-{-| The [“wordpress-simple”](https://fontawesome.com/icons/wordpress-simple) icon. 
+
+{-| The [“wordpress-simple”](https://fontawesome.com/icons/wordpress-simple) icon.
 -}
 wordpressSimple : Icon Icon.WithoutId
-wordpressSimple = Icon.present Definitions.wordpressSimple
+wordpressSimple =
+    Icon.present Definitions.wordpressSimple
 
-  
-{-| The [“nutritionix”](https://fontawesome.com/icons/nutritionix) icon. 
+
+{-| The [“nutritionix”](https://fontawesome.com/icons/nutritionix) icon.
 -}
 nutritionix : Icon Icon.WithoutId
-nutritionix = Icon.present Definitions.nutritionix
+nutritionix =
+    Icon.present Definitions.nutritionix
 
-  
-{-| The [“wodu”](https://fontawesome.com/icons/wodu) icon. 
+
+{-| The [“wodu”](https://fontawesome.com/icons/wodu) icon.
 -}
 wodu : Icon Icon.WithoutId
-wodu = Icon.present Definitions.wodu
+wodu =
+    Icon.present Definitions.wodu
 
-  
-{-| The [“google-pay”](https://fontawesome.com/icons/google-pay) icon. 
+
+{-| The [“google-pay”](https://fontawesome.com/icons/google-pay) icon.
 -}
 googlePay : Icon Icon.WithoutId
-googlePay = Icon.present Definitions.googlePay
+googlePay =
+    Icon.present Definitions.googlePay
 
-  
-{-| The [“intercom”](https://fontawesome.com/icons/intercom) icon. 
+
+{-| The [“intercom”](https://fontawesome.com/icons/intercom) icon.
 -}
 intercom : Icon Icon.WithoutId
-intercom = Icon.present Definitions.intercom
+intercom =
+    Icon.present Definitions.intercom
 
-  
-{-| The [“zhihu”](https://fontawesome.com/icons/zhihu) icon. 
+
+{-| The [“zhihu”](https://fontawesome.com/icons/zhihu) icon.
 -}
 zhihu : Icon Icon.WithoutId
-zhihu = Icon.present Definitions.zhihu
+zhihu =
+    Icon.present Definitions.zhihu
 
-  
-{-| The [“korvue”](https://fontawesome.com/icons/korvue) icon. 
+
+{-| The [“korvue”](https://fontawesome.com/icons/korvue) icon.
 -}
 korvue : Icon Icon.WithoutId
-korvue = Icon.present Definitions.korvue
+korvue =
+    Icon.present Definitions.korvue
 
-  
-{-| The [“pix”](https://fontawesome.com/icons/pix) icon. 
+
+{-| The [“pix”](https://fontawesome.com/icons/pix) icon.
 -}
 pix : Icon Icon.WithoutId
-pix = Icon.present Definitions.pix
+pix =
+    Icon.present Definitions.pix
 
-  
-{-| The [“steam-symbol”](https://fontawesome.com/icons/steam-symbol) icon. 
+
+{-| The [“steam-symbol”](https://fontawesome.com/icons/steam-symbol) icon.
 -}
 steamSymbol : Icon Icon.WithoutId
-steamSymbol = Icon.present Definitions.steamSymbol
-
-  
-    
+steamSymbol =
+    Icon.present Definitions.steamSymbol

@@ -15,7 +15,7 @@ the powerful transformation, layering, text, counter, and masking features.
 
 ## How it works.
 
-This package is generated using [the FontAwesome SVG JavaScript Core][fa-core].
+This package is generated using [the FontAwesome SVG JavaScript Core library][fa-core].
 If you are interested in how this is done, would like to manually subset the
 icons (which shouldn't be necessary due to tree-shaking in most cases), or want
 to update to a new version of FontAwesome (do also feel free to submit an issue

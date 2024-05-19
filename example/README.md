@@ -1,4 +1,4 @@
-# FontAwesome 5 for Elm Example.
+# FontAwesome for Elm Example.
 
 [![Generator Build Status](https://img.shields.io/github/actions/workflow/status/lattyware/elm-fontawesome-generator/build.yml?logo=github&label=generator%20build)](https://github.com/Lattyware/elm-fontawesome-generator/actions/workflows/build.yml)
 [![Package Publish Status](https://img.shields.io/github/actions/workflow/status/lattyware/elm-fontawesome/publish.yml?logo=github&label=package%20publish)](https://github.com/Lattyware/elm-fontawesome/actions/workflows/publish.yml)

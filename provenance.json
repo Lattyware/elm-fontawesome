@@ -17,7 +17,7 @@
     {
       "name": ".github/workflows/publish.yml",
       "digest": {
-        "sha256": "ceab827f9e4955deae83a3ed05c1285eaa98891f7adebc4e2aa7ff34835f0931"
+        "sha256": "d3d35181e55ebf8cbbb87f32387cb6e3016e69c4d7db5565c380d13b38027db5"
       }
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "README.md",
       "digest": {
-        "sha256": "4d4e488d7e54cccf27496c3b8360314d7693fb6cd7f5ffb9de695f872a2f1ce0"
+        "sha256": "4dcf2388af3c82811486f84f4ecdceefcba251d886a18bf81143e3522310bcdc"
       }
     },
     {
       "name": "elm.json",
       "digest": {
-        "sha256": "b017a7be0dc3a16f9b7db5f90018f78a9b6b3499408c8dbf8de9241fd9c34594"
+        "sha256": "bedc463a363d99b952f720a91c88af99751b9d649e00dce8afa04ba755b71d55"
       }
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "example/Dockerfile",
       "digest": {
-        "sha256": "567bb67f0fd0e81fbe49d7539cb490e2cfc1e8c3ef405423691295367e432e80"
+        "sha256": "7e8398532d83618a461be00b9fff7a5061bf3e7f7bff6ff1b9d8ab2d8416d64d"
       }
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "example/README.md",
       "digest": {
-        "sha256": "cf59ea11f838a7820fbe766f70e9f7f7fbbbb07ee386e1a10fa1f5b5d2376786"
+        "sha256": "10281f3a0b768f64bb056e9bf965d996deb3fff8c4df2b3a254fe80b2b01e649"
       }
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "src/FontAwesome/Attributes.elm",
       "digest": {
-        "sha256": "bfa9855b0e63eeeae5c7992ed847c59ace878a9663954ab0999b9a2b9420242a"
+        "sha256": "91f44cde164f2b54009c749fb770d8792b43995fa76b00f2ec297225ced715da"
       }
     },
     {
       "name": "src/FontAwesome/Brands/Definitions.elm",
       "digest": {
-        "sha256": "76da4b41e07d429759cda80a9761d2a4992ef4ad0c58ce686070165d41759410"
+        "sha256": "48b3d1f91eca578c0f6851c12b2dd0f4308c8d8adbbc1459627481730973b66b"
       }
     },
     {
       "name": "src/FontAwesome/Brands.elm",
       "digest": {
-        "sha256": "92d2591a6afb07cd0d813bb51f499f2b0436dcdc1a3ea98e58fe9148c0c06d17"
+        "sha256": "5dabcc1e1db4c7570605a69c34a12456198663c7a08cdcaee3a3ddf5e6984580"
       }
     },
     {
@@ -143,31 +143,31 @@
     {
       "name": "src/FontAwesome/Regular/Definitions.elm",
       "digest": {
-        "sha256": "65e6c1716e1f6819a38e908e7ecf5e755ebd945b306cb1ff3f25ff81d33071b9"
+        "sha256": "7f2bcc7721fa4462ee44b409ee8ac04065a84409a2c64e60e88997f7348e03e8"
       }
     },
     {
       "name": "src/FontAwesome/Regular.elm",
       "digest": {
-        "sha256": "eaf192d0c321007b53c2094100487e7b20c46ce28c1a1b9bd6a83d925a5e0d87"
+        "sha256": "8dcc9c42c9f8bb16177980ced413779b8acd972e8fe6f3a7ba6d1137ece6c151"
       }
     },
     {
       "name": "src/FontAwesome/Solid/Definitions.elm",
       "digest": {
-        "sha256": "4c89acb1c2817209f5efc0d4e8bce6f058cb981f891e47994e8f5fad6484211a"
+        "sha256": "9ec42063529c64feef437fb5f1030833c7a5e9c6e290f0853233c74046b7ce7a"
       }
     },
     {
       "name": "src/FontAwesome/Solid.elm",
       "digest": {
-        "sha256": "3274dbb178ae17f2a3272d0ecf77160efab55353803de49685c99f3f17635e4c"
+        "sha256": "bf86cf57cdbd0f94f34f188ccbe399926bf31a38ada17ef6e7fadda32d504e62"
       }
     },
     {
       "name": "src/FontAwesome/Styles.elm",
       "digest": {
-        "sha256": "0f87bacbfb134cacd63c3fb33ac9e961d6e124e998c347f2157ca713e0d6d9c7"
+        "sha256": "ebce9e3413da2816c7d38e48c2bed9e3bdbea1cb18f0b64609f480df2e9a2f76"
       }
     },
     {
@@ -197,14 +197,14 @@
   ],
   "predicate": {
     "builder": {
-      "id": "https://github.com/Lattyware/elm-fontawesome-generator/actions/runs/7845972329"
+      "id": "https://github.com/Lattyware/elm-fontawesome-generator/actions/runs/9148394437"
     },
     "buildType": "https://mobyproject.org/buildkit@v1",
     "materials": [
       {
-        "uri": "pkg:docker/node@21-alpine?platform=linux%2Famd64",
+        "uri": "pkg:docker/node@22-alpine?platform=linux%2Famd64",
         "digest": {
-          "sha256": "4cc2d9f365691fc6f8fe227321d32d9a2691216a71f51c21c7f02224515dea48"
+          "sha256": "9e8f45fc08c709b1fd87baeeed487977f57585f85f3838c01747602cd85a64bb"
         }
       }
     ],
@@ -215,7 +215,7 @@
       "parameters": {
         "frontend": "dockerfile.v0",
         "args": {
-          "build-arg:ELM_FONTAWESOME_VERSION": "7.0.0"
+          "build-arg:ELM_FONTAWESOME_VERSION": ""
         },
         "locals": [
           {
@@ -237,7 +237,7 @@
           "op": {
             "Op": {
               "source": {
-                "identifier": "docker-image://docker.io/library/node:21-alpine@sha256:4cc2d9f365691fc6f8fe227321d32d9a2691216a71f51c21c7f02224515dea48",
+                "identifier": "docker-image://docker.io/library/node:22-alpine@sha256:9e8f45fc08c709b1fd87baeeed487977f57585f85f3838c01747602cd85a64bb",
                 "attrs": {
                   "image.resolvemode": "pull"
                 }
@@ -301,42 +301,8 @@
               "file": {
                 "actions": [
                   {
-                    "input": 0,
-                    "secondaryInput": 1,
-                    "output": 0,
-                    "Action": {
-                      "copy": {
-                        "src": "/package.json",
-                        "dest": "/fa/",
-                        "mode": -1,
-                        "followSymlink": true,
-                        "dirCopyContents": true,
-                        "createDestPath": true,
-                        "allowWildcard": true,
-                        "allowEmptyWildcard": true,
-                        "timestamp": -1
-                      }
-                    }
-                  }
-                ]
-              }
-            },
-            "constraints": {}
-          },
-          "inputs": [
-            "step1:0",
-            "step2:0"
-          ]
-        },
-        {
-          "id": "step4",
-          "op": {
-            "Op": {
-              "file": {
-                "actions": [
-                  {
-                    "input": 0,
-                    "secondaryInput": 1,
+                    "input": -1,
+                    "secondaryInput": 0,
                     "output": -1,
                     "Action": {
                       "copy": {
@@ -353,8 +319,8 @@
                     }
                   },
                   {
-                    "input": 2,
-                    "secondaryInput": 1,
+                    "input": 1,
+                    "secondaryInput": 0,
                     "output": -1,
                     "Action": {
                       "copy": {
@@ -371,8 +337,8 @@
                     }
                   },
                   {
-                    "input": 3,
-                    "secondaryInput": 1,
+                    "input": 2,
+                    "secondaryInput": 0,
                     "output": 0,
                     "Action": {
                       "copy": {
@@ -394,90 +360,40 @@
             "constraints": {}
           },
           "inputs": [
-            "step1:0",
             "step2:0"
+          ]
+        },
+        {
+          "id": "step4",
+          "op": {
+            "Op": {
+              "merge": {
+                "inputs": [
+                  {
+                    "input": 0
+                  },
+                  {
+                    "input": 1
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step1:0",
+            "step3:0"
           ]
         },
         {
           "id": "step5",
           "op": {
             "Op": {
-              "exec": {
-                "meta": {
-                  "args": [
-                    "npm",
-                    "ci"
-                  ],
-                  "env": [
-                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-                    "NODE_VERSION=21.6.1",
-                    "YARN_VERSION=1.22.19"
-                  ],
-                  "cwd": "/fa",
-                  "removeMountStubsRecursive": true
-                },
-                "mounts": [
-                  {
-                    "input": 0,
-                    "dest": "/",
-                    "output": 0
-                  }
-                ]
-              }
-            },
-            "platform": {
-              "Architecture": "amd64",
-              "OS": "linux"
-            },
-            "constraints": {}
-          },
-          "inputs": [
-            "step4:0"
-          ]
-        },
-        {
-          "id": "step6",
-          "op": {
-            "Op": {
               "file": {
                 "actions": [
                   {
-                    "input": 0,
-                    "secondaryInput": 1,
-                    "output": 0,
-                    "Action": {
-                      "copy": {
-                        "src": "/fa/node_modules",
-                        "dest": "/fa/node_modules",
-                        "mode": -1,
-                        "followSymlink": true,
-                        "dirCopyContents": true,
-                        "createDestPath": true,
-                        "allowWildcard": true,
-                        "allowEmptyWildcard": true,
-                        "timestamp": -1
-                      }
-                    }
-                  }
-                ]
-              }
-            },
-            "constraints": {}
-          },
-          "inputs": [
-            "step3:0",
-            "step5:0"
-          ]
-        },
-        {
-          "id": "step7",
-          "op": {
-            "Op": {
-              "file": {
-                "actions": [
-                  {
-                    "input": 0,
-                    "secondaryInput": 1,
+                    "input": -1,
+                    "secondaryInput": 0,
                     "output": 0,
                     "Action": {
                       "copy": {
@@ -499,8 +415,76 @@
             "constraints": {}
           },
           "inputs": [
-            "step6:0",
             "step2:0"
+          ]
+        },
+        {
+          "id": "step6",
+          "op": {
+            "Op": {
+              "merge": {
+                "inputs": [
+                  {
+                    "input": 0
+                  },
+                  {
+                    "input": 1
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step4:0",
+            "step5:0"
+          ]
+        },
+        {
+          "id": "step7",
+          "op": {
+            "Op": {
+              "exec": {
+                "meta": {
+                  "args": [
+                    "/bin/sh",
+                    "-c",
+                    "npm set cache /usr/src/app/.npm \u0026\u0026   npm ci"
+                  ],
+                  "env": [
+                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                    "NODE_VERSION=22.2.0",
+                    "YARN_VERSION=1.22.19"
+                  ],
+                  "cwd": "/fa",
+                  "removeMountStubsRecursive": true
+                },
+                "mounts": [
+                  {
+                    "input": 0,
+                    "dest": "/",
+                    "output": 0
+                  },
+                  {
+                    "input": -1,
+                    "dest": "/usr/src/app/.npm",
+                    "output": -1,
+                    "mountType": 3,
+                    "cacheOpt": {
+                      "ID": "//usr/src/app/.npm"
+                    }
+                  }
+                ]
+              }
+            },
+            "platform": {
+              "Architecture": "amd64",
+              "OS": "linux"
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step6:0"
           ]
         },
         {
@@ -510,8 +494,8 @@
               "file": {
                 "actions": [
                   {
-                    "input": 0,
-                    "secondaryInput": 1,
+                    "input": -1,
+                    "secondaryInput": 0,
                     "output": 0,
                     "Action": {
                       "copy": {
@@ -533,7 +517,6 @@
             "constraints": {}
           },
           "inputs": [
-            "step7:0",
             "step2:0"
           ]
         },
@@ -541,16 +524,38 @@
           "id": "step9",
           "op": {
             "Op": {
+              "merge": {
+                "inputs": [
+                  {
+                    "input": 0
+                  },
+                  {
+                    "input": 1
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step7:0",
+            "step8:0"
+          ]
+        },
+        {
+          "id": "step10",
+          "op": {
+            "Op": {
               "exec": {
                 "meta": {
                   "args": [
-                    "npm",
-                    "ci",
-                    "--include=dev"
+                    "/bin/sh",
+                    "-c",
+                    "npm set cache /usr/src/app/.npm \u0026\u0026   npm ci --include=dev"
                   ],
                   "env": [
                     "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-                    "NODE_VERSION=21.6.1",
+                    "NODE_VERSION=22.2.0",
                     "YARN_VERSION=1.22.19"
                   ],
                   "cwd": "/fa",
@@ -561,6 +566,15 @@
                     "input": 0,
                     "dest": "/",
                     "output": 0
+                  },
+                  {
+                    "input": -1,
+                    "dest": "/usr/src/app/.npm",
+                    "output": -1,
+                    "mountType": 3,
+                    "cacheOpt": {
+                      "ID": "//usr/src/app/.npm"
+                    }
                   }
                 ]
               }
@@ -576,14 +590,14 @@
           ]
         },
         {
-          "id": "step10",
+          "id": "step11",
           "op": {
             "Op": {
               "file": {
                 "actions": [
                   {
-                    "input": 0,
-                    "secondaryInput": 1,
+                    "input": -1,
+                    "secondaryInput": 0,
                     "output": 0,
                     "Action": {
                       "copy": {
@@ -605,19 +619,40 @@
             "constraints": {}
           },
           "inputs": [
-            "step9:0",
             "step2:0"
           ]
         },
         {
-          "id": "step11",
+          "id": "step12",
+          "op": {
+            "Op": {
+              "merge": {
+                "inputs": [
+                  {
+                    "input": 0
+                  },
+                  {
+                    "input": 1
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step10:0",
+            "step11:0"
+          ]
+        },
+        {
+          "id": "step13",
           "op": {
             "Op": {
               "file": {
                 "actions": [
                   {
-                    "input": 0,
-                    "secondaryInput": 1,
+                    "input": -1,
+                    "secondaryInput": 0,
                     "output": 0,
                     "Action": {
                       "copy": {
@@ -639,24 +674,45 @@
             "constraints": {}
           },
           "inputs": [
-            "step10:0",
             "step2:0"
           ]
         },
         {
-          "id": "step12",
+          "id": "step14",
+          "op": {
+            "Op": {
+              "merge": {
+                "inputs": [
+                  {
+                    "input": 0
+                  },
+                  {
+                    "input": 1
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step12:0",
+            "step13:0"
+          ]
+        },
+        {
+          "id": "step15",
           "op": {
             "Op": {
               "exec": {
                 "meta": {
                   "args": [
-                    "npm",
-                    "run",
-                    "build"
+                    "/bin/sh",
+                    "-c",
+                    "npm run build"
                   ],
                   "env": [
                     "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-                    "NODE_VERSION=21.6.1",
+                    "NODE_VERSION=22.2.0",
                     "YARN_VERSION=1.22.19"
                   ],
                   "cwd": "/fa",
@@ -678,18 +734,18 @@
             "constraints": {}
           },
           "inputs": [
-            "step11:0"
+            "step14:0"
           ]
         },
         {
-          "id": "step13",
+          "id": "step16",
           "op": {
             "Op": {
               "file": {
                 "actions": [
                   {
-                    "input": 0,
-                    "secondaryInput": 1,
+                    "input": -1,
+                    "secondaryInput": 0,
                     "output": 0,
                     "Action": {
                       "copy": {
@@ -711,12 +767,33 @@
             "constraints": {}
           },
           "inputs": [
-            "step8:0",
-            "step12:0"
+            "step15:0"
           ]
         },
         {
-          "id": "step14",
+          "id": "step17",
+          "op": {
+            "Op": {
+              "merge": {
+                "inputs": [
+                  {
+                    "input": 0
+                  },
+                  {
+                    "input": 1
+                  }
+                ]
+              }
+            },
+            "constraints": {}
+          },
+          "inputs": [
+            "step9:0",
+            "step16:0"
+          ]
+        },
+        {
+          "id": "step18",
           "op": {
             "Op": {
               "exec": {
@@ -728,9 +805,9 @@
                   ],
                   "env": [
                     "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-                    "NODE_VERSION=21.6.1",
+                    "NODE_VERSION=22.2.0",
                     "YARN_VERSION=1.22.19",
-                    "ELM_FONTAWESOME_VERSION=7.0.0"
+                    "ELM_FONTAWESOME_VERSION="
                   ],
                   "cwd": "/fa",
                   "removeMountStubsRecursive": true
@@ -751,11 +828,11 @@
             "constraints": {}
           },
           "inputs": [
-            "step13:0"
+            "step17:0"
           ]
         },
         {
-          "id": "step15",
+          "id": "step19",
           "op": {
             "Op": {
               "file": {
@@ -784,43 +861,47 @@
             "constraints": {}
           },
           "inputs": [
-            "step14:0"
+            "step18:0"
           ]
         },
         {
-          "id": "step16",
+          "id": "step20",
           "op": {
             "Op": null
           },
           "inputs": [
-            "step15:0"
+            "step19:0"
           ]
         }
       ],
       "digestMapping": {
-        "sha256:13954731fd859b20ac15ff2f8ceb0dce31a680c8ec9e8e2467f14fcdc25a5f3e": "step7",
-        "sha256:16d522af6f5476776ead85b496dc6a43029197c50d31908f5215f8f697ba19e9": "step14",
-        "sha256:27faaf18d9cd24206cd987634ba1a206d1ecdc973f65ea5fdb3b53ae1da621c9": "step6",
-        "sha256:39bd4a50bdf1075e8373d6742793728e7a6e5ba8b4e6691303975b9b964495c7": "step4",
-        "sha256:6160373986d53a17ee369b22849f785980b7f29b661c1a556cbf8c2ad1d98442": "step2",
-        "sha256:6328325c210fd8b423f6457e613b604da8ecf8ba11bb946234adae0eee24a063": "step8",
-        "sha256:70878efe1216224f7df2c545c74cfcacd3691e0ad14e29845bd012e1789d68f3": "step5",
-        "sha256:76640b1884b55f5f02b5d95caa38bca25fe2c85607ffdaa839f557c5535d1d11": "step10",
-        "sha256:8e81c440fa7aac720d158c79dad13dc9ed2ae6f7033644cb0bedf947d7f986d3": "step11",
-        "sha256:8ef50c110196b1f06f94e3328d534181a5e06af1359898622e55c0bdee931371": "step15",
-        "sha256:933fa23d13f4ea812abcad7b278d0e718001a244375b7518692e4686ba9cb272": "step1",
-        "sha256:c6db6f2a14fc2604c9fc2143952a4a7f7865eaba49b49d2f6dbdf04cd8b29764": "step3",
-        "sha256:ce5cb0cc6e309f88838b0b0ae8648242ed7b01d4ad1638d27e8723eb582aac55": "step0",
-        "sha256:e2a517e181660461d6a64e7246aa9cf0f2d709465801f64384a2343ed3c24715": "step9",
-        "sha256:e9fb0b1b2b5c372e65d9f491a1bcac6afc2511577d207fa256ebec7781086875": "step12",
-        "sha256:ea0807a1dc956a8609cf82e24ddcabdba857b8d1f3806017d67fe2b3daf26aa8": "step16",
-        "sha256:f6a96b40403cc6999d6c30d2ecb3f6385c90120776faf87db758a985f8dcc0b2": "step13"
+        "sha256:0a5389f78d4edf8b9c628ba7a651adc4673733ef6f21899c9f7ede99937df251": "step10",
+        "sha256:0b4d3d9eb5e59162bab53434b146ce76eafb3c785a1a49d6771c622922d6305a": "step15",
+        "sha256:0ba4c95685428ea5f61055c67019740d9d996e333efb730bb3c6f6c31ddd8126": "step12",
+        "sha256:0d17131a9211f844a1efbd084596b272bdcd28287c30b82458d86c1ea94aad45": "step16",
+        "sha256:0e9de03180d5467de58c8c64c628b14f7b70e81ba0c03f781ddfbfe4cb5111d2": "step7",
+        "sha256:1336eb7eabb096d438369a8d5007b8c2e571e6803d12e2aa5e14cc72294b9066": "step17",
+        "sha256:1e3276782e0f96dd3d653c1b84ee4840becea6289b1469a5f560d3ab01870c80": "step0",
+        "sha256:228b9f74ef3db8bc95885bb272691410759e15654d5515e53df6cc48bf021d4f": "step4",
+        "sha256:3950cb1ad3126323347da264b68a3a7c54ed370d885160501032fecda7dd26f3": "step8",
+        "sha256:3b3a13b946ab1e28c24b0971c158e0b7372773ae60d10fa85977a84a2fb6f0ce": "step11",
+        "sha256:44a6001c05e075172c315ea332a9da76cb2acfba7cf155ccab82239b36df4eb2": "step2",
+        "sha256:a5f47ce5c94168ce4e78a3502eb2ca2e423c10ef1eb8c81892019ab4fbe24900": "step19",
+        "sha256:b2604ec0c47f6fd377c70911cfdd95a829e97a3f8dbe70b6921c7f4da9c7c43e": "step5",
+        "sha256:b9e49c5d21800a62f51495b91523e00d60bb058ee0b9e3873cb1c715469c0407": "step18",
+        "sha256:bc0abd67229dd221ae8e82e25adbb0f0fedd4ceb64ac8c5307513d21cd3eb79f": "step20",
+        "sha256:ca2c11ee9b3515928ff3511bccdfaa48f72a789a1d18b89662433093cc0409de": "step1",
+        "sha256:dca103432c06bcffcd1e760de869ab60b1b239d3384a809ffafce864c60be671": "step9",
+        "sha256:f0dd9d7d9d5333d68b32f09fe234e63b3099feed6e18ec0df78b4b1d844bdf68": "step13",
+        "sha256:f128c64a8f2fec186a00e4ed478b25233d1f6185fb3eb8134108139e907895bc": "step6",
+        "sha256:faa7b42432eff1299fc50bb0504994bac8919a37fa555e99211de0a0f7cfae8a": "step14",
+        "sha256:fe17fe4335ce4d32f02cbddfc8db89036b56c8e5ca4aa6b952d92c4c79322033": "step3"
       }
     },
     "metadata": {
-      "buildInvocationID": "pe6e5z65ouwbs7i9fmilg8b0n",
-      "buildStartedOn": "2024-02-09T15:17:01.040784328Z",
-      "buildFinishedOn": "2024-02-09T15:17:18.432035285Z",
+      "buildInvocationID": "fnu4sy7qsmkgyu8onswg77saq",
+      "buildStartedOn": "2024-05-19T14:31:08.240666479Z",
+      "buildFinishedOn": "2024-05-19T14:31:21.510416365Z",
       "completeness": {
         "parameters": true,
         "environment": true,
@@ -829,7 +910,9 @@
       "reproducible": false,
       "https://mobyproject.org/buildkit@v1#metadata": {
         "vcs": {
-          "revision": "968c503cf39ac7a4eff7b74e8f9eb11e7276103e",
+          "localdir:context": ".",
+          "localdir:dockerfile": ".",
+          "revision": "3d49167950c12368b779921187d0bb25b5faa42d",
           "source": "https://github.com/Lattyware/elm-fontawesome-generator"
         },
         "source": {
@@ -872,10 +955,34 @@
                   "ranges": [
                     {
                       "start": {
+                        "line": 15
+                      },
+                      "end": {
+                        "line": 15
+                      }
+                    },
+                    {
+                      "start": {
                         "line": 16
                       },
                       "end": {
                         "line": 16
+                      }
+                    },
+                    {
+                      "start": {
+                        "line": 17
+                      },
+                      "end": {
+                        "line": 17
+                      }
+                    },
+                    {
+                      "start": {
+                        "line": 18
+                      },
+                      "end": {
+                        "line": 18
                       }
                     }
                   ]
@@ -888,10 +995,10 @@
                   "ranges": [
                     {
                       "start": {
-                        "line": 17
+                        "line": 20
                       },
                       "end": {
-                        "line": 17
+                        "line": 20
                       }
                     }
                   ]
@@ -904,10 +1011,10 @@
                   "ranges": [
                     {
                       "start": {
-                        "line": 18
+                        "line": 20
                       },
                       "end": {
-                        "line": 18
+                        "line": 20
                       }
                     }
                   ]
@@ -920,6 +1027,54 @@
                   "ranges": [
                     {
                       "start": {
+                        "line": 21
+                      },
+                      "end": {
+                        "line": 21
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step14": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 21
+                      },
+                      "end": {
+                        "line": 21
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step15": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 22
+                      },
+                      "end": {
+                        "line": 22
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step16": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
                         "line": 36
                       },
                       "end": {
@@ -930,7 +1085,23 @@
                 }
               ]
             },
-            "step14": {
+            "step17": {
+              "locations": [
+                {
+                  "ranges": [
+                    {
+                      "start": {
+                        "line": 36
+                      },
+                      "end": {
+                        "line": 36
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "step18": {
               "locations": [
                 {
                   "ranges": [
@@ -946,7 +1117,7 @@
                 }
               ]
             },
-            "step15": {
+            "step19": {
               "locations": [
                 {
                   "ranges": [
@@ -969,10 +1140,10 @@
                   "ranges": [
                     {
                       "start": {
-                        "line": 32
+                        "line": 9
                       },
                       "end": {
-                        "line": 32
+                        "line": 9
                       }
                     }
                   ]
@@ -985,22 +1156,10 @@
                   "ranges": [
                     {
                       "start": {
-                        "line": 24
+                        "line": 9
                       },
                       "end": {
-                        "line": 24
-                      }
-                    }
-                  ]
-                },
-                {
-                  "ranges": [
-                    {
-                      "start": {
-                        "line": 13
-                      },
-                      "end": {
-                        "line": 13
+                        "line": 9
                       }
                     }
                   ]
@@ -1013,10 +1172,10 @@
                   "ranges": [
                     {
                       "start": {
-                        "line": 25
+                        "line": 29
                       },
                       "end": {
-                        "line": 25
+                        "line": 29
                       }
                     }
                   ]
@@ -1029,10 +1188,10 @@
                   "ranges": [
                     {
                       "start": {
-                        "line": 33
+                        "line": 29
                       },
                       "end": {
-                        "line": 33
+                        "line": 29
                       }
                     }
                   ]
@@ -1045,10 +1204,34 @@
                   "ranges": [
                     {
                       "start": {
-                        "line": 34
+                        "line": 30
                       },
                       "end": {
-                        "line": 34
+                        "line": 30
+                      }
+                    },
+                    {
+                      "start": {
+                        "line": 31
+                      },
+                      "end": {
+                        "line": 31
+                      }
+                    },
+                    {
+                      "start": {
+                        "line": 32
+                      },
+                      "end": {
+                        "line": 32
+                      }
+                    },
+                    {
+                      "start": {
+                        "line": 33
+                      },
+                      "end": {
+                        "line": 33
                       }
                     }
                   ]
@@ -1077,10 +1260,10 @@
                   "ranges": [
                     {
                       "start": {
-                        "line": 14
+                        "line": 35
                       },
                       "end": {
-                        "line": 14
+                        "line": 35
                       }
                     }
                   ]
@@ -1092,7 +1275,7 @@
             {
               "filename": "Dockerfile",
               "language": "Dockerfile",
-              "data": "QVJHIE5PREVfVkVSU0lPTj0yMQpBUkcgRUxNX0ZPTlRBV0VTT01FX1ZFUlNJT04KCgpGUk9NIG5vZGU6JHtOT0RFX1ZFUlNJT059LWFscGluZSBBUyBiYXNlCgpXT1JLRElSICIvZmEiCgoKIyBCdWlsZCB0aGUgZ2VuZXJhdG9yLgpGUk9NIGJhc2UgQVMgYnVpbGQKCkNPUFkgWyIuL3BhY2thZ2UuanNvbiIsICIuL3BhY2thZ2UtbG9jay5qc29uIiwgImVsbS10b29saW5nLmpzb24iLCAiLi8iXQpSVU4gWyJucG0iLCAiY2kiLCAiLS1pbmNsdWRlPWRldiJdCgpDT1BZIFsiLi90c2NvbmZpZy5qc29uIiwgIi4vIl0KQ09QWSBbIi4vc3JjIiwgIi4vc3JjIl0KUlVOIFsibnBtIiwgInJ1biIsICJidWlsZCJdCgoKIyBJbnN0YWxsIG9ubHkgcHJvZCBkZXBlbmRlbmNpZXMuCkZST00gYmFzZSBBUyBpbnN0YWxsCgpDT1BZIFsiLi9wYWNrYWdlLmpzb24iLCAiLi9wYWNrYWdlLWxvY2suanNvbiIsICJlbG0tdG9vbGluZy5qc29uIiwgIi4vIl0KUlVOIFsibnBtIiwgImNpIl0KCgojIEltYWdlIGZvciB0aGUgZ2VuZXJhdG9yLiAKIyBgLS10YXJnZXQgZ2VuZXJhdG9yYCB0byBzdG9wIGhlcmUgYW5kIGdldCBhbiBpbWFnZSB0byBnZW5lcmF0ZSB3aXRoIHJlcGVhdGVkbHkuCkZST00gYmFzZSBBUyBnZW5lcmF0b3IKCkNPUFkgWyIuL3BhY2thZ2UuanNvbiIsICIuLyJdCkNPUFkgLS1mcm9tPWluc3RhbGwgWyIvZmEvbm9kZV9tb2R1bGVzIiwgIi4vbm9kZV9tb2R1bGVzIl0KQ09QWSBbIi4vY29uZmlnLmpzb24iLCAiLi8iXQpDT1BZIFsiLi9iYXNlIiwgIi4vYmFzZSJdCkNPUFkgLS1mcm9tPWJ1aWxkIFsiL2ZhL2Rpc3QvZ2VuZXJhdG9yIiwgIi4vIl0KCkNNRCBbIm5vZGUiLCAiLS1lbmFibGUtc291cmNlLW1hcHMiLCAiLi9jbGkuanMiXQoKCiMgQWN0dWFsbHkgZXhlY3V0ZSB0aGUgZ2VuZXJhdG9yLgpGUk9NIGdlbmVyYXRvciBBUyBnZW5lcmF0ZQoKQVJHIEVMTV9GT05UQVdFU09NRV9WRVJTSU9OCkVOViBFTE1fRk9OVEFXRVNPTUVfVkVSU0lPTj0ke0VMTV9GT05UQVdFU09NRV9WRVJTSU9OfQoKUlVOIFsibm9kZSIsICItLWVuYWJsZS1zb3VyY2UtbWFwcyIsICIuL2NsaS5qcyJdCgoKIyBKdXN0IGtlZXAgdGhlIGdlbmVyYXRlZCBmaWxlcy4KRlJPTSBzY3JhdGNoIEFTIGdlbmVyYXRlZAoKQ09QWSAtLWZyb209Z2VuZXJhdGUgWyIvZmEvZGlzdC9saWIvLiIsICIvLiJdCg==",
+              "data": "QVJHIE5PREVfVkVSU0lPTj0yMgpBUkcgRUxNX0ZPTlRBV0VTT01FX1ZFUlNJT04KCgpGUk9NIG5vZGU6JHtOT0RFX1ZFUlNJT059LWFscGluZSBBUyBiYXNlCgpXT1JLRElSICIvZmEiCgpDT1BZIC0tbGluayBbIi4vcGFja2FnZS5qc29uIiwgIi4vcGFja2FnZS1sb2NrLmpzb24iLCAiZWxtLXRvb2xpbmcuanNvbiIsICIuLyJdCgoKIyBCdWlsZCB0aGUgZ2VuZXJhdG9yLgpGUk9NIGJhc2UgQVMgYnVpbGQKClJVTiBcCiAgLS1tb3VudD10eXBlPWNhY2hlLHRhcmdldD0vdXNyL3NyYy9hcHAvLm5wbSBcCiAgbnBtIHNldCBjYWNoZSAvdXNyL3NyYy9hcHAvLm5wbSAmJiBcCiAgbnBtIGNpIC0taW5jbHVkZT1kZXYKCkNPUFkgLS1saW5rIFsiLi90c2NvbmZpZy5qc29uIiwgIi4vIl0KQ09QWSAtLWxpbmsgWyIuL3NyYyIsICIuL3NyYyJdClJVTiBucG0gcnVuIGJ1aWxkCgoKIyBJbWFnZSBmb3IgdGhlIGdlbmVyYXRvci4gCiMgYC0tdGFyZ2V0IGdlbmVyYXRvcmAgdG8gc3RvcCBoZXJlIGFuZCBnZXQgYW4gaW1hZ2UgdG8gZ2VuZXJhdGUgd2l0aCByZXBlYXRlZGx5LgpGUk9NIGJhc2UgQVMgZ2VuZXJhdG9yCgpDT1BZIC0tbGluayBbIi4vY29uZmlnLmpzb24iLCAiLi8iXQpSVU4gXAogIC0tbW91bnQ9dHlwZT1jYWNoZSx0YXJnZXQ9L3Vzci9zcmMvYXBwLy5ucG0gXAogIG5wbSBzZXQgY2FjaGUgL3Vzci9zcmMvYXBwLy5ucG0gJiYgXAogIG5wbSBjaQoKQ09QWSAtLWxpbmsgWyIuL2Jhc2UiLCAiLi9iYXNlIl0KQ09QWSAtLWxpbmsgLS1mcm9tPWJ1aWxkIFsiL2ZhL2Rpc3QvZ2VuZXJhdG9yIiwgIi4vIl0KCkNNRCBbIm5vZGUiLCAiLS1lbmFibGUtc291cmNlLW1hcHMiLCAiLi9jbGkuanMiXQoKCiMgQWN0dWFsbHkgZXhlY3V0ZSB0aGUgZ2VuZXJhdG9yLgpGUk9NIGdlbmVyYXRvciBBUyBnZW5lcmF0ZQoKQVJHIEVMTV9GT05UQVdFU09NRV9WRVJTSU9OCkVOViBFTE1fRk9OVEFXRVNPTUVfVkVSU0lPTj0ke0VMTV9GT05UQVdFU09NRV9WRVJTSU9OfQoKUlVOIFsibm9kZSIsICItLWVuYWJsZS1zb3VyY2UtbWFwcyIsICIuL2NsaS5qcyJdCgoKIyBKdXN0IGtlZXAgdGhlIGdlbmVyYXRlZCBmaWxlcy4KRlJPTSBzY3JhdGNoIEFTIGdlbmVyYXRlZAoKQ09QWSAtLWxpbmsgLS1mcm9tPWdlbmVyYXRlIFsiL2ZhL2Rpc3QvbGliLy4iLCAiLy4iXQo=",
               "llbDefinition": [
                 {
                   "id": "step0",
@@ -1121,8 +1304,8 @@
                 }
               ],
               "digestMapping": {
-                "sha256:24bafdcae89ece683339cbcb2cc46e482ec9b03ee893268605d8190850c99fdf": "step1",
-                "sha256:72a3a1137ec2ec32d810640aa89ec8268108ef9d1560976c098f80ca54244032": "step0"
+                "sha256:741f0fe71a3339cd26416dedd2c540eccb6d379f946d2f963547b3ab55ff511c": "step0",
+                "sha256:ee00ff67587919481d2a03b1d536b26aa2084739c69ae7ab78a4b38bd13f13cf": "step1"
               }
             }
           ]
@@ -1137,40 +1320,18 @@
               },
               {
                 "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:f16884bf7ba38fab89edcd0cb8ba1f5d481495ca482476e73f5297cdd299dc2d",
-                "size": 43523697
+                "digest": "sha256:18ebf809920da8a62718c77ddeb590486988542932156695b85457c488f47831",
+                "size": 46456538
               },
               {
                 "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:12fe8815c466514f8488b5ca8bda5e7aadec8e77e9fe1b494040cac76af4da82",
-                "size": 2367097
+                "digest": "sha256:c27d1f6ad48534e093eca7a6e50650c5bf8ec833b8439cd2c90c02d599490dbb",
+                "size": 1382462
               },
               {
                 "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:9b5c6033110b9fc74a8d438ab7fe7a1042a36dd5d402cc0975ded8f53e2a2f16",
-                "size": 449
-              }
-            ],
-            [
-              {
-                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8",
-                "size": 3408729
-              },
-              {
-                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:f16884bf7ba38fab89edcd0cb8ba1f5d481495ca482476e73f5297cdd299dc2d",
-                "size": 43523697
-              },
-              {
-                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:12fe8815c466514f8488b5ca8bda5e7aadec8e77e9fe1b494040cac76af4da82",
-                "size": 2367097
-              },
-              {
-                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:9b5c6033110b9fc74a8d438ab7fe7a1042a36dd5d402cc0975ded8f53e2a2f16",
-                "size": 449
+                "digest": "sha256:356327f5b7576790e556f97eb7822b284bb8131e207a3a28bd519e44e5bdce00",
+                "size": 450
               }
             ]
           ]
