@@ -45,15 +45,6 @@ jobs:
       - name: Setup buildx.
         uses: docker/setup-buildx-action@v2
 
-      - name: Set up elm.
-        uses: jorelali/setup-elm@v5
-        with:
-          elm-version: 0.19.1
-
-      - name: Install the package.
-        run: |
-          echo Y | elm install "lattyware/elm-fontawesome"
-
       - name: Build example.
         uses: docker/bake-action@v4
         with:
@@ -69,7 +60,7 @@ jobs:
       - name: Checkout elm-fontawesome-example repository.
         uses: actions/checkout@v4
         with:
-          repository: "lattyware/elm-fontawesome"
+          repository: "lattyware/elm-fontawesome-example"
           ssh-key: ${{ secrets.EXAMPLE_DEPLOY_KEY }}
           path: "publish"
 
@@ -96,7 +87,7 @@ jobs:
       - name: Checkout elm-fontawesome-example pages repository.
         uses: actions/checkout@v4
         with:
-          repository: "lattyware/elm-fontawesome"
+          repository: "lattyware/elm-fontawesome-example"
           ssh-key: ${{ secrets.EXAMPLE_DEPLOY_KEY }}
           ref: "gh-pages"
           path: "pages"
