@@ -197,7 +197,7 @@
   ],
   "predicate": {
     "builder": {
-      "id": "https://github.com/Lattyware/elm-fontawesome-generator/actions/runs/9331796370"
+      "id": "https://github.com/Lattyware/elm-fontawesome-generator/actions/runs/9331802440"
     },
     "buildType": "https://mobyproject.org/buildkit@v1",
     "materials": [
@@ -215,7 +215,7 @@
       "parameters": {
         "frontend": "dockerfile.v0",
         "args": {
-          "build-arg:ELM_FONTAWESOME_VERSION": ""
+          "build-arg:ELM_FONTAWESOME_VERSION": "7.1.0"
         },
         "locals": [
           {
@@ -807,7 +807,7 @@
                     "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
                     "NODE_VERSION=22.2.0",
                     "YARN_VERSION=1.22.19",
-                    "ELM_FONTAWESOME_VERSION="
+                    "ELM_FONTAWESOME_VERSION=7.1.0"
                   ],
                   "cwd": "/fa",
                   "removeMountStubsRecursive": true
@@ -875,33 +875,33 @@
         }
       ],
       "digestMapping": {
-        "sha256:15b772d6835160a4e2fa77440ca162133d05de6d8013008c95096dba8cfed412": "step7",
-        "sha256:384be0c2481d9dac27e29d1af83fd4925ed848b6cf6a4d0cbedfc9cd5524d38c": "step6",
-        "sha256:3f6dc7ead3eed9a84a245f9ea78c8bb42071e6af43ae4eb5327b57901871899d": "step3",
-        "sha256:540ce8a2951c63e894903d805bd64f3c535d149010589910848241bb2c8c2658": "step16",
-        "sha256:643e6ad1b644cea82ae92aa9a5b922ee81954ff28b4a82409a7e5be69f6241fb": "step17",
-        "sha256:64bf91195f0be08fd9df9bef2b4e15042cd019cafc5996b62d57a643f1f4dab2": "step9",
-        "sha256:66c9cd3b7eba896550c5210e168543e2a1077a9d9a8b2a750c41171115a32c65": "step10",
-        "sha256:7575c3c7a2b74fdf2469837b83d8443c156d142acdca1b1aae17d0579a5ad206": "step19",
+        "sha256:00571f1689ea819549682e68eb27fc141ada9505bba45b8ae6f94edfff43b203": "step10",
+        "sha256:0e7170bf991482af454bfba41f1f18abb9292213b5b3aa68d62575bb652ea30e": "step8",
+        "sha256:2326e4570ab2e6a204b4647e4088dbea6201b9febd507e919577478478706483": "step13",
+        "sha256:35d7f688c4a46a10b3c6ce521e761f49f350c050d0890ae99ef57e1cbcd48c86": "step6",
+        "sha256:37a9ad017df1550e05ca671f15067358d664a09e712a2602ca95acf603b619c1": "step7",
+        "sha256:39d4b3fa46e66239df41bbee9613e4606f57db6173bdc08aebe9bd3bdd111dfb": "step4",
+        "sha256:4031bc9b913143bbd134db1c94b50a0c074529641e8d66d1e84b4edc3698f2e4": "step3",
+        "sha256:4b2569310fc31111e554e794e8356727457c3da967e92465ac428a0a1f00fc65": "step12",
+        "sha256:53d4eb2cc7afe277478825a7ccdfcaf8d92a8b25b33cf7cfa4196957eaaf0135": "step11",
+        "sha256:56e2972ef0ae30644e0f09e3ea1abafd5bc5ad70eb02a669dc952915a0a43860": "step5",
+        "sha256:5d8880ab8dc19c5a18e8febb01a508c8444e3e8d6990f797cfc0d3e5c2ccdd6b": "step17",
         "sha256:7947359411064f6bbe23baffcfbf3591e92e77e9ad3eb3259cc15fb4b32c83e2": "step1",
-        "sha256:7ad54dcfd6b132678b0d623512943f127198b72f64ce946d5ba9d097afc2f05e": "step13",
-        "sha256:82f4c50f1e7f699ea964338897c23d6b0ea610ba317a07b886d9408410e06608": "step5",
-        "sha256:9f3da1073c73dd614a18c88b7b6defd91ba16c52378708d6c6dcf7d4c4fb45ec": "step4",
-        "sha256:a768bb317113dc88e29289593d8326396031f23e3bf83e328c03c6f0a3a96100": "step15",
-        "sha256:c626e3978d1cbd6e4d2b7f1fa1e9f4ea05f475b9bdebd64bfb923067c8443f40": "step20",
-        "sha256:d7695908ee6e9d4405922833269b20912e556c248f2da568213f44523aea2cac": "step14",
-        "sha256:d909d9ef0ed507222796567535d6f2ac4f511e27d3348924089972694a8de346": "step0",
-        "sha256:e36932497995ff049d0958ccdd65e0ae2747a26ca0c8ffd38b7c3bafdff9ac0b": "step12",
-        "sha256:e4c5c8ddd46dd73f599fa465a21ab650f23e790544a75cedd84eae685d83115b": "step18",
-        "sha256:f0ccd9ae880fcdcfd42836f3ae3f59a55fa4e8915833cb449e4290bb80eedeef": "step11",
-        "sha256:f0cfcbb8a971ed69b8ca6fdb784738468d5b81c58fcd1632172a1fbee3bf2ebc": "step2",
-        "sha256:f47e0d55fe02ef64577e5104d60cbef57ac628449ffe2245fce043cb7e4a5f21": "step8"
+        "sha256:7c3ab0490a8e9422c84365d6c5dcc0faa260089616694fd270345d13edfd6d6d": "step15",
+        "sha256:80f2a146d69e5d677f6ad97a8275ef93c508e4505fb1361a499f155c58a4f250": "step20",
+        "sha256:8a2de5281c57ea8dbf28e13e807ce0f61d4c181c5c2014f01f63c4cb1318c8db": "step16",
+        "sha256:96c7b197e467422f1a3d1d979f8cc9e75e631c23b46178656c06a7b8c5ef3a79": "step18",
+        "sha256:a8b2af570b99f2facbf5dce9c55f1965d1cdc55aad3c71a97cc78e12b8627384": "step14",
+        "sha256:b6e7c9b9b176714c4b9bb3798ba2dc283c952f56316d2ef037a42edb1608c6c6": "step19",
+        "sha256:c1d524d4b4174b3fb7ef77a687b9071bcd680663ef672b857080344c8e799fdf": "step2",
+        "sha256:d0bfb745005edef2a8bc9655a2f29d80266de9e89f53ab4f9fb59fa496749043": "step9",
+        "sha256:d909d9ef0ed507222796567535d6f2ac4f511e27d3348924089972694a8de346": "step0"
       }
     },
     "metadata": {
-      "buildInvocationID": "zuraczj6dgo5jbs0f59q53wm9",
-      "buildStartedOn": "2024-06-01T16:53:05.536077843Z",
-      "buildFinishedOn": "2024-06-01T16:53:21.896072058Z",
+      "buildInvocationID": "ot8cgr78noqw8tcwn03wp16yn",
+      "buildStartedOn": "2024-06-01T16:54:38.280007417Z",
+      "buildFinishedOn": "2024-06-01T16:54:52.90282089Z",
       "completeness": {
         "parameters": true,
         "environment": true,
@@ -1304,8 +1304,8 @@
                 }
               ],
               "digestMapping": {
-                "sha256:561b72b404ea9175b013ab792d98a938c94e84719cba0d80b6434f277569b4ca": "step0",
-                "sha256:e5a2961489b8180ef09637b196d5bbe547bf3cd1764f8bb6d006b6d6e97ce8fb": "step1"
+                "sha256:2896d12ace5e0521ca3c64ef82639e605f3a48e03017b801b66541183553dc4a": "step1",
+                "sha256:9cf1e5176a1dd8d666fa8e10fc0aea6c914e4993a2d10e3424e58890f510c343": "step0"
               }
             }
           ]
