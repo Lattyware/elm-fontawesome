@@ -25,7 +25,7 @@ jobs:
       - name: Set up elm.
         uses: jorelali/setup-elm@v5
         with:
-          elm-version: 0.19.1
+          elm-version: 0.19.0 #0.19.1 # Older version due to bug in latest: https://github.com/elm/compiler/issues/2171
 
       - name: Publish package.
         run: elm publish
