@@ -41,7 +41,7 @@
     {
       "name": "elm.json",
       "digest": {
-        "sha256": "cf291cd2c71e8d368bebdc131d8fd7f0b974cc21ba65d03915ff821161b43912"
+        "sha256": "d8a18d23f4eb401b0566f1485efd4cd48e4d94a26985c4539904be9f32756781"
       }
     },
     {
@@ -119,13 +119,13 @@
     {
       "name": "src/FontAwesome/Brands/Definitions.elm",
       "digest": {
-        "sha256": "48b3d1f91eca578c0f6851c12b2dd0f4308c8d8adbbc1459627481730973b66b"
+        "sha256": "16fa8a56011f5d7d7d91b47871b244aba86a78524b2009390f66212055ff7bee"
       }
     },
     {
       "name": "src/FontAwesome/Brands.elm",
       "digest": {
-        "sha256": "5dabcc1e1db4c7570605a69c34a12456198663c7a08cdcaee3a3ddf5e6984580"
+        "sha256": "fb8a3ff7dfea6ad1ecb29a7234fa4f314b6578af666b0716d02499ddf88b9089"
       }
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "src/FontAwesome/Regular/Definitions.elm",
       "digest": {
-        "sha256": "7f2bcc7721fa4462ee44b409ee8ac04065a84409a2c64e60e88997f7348e03e8"
+        "sha256": "c31a57daca46781343a73eb42f496fb0870d2669383f287e5a949b5e3f9afcfd"
       }
     },
     {
@@ -155,19 +155,19 @@
     {
       "name": "src/FontAwesome/Solid/Definitions.elm",
       "digest": {
-        "sha256": "9ec42063529c64feef437fb5f1030833c7a5e9c6e290f0853233c74046b7ce7a"
+        "sha256": "6e4402ec97435a0f3dc9828dd050639f8b72af736526c1c560f91ab873f4fba6"
       }
     },
     {
       "name": "src/FontAwesome/Solid.elm",
       "digest": {
-        "sha256": "bf86cf57cdbd0f94f34f188ccbe399926bf31a38ada17ef6e7fadda32d504e62"
+        "sha256": "151722bf7fcab65a9ff7c69c61a7af720d17c9bc454eadaacd478e39172a0b34"
       }
     },
     {
       "name": "src/FontAwesome/Styles.elm",
       "digest": {
-        "sha256": "ebce9e3413da2816c7d38e48c2bed9e3bdbea1cb18f0b64609f480df2e9a2f76"
+        "sha256": "6404cc042a1b0e1f48a2686bae891cb61e8b5cfec0071266a11d32c24f21b33d"
       }
     },
     {
@@ -197,14 +197,14 @@
   ],
   "predicate": {
     "builder": {
-      "id": "https://github.com/Lattyware/elm-fontawesome-generator/actions/runs/9332097283"
+      "id": "https://github.com/Lattyware/elm-fontawesome-generator/actions/runs/11923286217"
     },
     "buildType": "https://mobyproject.org/buildkit@v1",
     "materials": [
       {
-        "uri": "pkg:docker/node@22-alpine?platform=linux%2Famd64",
+        "uri": "pkg:docker/node@23-alpine?platform=linux%2Famd64",
         "digest": {
-          "sha256": "3bb8914774985da457e08ca85654fecc062a206807d6225ede5b9b4e7465e733"
+          "sha256": "ecefaffd4706c5879af52e022fdb8ea30cbd6590e2a30d05347790d690727c6c"
         }
       }
     ],
@@ -215,7 +215,7 @@
       "parameters": {
         "frontend": "dockerfile.v0",
         "args": {
-          "build-arg:ELM_FONTAWESOME_VERSION": "7.1.2"
+          "build-arg:ELM_FONTAWESOME_VERSION": ""
         },
         "locals": [
           {
@@ -236,8 +236,8 @@
           "id": "step0",
           "op": {
             "Op": {
-              "source": {
-                "identifier": "docker-image://docker.io/library/node:22-alpine@sha256:3bb8914774985da457e08ca85654fecc062a206807d6225ede5b9b4e7465e733",
+              "Source": {
+                "identifier": "docker-image://docker.io/library/node:23-alpine@sha256:ecefaffd4706c5879af52e022fdb8ea30cbd6590e2a30d05347790d690727c6c",
                 "attrs": {
                   "image.resolvemode": "pull"
                 }
@@ -254,14 +254,12 @@
           "id": "step1",
           "op": {
             "Op": {
-              "file": {
+              "File": {
                 "actions": [
                   {
-                    "input": 0,
                     "secondaryInput": -1,
-                    "output": 0,
                     "Action": {
-                      "mkdir": {
+                      "Mkdir": {
                         "path": "/fa",
                         "mode": 493,
                         "makeParents": true,
@@ -282,7 +280,7 @@
           "id": "step2",
           "op": {
             "Op": {
-              "source": {
+              "Source": {
                 "identifier": "local://context",
                 "attrs": {
                   "local.excludepatterns": "[\"node_modules\",\"elm-stuff\",\"dist\"]",
@@ -298,14 +296,13 @@
           "id": "step3",
           "op": {
             "Op": {
-              "file": {
+              "File": {
                 "actions": [
                   {
                     "input": -1,
-                    "secondaryInput": 0,
                     "output": -1,
                     "Action": {
-                      "copy": {
+                      "Copy": {
                         "src": "/package.json",
                         "dest": "/fa/",
                         "mode": -1,
@@ -320,10 +317,9 @@
                   },
                   {
                     "input": 1,
-                    "secondaryInput": 0,
                     "output": -1,
                     "Action": {
-                      "copy": {
+                      "Copy": {
                         "src": "/package-lock.json",
                         "dest": "/fa/",
                         "mode": -1,
@@ -338,10 +334,8 @@
                   },
                   {
                     "input": 2,
-                    "secondaryInput": 0,
-                    "output": 0,
                     "Action": {
-                      "copy": {
+                      "Copy": {
                         "src": "/elm-tooling.json",
                         "dest": "/fa/",
                         "mode": -1,
@@ -367,11 +361,9 @@
           "id": "step4",
           "op": {
             "Op": {
-              "merge": {
+              "Merge": {
                 "inputs": [
-                  {
-                    "input": 0
-                  },
+                  {},
                   {
                     "input": 1
                   }
@@ -389,14 +381,12 @@
           "id": "step5",
           "op": {
             "Op": {
-              "file": {
+              "File": {
                 "actions": [
                   {
                     "input": -1,
-                    "secondaryInput": 0,
-                    "output": 0,
                     "Action": {
-                      "copy": {
+                      "Copy": {
                         "src": "/config.json",
                         "dest": "/fa/",
                         "mode": -1,
@@ -422,11 +412,9 @@
           "id": "step6",
           "op": {
             "Op": {
-              "merge": {
+              "Merge": {
                 "inputs": [
-                  {
-                    "input": 0
-                  },
+                  {},
                   {
                     "input": 1
                   }
@@ -444,7 +432,7 @@
           "id": "step7",
           "op": {
             "Op": {
-              "exec": {
+              "Exec": {
                 "meta": {
                   "args": [
                     "/bin/sh",
@@ -453,17 +441,15 @@
                   ],
                   "env": [
                     "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-                    "NODE_VERSION=22.2.0",
-                    "YARN_VERSION=1.22.19"
+                    "NODE_VERSION=23.2.0",
+                    "YARN_VERSION=1.22.22"
                   ],
                   "cwd": "/fa",
                   "removeMountStubsRecursive": true
                 },
                 "mounts": [
                   {
-                    "input": 0,
-                    "dest": "/",
-                    "output": 0
+                    "dest": "/"
                   },
                   {
                     "input": -1,
@@ -491,14 +477,12 @@
           "id": "step8",
           "op": {
             "Op": {
-              "file": {
+              "File": {
                 "actions": [
                   {
                     "input": -1,
-                    "secondaryInput": 0,
-                    "output": 0,
                     "Action": {
-                      "copy": {
+                      "Copy": {
                         "src": "/base",
                         "dest": "/fa/base",
                         "mode": -1,
@@ -524,11 +508,9 @@
           "id": "step9",
           "op": {
             "Op": {
-              "merge": {
+              "Merge": {
                 "inputs": [
-                  {
-                    "input": 0
-                  },
+                  {},
                   {
                     "input": 1
                   }
@@ -546,7 +528,7 @@
           "id": "step10",
           "op": {
             "Op": {
-              "exec": {
+              "Exec": {
                 "meta": {
                   "args": [
                     "/bin/sh",
@@ -555,17 +537,15 @@
                   ],
                   "env": [
                     "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-                    "NODE_VERSION=22.2.0",
-                    "YARN_VERSION=1.22.19"
+                    "NODE_VERSION=23.2.0",
+                    "YARN_VERSION=1.22.22"
                   ],
                   "cwd": "/fa",
                   "removeMountStubsRecursive": true
                 },
                 "mounts": [
                   {
-                    "input": 0,
-                    "dest": "/",
-                    "output": 0
+                    "dest": "/"
                   },
                   {
                     "input": -1,
@@ -593,14 +573,12 @@
           "id": "step11",
           "op": {
             "Op": {
-              "file": {
+              "File": {
                 "actions": [
                   {
                     "input": -1,
-                    "secondaryInput": 0,
-                    "output": 0,
                     "Action": {
-                      "copy": {
+                      "Copy": {
                         "src": "/tsconfig.json",
                         "dest": "/fa/",
                         "mode": -1,
@@ -626,11 +604,9 @@
           "id": "step12",
           "op": {
             "Op": {
-              "merge": {
+              "Merge": {
                 "inputs": [
-                  {
-                    "input": 0
-                  },
+                  {},
                   {
                     "input": 1
                   }
@@ -648,14 +624,12 @@
           "id": "step13",
           "op": {
             "Op": {
-              "file": {
+              "File": {
                 "actions": [
                   {
                     "input": -1,
-                    "secondaryInput": 0,
-                    "output": 0,
                     "Action": {
-                      "copy": {
+                      "Copy": {
                         "src": "/src",
                         "dest": "/fa/src",
                         "mode": -1,
@@ -681,11 +655,9 @@
           "id": "step14",
           "op": {
             "Op": {
-              "merge": {
+              "Merge": {
                 "inputs": [
-                  {
-                    "input": 0
-                  },
+                  {},
                   {
                     "input": 1
                   }
@@ -703,7 +675,7 @@
           "id": "step15",
           "op": {
             "Op": {
-              "exec": {
+              "Exec": {
                 "meta": {
                   "args": [
                     "/bin/sh",
@@ -712,17 +684,15 @@
                   ],
                   "env": [
                     "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-                    "NODE_VERSION=22.2.0",
-                    "YARN_VERSION=1.22.19"
+                    "NODE_VERSION=23.2.0",
+                    "YARN_VERSION=1.22.22"
                   ],
                   "cwd": "/fa",
                   "removeMountStubsRecursive": true
                 },
                 "mounts": [
                   {
-                    "input": 0,
-                    "dest": "/",
-                    "output": 0
+                    "dest": "/"
                   }
                 ]
               }
@@ -741,14 +711,12 @@
           "id": "step16",
           "op": {
             "Op": {
-              "file": {
+              "File": {
                 "actions": [
                   {
                     "input": -1,
-                    "secondaryInput": 0,
-                    "output": 0,
                     "Action": {
-                      "copy": {
+                      "Copy": {
                         "src": "/fa/dist/generator",
                         "dest": "/fa/",
                         "mode": -1,
@@ -774,11 +742,9 @@
           "id": "step17",
           "op": {
             "Op": {
-              "merge": {
+              "Merge": {
                 "inputs": [
-                  {
-                    "input": 0
-                  },
+                  {},
                   {
                     "input": 1
                   }
@@ -796,7 +762,7 @@
           "id": "step18",
           "op": {
             "Op": {
-              "exec": {
+              "Exec": {
                 "meta": {
                   "args": [
                     "node",
@@ -805,18 +771,16 @@
                   ],
                   "env": [
                     "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-                    "NODE_VERSION=22.2.0",
-                    "YARN_VERSION=1.22.19",
-                    "ELM_FONTAWESOME_VERSION=7.1.2"
+                    "NODE_VERSION=23.2.0",
+                    "YARN_VERSION=1.22.22",
+                    "ELM_FONTAWESOME_VERSION="
                   ],
                   "cwd": "/fa",
                   "removeMountStubsRecursive": true
                 },
                 "mounts": [
                   {
-                    "input": 0,
-                    "dest": "/",
-                    "output": 0
+                    "dest": "/"
                   }
                 ]
               }
@@ -835,14 +799,12 @@
           "id": "step19",
           "op": {
             "Op": {
-              "file": {
+              "File": {
                 "actions": [
                   {
                     "input": -1,
-                    "secondaryInput": 0,
-                    "output": 0,
                     "Action": {
-                      "copy": {
+                      "Copy": {
                         "src": "/fa/dist/lib",
                         "dest": "/.",
                         "mode": -1,
@@ -875,33 +837,33 @@
         }
       ],
       "digestMapping": {
-        "sha256:250c130ab2f80784f4323a9dfda5b0f8dd163b8a39f7eba12d584cc1c4334139": "step15",
-        "sha256:272f833895d3aacd1fcc90fae17e276c2036e11d0c3cdc01d51f4b0028ba994f": "step7",
-        "sha256:3272069b13abdb81cf3b5a5138cb50af59eaf1942873f39e21567027970d6b9c": "step17",
-        "sha256:66138bfe6a1d9b27787702e1b30e2b31ceacb7ca4e13397b7640c4bdeb4157e3": "step16",
-        "sha256:6f7631cc712d4a29474d6796e017ace4554ff4fb7d6ae46b5f2ef583fb54d147": "step8",
-        "sha256:71604258959b80ffc3af85769a1d423a3f3189578ec520f37e4c8cbaf8622482": "step12",
-        "sha256:7947359411064f6bbe23baffcfbf3591e92e77e9ad3eb3259cc15fb4b32c83e2": "step1",
-        "sha256:84f66b79c503be5c49a1d19b75b4b173227d938e381429fbf813ef0a54860cc3": "step18",
-        "sha256:8a22b0d530bc7fabe7adcab088b67c2c6da864568383ebc0057b15f47992607e": "step19",
-        "sha256:8eeba5c619065da3d59f825bbdd2bc3f830afe2a0f6db5fe6265efeb8817a81a": "step20",
-        "sha256:99ba438aefe7a7ee133397ac8b43b600fd1239ac39ce48a2d8c4c0bb5ae173dc": "step14",
-        "sha256:9c7b119b114a905c8dad6362394662176e96f078abb03427a5e5d432b66e253d": "step11",
-        "sha256:b60b2421796f0d5e1a9ab27ae4bbee29f278a7f84baf65b0d310f25267ae7341": "step2",
-        "sha256:beeef56f5cb052f283b70dbc36a2467208f9889e98a03f07f02c801c95e894c0": "step13",
-        "sha256:c17adda2895694dd8902781b647914f6e1bf4d30e7249d118a93e7750d78a78b": "step10",
-        "sha256:c86117a48a91324c2a61492d453bfb8f597b7be4f2af7c83ba121b554957bb01": "step4",
-        "sha256:cfc2184095bf57ab351d073e2427057a4093e2be86945437516d658d560710cd": "step5",
-        "sha256:d41064fb53673812140020e56354b5d7f6d514f89b73783705039a0968c35c46": "step6",
-        "sha256:d909d9ef0ed507222796567535d6f2ac4f511e27d3348924089972694a8de346": "step0",
-        "sha256:ea6cc14913655d69caa2318b2ec076c96aca1b70482d84dbd5dd6ed209dbdcc4": "step9",
-        "sha256:f22b2bf68ac4943b3c79972baaf4759506b42b58d68b397025da0e161da0db47": "step3"
+        "sha256:027f8b32035be41b239f8bc512976167d1c8df7d2b41aaa35b8d5d73f99eb2d5": "step5",
+        "sha256:031d66bec889655f0628763ac85af3c4eb92277aa0d91cf5d741487449ee3fb2": "step17",
+        "sha256:0360655c0e118a382ce593146d54d24dce755c7946ed564121a8b492aec8b955": "step10",
+        "sha256:1c6a0913340c196f5dc381d2b3523a4d4c9760584e52670dbe908546b841b720": "step7",
+        "sha256:24e1b2e790ae50755f5093ea341c74e0567afc144a2fe03fadb42102bae8afc1": "step0",
+        "sha256:2681e03a2087c803c91c41b4a8fb04f580ef511f67a9412539366562618d4b27": "step18",
+        "sha256:3e7e1089167c2afb39bc14c651f99c10ef6c16cb638a2447e7057658b5637681": "step3",
+        "sha256:43d4b71fcead349055ed61358dc89bd6ed10652c7ab24cad9cfa9b1a8b725b30": "step15",
+        "sha256:48e82d8879c7ef0c621b69bf00e0d2b308bae20f0cd2ea04c2c5b12b83a4bea4": "step19",
+        "sha256:56661458db63bada2ecdad86b9f182225058d0e2beb28684f1ca128799d6121a": "step2",
+        "sha256:8aca2db3881601ab63af463127df6577c6c29f51bae75c1c0d0a275634c53d10": "step11",
+        "sha256:8dfea3a2cd3e4d3d6046c29ede5be93fa77a7125b73b66e96339caa26a7ea770": "step13",
+        "sha256:933ba417fca1b5e34885ebf4b77a59a657d16b1e31c36b8e76a0de8acdbba1ff": "step4",
+        "sha256:a0da2171ac338baf4bc79a9ac99d106bdd15ffcadf3c34ff558bb054e338abfb": "step14",
+        "sha256:a15abc10c0d1d67da50b18675d80bf6ad83337ae0eadd2ef2ea0e56def47bddd": "step1",
+        "sha256:adab6330bcb5eb979391956a30cfc986ae1a3ad394eb6f9b53e8577bc31a2163": "step6",
+        "sha256:ba33bda1a20a35fdcfaf11f3d2014e1ad7b9a3c8cf700a13c02ffbfa560297f2": "step12",
+        "sha256:c5e344258d44da7232b30086ba67130e640fd21568fc43d7bbc7b3432b818adc": "step16",
+        "sha256:df6e2d10e8ae32eec41271ecee91086c6f3631023ab1f491abc323917fd8ba38": "step8",
+        "sha256:ee69b9eb1f6a873e19db6c6d366a3c0a09287faf4031556e1860f5203ff9fd28": "step20",
+        "sha256:f644c47b26f555f7904caa02b81b90db3031d06e6c0b69ec855f334f8058514f": "step9"
       }
     },
     "metadata": {
-      "buildInvocationID": "58wl60c6tpwoka7q3mz21ajvs",
-      "buildStartedOn": "2024-06-01T17:44:51.955070634Z",
-      "buildFinishedOn": "2024-06-01T17:45:06.089240395Z",
+      "buildInvocationID": "o6dqd3k1kx76h2rj1bphc0mnv",
+      "buildStartedOn": "2024-11-19T22:59:23.535900758Z",
+      "buildFinishedOn": "2024-11-19T22:59:40.05720392Z",
       "completeness": {
         "parameters": true,
         "environment": true,
@@ -912,7 +874,7 @@
         "vcs": {
           "localdir:context": ".",
           "localdir:dockerfile": ".",
-          "revision": "0c07b7111d4c98d13122f4ca59cd40b0e88fc404",
+          "revision": "da8616ae896178e433e2dbe925e23e7c1c55b22d",
           "source": "https://github.com/Lattyware/elm-fontawesome-generator"
         },
         "source": {
@@ -1275,13 +1237,13 @@
             {
               "filename": "Dockerfile",
               "language": "Dockerfile",
-              "data": "QVJHIE5PREVfVkVSU0lPTj0yMgpBUkcgRUxNX0ZPTlRBV0VTT01FX1ZFUlNJT04KCgpGUk9NIG5vZGU6JHtOT0RFX1ZFUlNJT059LWFscGluZSBBUyBiYXNlCgpXT1JLRElSICIvZmEiCgpDT1BZIC0tbGluayBbIi4vcGFja2FnZS5qc29uIiwgIi4vcGFja2FnZS1sb2NrLmpzb24iLCAiZWxtLXRvb2xpbmcuanNvbiIsICIuLyJdCgoKIyBCdWlsZCB0aGUgZ2VuZXJhdG9yLgpGUk9NIGJhc2UgQVMgYnVpbGQKClJVTiBcCiAgLS1tb3VudD10eXBlPWNhY2hlLHRhcmdldD0vdXNyL3NyYy9hcHAvLm5wbSBcCiAgbnBtIHNldCBjYWNoZSAvdXNyL3NyYy9hcHAvLm5wbSAmJiBcCiAgbnBtIGNpIC0taW5jbHVkZT1kZXYKCkNPUFkgLS1saW5rIFsiLi90c2NvbmZpZy5qc29uIiwgIi4vIl0KQ09QWSAtLWxpbmsgWyIuL3NyYyIsICIuL3NyYyJdClJVTiBucG0gcnVuIGJ1aWxkCgoKIyBJbWFnZSBmb3IgdGhlIGdlbmVyYXRvci4gCiMgYC0tdGFyZ2V0IGdlbmVyYXRvcmAgdG8gc3RvcCBoZXJlIGFuZCBnZXQgYW4gaW1hZ2UgdG8gZ2VuZXJhdGUgd2l0aCByZXBlYXRlZGx5LgpGUk9NIGJhc2UgQVMgZ2VuZXJhdG9yCgpDT1BZIC0tbGluayBbIi4vY29uZmlnLmpzb24iLCAiLi8iXQpSVU4gXAogIC0tbW91bnQ9dHlwZT1jYWNoZSx0YXJnZXQ9L3Vzci9zcmMvYXBwLy5ucG0gXAogIG5wbSBzZXQgY2FjaGUgL3Vzci9zcmMvYXBwLy5ucG0gJiYgXAogIG5wbSBjaQoKQ09QWSAtLWxpbmsgWyIuL2Jhc2UiLCAiLi9iYXNlIl0KQ09QWSAtLWxpbmsgLS1mcm9tPWJ1aWxkIFsiL2ZhL2Rpc3QvZ2VuZXJhdG9yIiwgIi4vIl0KCkNNRCBbIm5vZGUiLCAiLS1lbmFibGUtc291cmNlLW1hcHMiLCAiLi9jbGkuanMiXQoKCiMgQWN0dWFsbHkgZXhlY3V0ZSB0aGUgZ2VuZXJhdG9yLgpGUk9NIGdlbmVyYXRvciBBUyBnZW5lcmF0ZQoKQVJHIEVMTV9GT05UQVdFU09NRV9WRVJTSU9OCkVOViBFTE1fRk9OVEFXRVNPTUVfVkVSU0lPTj0ke0VMTV9GT05UQVdFU09NRV9WRVJTSU9OfQoKUlVOIFsibm9kZSIsICItLWVuYWJsZS1zb3VyY2UtbWFwcyIsICIuL2NsaS5qcyJdCgoKIyBKdXN0IGtlZXAgdGhlIGdlbmVyYXRlZCBmaWxlcy4KRlJPTSBzY3JhdGNoIEFTIGdlbmVyYXRlZAoKQ09QWSAtLWxpbmsgLS1mcm9tPWdlbmVyYXRlIFsiL2ZhL2Rpc3QvbGliLy4iLCAiLy4iXQo=",
+              "data": "QVJHIE5PREVfVkVSU0lPTj0yMwpBUkcgRUxNX0ZPTlRBV0VTT01FX1ZFUlNJT04KCgpGUk9NIG5vZGU6JHtOT0RFX1ZFUlNJT059LWFscGluZSBBUyBiYXNlCgpXT1JLRElSICIvZmEiCgpDT1BZIC0tbGluayBbIi4vcGFja2FnZS5qc29uIiwgIi4vcGFja2FnZS1sb2NrLmpzb24iLCAiZWxtLXRvb2xpbmcuanNvbiIsICIuLyJdCgoKIyBCdWlsZCB0aGUgZ2VuZXJhdG9yLgpGUk9NIGJhc2UgQVMgYnVpbGQKClJVTiBcCiAgLS1tb3VudD10eXBlPWNhY2hlLHRhcmdldD0vdXNyL3NyYy9hcHAvLm5wbSBcCiAgbnBtIHNldCBjYWNoZSAvdXNyL3NyYy9hcHAvLm5wbSAmJiBcCiAgbnBtIGNpIC0taW5jbHVkZT1kZXYKCkNPUFkgLS1saW5rIFsiLi90c2NvbmZpZy5qc29uIiwgIi4vIl0KQ09QWSAtLWxpbmsgWyIuL3NyYyIsICIuL3NyYyJdClJVTiBucG0gcnVuIGJ1aWxkCgoKIyBJbWFnZSBmb3IgdGhlIGdlbmVyYXRvci4gCiMgYC0tdGFyZ2V0IGdlbmVyYXRvcmAgdG8gc3RvcCBoZXJlIGFuZCBnZXQgYW4gaW1hZ2UgdG8gZ2VuZXJhdGUgd2l0aCByZXBlYXRlZGx5LgpGUk9NIGJhc2UgQVMgZ2VuZXJhdG9yCgpDT1BZIC0tbGluayBbIi4vY29uZmlnLmpzb24iLCAiLi8iXQpSVU4gXAogIC0tbW91bnQ9dHlwZT1jYWNoZSx0YXJnZXQ9L3Vzci9zcmMvYXBwLy5ucG0gXAogIG5wbSBzZXQgY2FjaGUgL3Vzci9zcmMvYXBwLy5ucG0gJiYgXAogIG5wbSBjaQoKQ09QWSAtLWxpbmsgWyIuL2Jhc2UiLCAiLi9iYXNlIl0KQ09QWSAtLWxpbmsgLS1mcm9tPWJ1aWxkIFsiL2ZhL2Rpc3QvZ2VuZXJhdG9yIiwgIi4vIl0KCkNNRCBbIm5vZGUiLCAiLS1lbmFibGUtc291cmNlLW1hcHMiLCAiLi9jbGkuanMiXQoKCiMgQWN0dWFsbHkgZXhlY3V0ZSB0aGUgZ2VuZXJhdG9yLgpGUk9NIGdlbmVyYXRvciBBUyBnZW5lcmF0ZQoKQVJHIEVMTV9GT05UQVdFU09NRV9WRVJTSU9OCkVOViBFTE1fRk9OVEFXRVNPTUVfVkVSU0lPTj0ke0VMTV9GT05UQVdFU09NRV9WRVJTSU9OfQoKUlVOIFsibm9kZSIsICItLWVuYWJsZS1zb3VyY2UtbWFwcyIsICIuL2NsaS5qcyJdCgoKIyBKdXN0IGtlZXAgdGhlIGdlbmVyYXRlZCBmaWxlcy4KRlJPTSBzY3JhdGNoIEFTIGdlbmVyYXRlZAoKQ09QWSAtLWxpbmsgLS1mcm9tPWdlbmVyYXRlIFsiL2ZhL2Rpc3QvbGliLy4iLCAiLy4iXQo=",
               "llbDefinition": [
                 {
                   "id": "step0",
                   "op": {
                     "Op": {
-                      "source": {
+                      "Source": {
                         "identifier": "local://dockerfile",
                         "attrs": {
                           "local.differ": "none",
@@ -1304,8 +1266,8 @@
                 }
               ],
               "digestMapping": {
-                "sha256:16ff934cc626b1c126aed4ba750668291461e3ac804e464d582edeeecbcc03d5": "step1",
-                "sha256:579a8db5e83a2dcbd6c6592d26698119a7b28d444c84e52c28332553d29b4edc": "step0"
+                "sha256:9d3ef0aeab0dfc94d58329ddf928450f15f9b4c90f28c12b2afb41db2f69aae5": "step0",
+                "sha256:fe73091a653be8d66337b6e949b8892bb4a91b3fa1a26a83126d9ce943994156": "step1"
               }
             }
           ]
@@ -1314,24 +1276,24 @@
           "step0:0": [
             [
               {
-                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:d25f557d7f31bf7acfac935859b5153da41d13c41f2b468d16f729a5b883634f",
-                "size": 3622094
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:da9db072f522755cbeb85be2b3f84059b70571b229512f1571d9217b77e1087f",
+                "size": 3623904
               },
               {
-                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:64975b5da3f3e0eb5e809ee072788911bf18f3731b3650ea46c0ade382bbf757",
-                "size": 46456627
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:1a1585882d0c70bfb6a19ce622a84e6ab0d514601bbbbc36bffa44ecf889e087",
+                "size": 50874522
               },
               {
-                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:346f957dbc37d9de0e05bb69261657ae1b6b6e478073b9bc44de059072b9dfa2",
-                "size": 1381734
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:6f0d65816d6415a9b9a439c57513d4bb8c88148b721bd8caf8cc33af35b95f9a",
+                "size": 1386281
               },
               {
-                "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-                "digest": "sha256:fda0c25af7a52428c9bac7b98c52f057a976938383953f81ec8de36c8bc95709",
-                "size": 452
+                "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+                "digest": "sha256:d2e4e776a692ca1e8caf2f64174bfa196c058c1c2b7b256c3d4cd55f0d71dc69",
+                "size": 446
               }
             ]
           ]
